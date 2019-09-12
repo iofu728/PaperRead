@@ -20,9 +20,9 @@
 
 ### Adversarial
 
-| Reading_at | Public_at | Conference | Title                               | HighLight                 | Code                                     | Other                     |
-| ---------- | --------- | ---------- | ----------------------------------- | ------------------------- | ---------------------------------------- | ------------------------- |
-| 19-09-11   | 19-08-29  | EMNLP 2019 | [Universal Adversarial Triggers][3] | Generate Adversarial Text | [Eric-Wallace/universal-triggers][10003] | `to kill american people` |
+| Reading_at | Public_at | Conference | Title                               | HighLight                 | Code                                     | Other                                          |
+| ---------- | --------- | ---------- | ----------------------------------- | ------------------------- | ---------------------------------------- | ---------------------------------------------- |
+| 19-09-11   | 19-08-29  | EMNLP 2019 | [Universal Adversarial Triggers][3] | Generate Adversarial Text | [Eric-Wallace/universal-triggers][10003] | [demo & blog][30003] `to kill american people` |
 
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
@@ -30,3 +30,4 @@
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
+[30003]: http://www.ericswallace.com/triggers
