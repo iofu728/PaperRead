@@ -8,18 +8,18 @@
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference | Title                              | HighLight           | Code      | Other        |
-| ------ | ------ | ---------- | ---------------------------------- | ------------------- | --------- | ------------ |
-| 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | -         | Two stage    |
-| 190812 | 190804 | ACL 2019   | [LinearizationNestNER][4]          | label -> CONLL-like | -         | Seq2seq      |
-| 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [][10005] | IE Framework |
-| 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [][10006] | -            |
+| Read   | Public | Conference | Title                              | HighLight           | Code                | Other        |
+| ------ | ------ | ---------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
+| 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
+| 190812 | 190804 | ACL 2019   | [LinearizationNestNER][4]          | label -> CONLL-like | -                   | Seq2seq      |
+| 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
+| 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
 
 ### Summarization
 
-| Read   | Public | Conference | Title        | HighLight    | Code                              | Other          |
-| ------ | ------ | ---------- | ------------ | ------------ | --------------------------------- | -------------- |
-| 181212 | 170725 | ICML 2017  | [ConvS2S][2] | CNN semantic | [facebookresearch/fairseq][10002] | [notes][20002] |
+| Read   | Public | Conference | Title        | HighLight    | Code             | Other          |
+| ------ | ------ | ---------- | ------------ | ------------ | ---------------- | -------------- |
+| 181212 | 170725 | ICML 2017  | [ConvS2S][2] | CNN semantic | [fairseq][10002] | [notes][20002] |
 
 ### Adversarial
 
@@ -33,6 +33,7 @@
 [4]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinearizationNestNER.pdf
 [5]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/DyGIE.pdf
 [6]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/DyGIE++.pdf
+[10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
 [10005]: https://github.com/luanyi/DyGIE
