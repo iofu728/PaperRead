@@ -24,3 +24,7 @@
 4. [< Entity,Relation,and Event Extraction with Contextualized Span Representations >](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/DyGIE++.pdf) [EMNLP 2019]
    - Using Bert Replace the original representation modules
    - Approve The Origin Dynamic Span Graph Module + Bert > Bert
+5. [< Nested Named Entity Recognition via Second-best Sequence Learning and Decoding >](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/SecondBestCRF.pdf) [-]
+   - Recursive Separate CRF
+   - Add regular to make the outer entity higher priority than inner entity
+   - optime calculate complexity
