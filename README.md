@@ -30,7 +30,7 @@
 
 ## ML
 
-### Metric Learning
+### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
 
 | Read   | Public | Conference | Title                   | HighLight             | Code                        | Other |
 | ------ | ------ | ---------- | ----------------------- | --------------------- | --------------------------- | ----- |
@@ -38,12 +38,12 @@
 
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
-[3]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Adversarial/UniversalAdversarialTrigger.pdf
+[3]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Adversarial/UniversalAdversarialTriggers.pdf
 [4]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinearizationNestNER.pdf
 [5]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/DyGIE.pdf
 [6]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/DyGIE++.pdf
 [7]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/SecondBestCRF.pdf
-[8]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetircLearning/ConstellationLoss.pdf
+[8]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/ConstellationLoss.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
