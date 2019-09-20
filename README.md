@@ -13,6 +13,7 @@
 | 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
 | 190919 | 190905 | -          | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
 | 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
+| 190920 | 190824 | -          | [Query-based NER][9]               | ->QA                | -                   | usePriorInfo |
 | 190812 | 190804 | ACL 2019   | [LinearizationNestNER][4]          | label -> CONLL-like | -                   | Seq2seq      |
 | 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
 
