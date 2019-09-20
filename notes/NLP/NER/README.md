@@ -31,3 +31,7 @@
 6. [< Query-Based Named Entity Recognition conference >](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/QueryBaseNER.pdf) [-]
    - build a schema which make ner task to a query answered task.
    - the transfer of NER task can use the prior info of NER.
+7. [< Multi-Grained Named Entity Recognition >](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MultiGrainedNER.pdf)
+   - two-stage framework
+   - detection + classification
+   - center search

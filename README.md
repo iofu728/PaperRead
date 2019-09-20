@@ -14,7 +14,8 @@
 | 190919 | 190905 | -          | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
 | 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
 | 190920 | 190824 | -          | [Query-based NER][9]               | ->QA                | -                   | usePriorInfo |
-| 190812 | 190804 | ACL 2019   | [LinearizationNestNER][4]          | label -> CONLL-like | -                   | Seq2seq      |
+| 190812 | 190804 | ACL 2019   | [Linearization Nest NER][4]        | label -> CONLL-like | -                   | Seq2seq      |
+| 190703 | 190620 | ACL 2019   | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
 | 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
 
 ### Summarization
@@ -45,6 +46,8 @@
 [6]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/DyGIE++.pdf
 [7]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/SecondBestCRF.pdf
 [8]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/ConstellationLoss.pdf
+[9]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/QueryBaseNER.pdf
+[10]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MultiGrainedNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -52,5 +55,6 @@
 [10006]: https://github.com/dwadden/dygiepp
 [10007]: https://github.com/yahshibu/nested-ner-2019
 [10008]: https://git.code.tecnalia.com/comvis_public/piccolo/constellation_loss/
+[10010]: https://github.com/congyingxia/Multi-Grained-NER
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
