@@ -37,6 +37,7 @@
 | Read   | Public | Conference | Title                   | HighLight             | Code                        | Other |
 | ------ | ------ | ---------- | ----------------------- | --------------------- | --------------------------- | ----- |
 | 190829 | 190525 | NIPS 2019  | [Constellation Loss][8] | Multiclass n + Triple | [constellation_loss][10008] | -     |
+| 190827 | 150617 | CVPR 2015  | [Triplet Loss][11]      | Triple                |                             | -     |
 
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
@@ -48,6 +49,7 @@
 [8]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/ConstellationLoss.pdf
 [9]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/QueryBaseNER.pdf
 [10]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MultiGrainedNER.pdf
+[11]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/FaceNet.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
