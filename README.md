@@ -30,7 +30,7 @@
 | ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
 | 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
 
-### Bertology
+### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
 | Read   | Public | Conference       | Title        | HighLight    | Code | Other |
 | ------ | ------ | ---------------- | ------------ | ------------ | ---- | ----- |
