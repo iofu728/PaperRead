@@ -30,6 +30,12 @@
 | ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
 | 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
 
+### Bertology
+
+| Read   | Public | Conference       | Title        | HighLight    | Code | Other |
+| ------ | ------ | ---------------- | ------------ | ------------ | ---- | ----- |
+| 190928 | 190926 | submit ICLR 2020 | [ALBert][12] | ReduceParams | -    | -     |
+
 ## ML
 
 ### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
@@ -50,6 +56,7 @@
 [9]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/QueryBaseNER.pdf
 [10]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MultiGrainedNER.pdf
 [11]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/FaceNet.pdf
+[12]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
