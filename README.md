@@ -36,6 +36,12 @@
 | ------ | ------ | ---------------- | ------------ | ------------ | ---- | ----- |
 | 190928 | 190926 | submit ICLR 2020 | [ALBert][12] | ReduceParams | -    | -     |
 
+### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
+
+| Read   | Public | Conference | Title      | HighLight               | Code          | Other |
+| ------ | ------ | ---------- | ---------- | ----------------------- | ------------- | ----- |
+| 190926 | 190926 | -          | [CTRL][13] | controllable generation | [ctrl][10013] | -     |
+
 ## ML
 
 ### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
@@ -57,6 +63,7 @@
 [10]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MultiGrainedNER.pdf
 [11]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/FaceNet.pdf
 [12]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf
+[13]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -65,5 +72,6 @@
 [10007]: https://github.com/yahshibu/nested-ner-2019
 [10008]: https://git.code.tecnalia.com/comvis_public/piccolo/constellation_loss/
 [10010]: https://github.com/congyingxia/Multi-Grained-NER
+[10013]: https://www.github.com/salesforce/ctrl
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
