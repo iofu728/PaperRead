@@ -14,4 +14,6 @@
    - 共享参数大概单纯只是想减小参数维度吧，毕竟 multi-head 的有效性还是摆在那里的。
    - 至于第三点，大概也是随机选择 negative sample 的一个通病吧。在这里给出的解释是之前 random negative sample 容易让模型学习到主题匹配这个比较简单的任务去，而忽略更深层的语义连贯性。
    - 至于模型参数量降下来之后呢，当然是继续增加模型参数啦（ 狗头
+   - 至于bert-xlarge 不work， 而ALBert-xlarge work，我的感觉是首先Embed层维度被放大太多了，导致信息过于向与上下文偏移吧. 而增加Hidden size 会使得靠后的layer 信息进一步被放大. 而ALBer-xlarge首先减小Embed维度过大的影响, 然后share了所有层的参数, 相当于把原来所有layer做了个平均(而不是只取最后一层hidden layer的输出. 这样实际上会削弱过于像更高层语义信息偏移的趋势. 感觉如果作者做了ALBert-xlarge的 no-share 实验应该会有所体现.
+   - 而ALBert-xxlarge 比 ALBert-xlarge 更work, 感觉也是差不多的原因. 增加Hidden size 是扩充靠后层级获得的semantic信息. 主要是因为做了参数共享,实际上作用到输出的是layer的某种平均. ALBert-xlarge比ALbert-large work, ALBert-xxlarge比ALbert-xlarge work 说明对ALBert这种Language Model所蕴含的信息量还能通过放大hidden size扩充.( 还是觉得少了一组 12 layer 2048 hidden size的实验, 现在这种情况只能盲猜
    - 总的来说，这是一篇 Betrology 集大成的 paper，文章逻辑实验都写的不错，包括一些 idea 的提出，参考文献的选择，还是建议一看，能加深对 Bertology 的理解。（话说 refer 里面还有 10 多篇没看过 要去面壁了
