@@ -36,6 +36,12 @@
 | ------ | ------ | ---------------- | ------------ | ------------ | ---- | ----- |
 | 190928 | 190926 | submit ICLR 2020 | [ALBert][12] | ReduceParams | -    | -     |
 
+### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Transformer)
+
+| Read   | Public | Conference       | Title                       | HighLight       | Code | Other |
+| ------ | ------ | ---------------- | --------------------------- | --------------- | ---- | ----- |
+| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14] | improve warm-up |      | -     |
+
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
 | Read   | Public | Conference | Title      | HighLight               | Code          | Other |
@@ -64,6 +70,7 @@
 [11]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/FaceNet.pdf
 [12]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf
 [13]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf
+[14]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Transformer/LayerNormTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
