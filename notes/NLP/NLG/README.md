@@ -1,6 +1,6 @@
 # Neural Language Generation
 
-1. [< CTRL: A C ONDITIONAL T RANSFORMER L ANGUAGE M ODEL FOR C ONTROLLABLE G ENERATION >](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf)
+1. [CTRL: A C ONDITIONAL T RANSFORMER L ANGUAGE M ODEL FOR C ONTROLLABLE G ENERATION](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf) [-] Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher.
    - controllable generation
    - conditional language model
    - two block
