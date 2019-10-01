@@ -55,8 +55,14 @@
 
 | Read   | Public | Conference       | Title                       | HighLight       | Code | Other         |
 | ------ | ------ | ---------------- | --------------------------- | --------------- | ---- | ------------- |
-| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14] | improve warm-up |      | -             |
+| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14] | improve warm-up | -    | -             |
 | 190908 | 190606 | -                | [Macaron Net][15]           | Strange-Macaron | -    | [note][30015] |
+
+### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
+
+| Read   | Public | Conference | Title                     | HighLight       | Code           | Other |
+| ------ | ------ | ---------- | ------------------------- | --------------- | -------------- | ----- |
+| 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16] | every head role | [heads][10016] | -     |
 
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
@@ -73,6 +79,7 @@
 [13]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf
 [14]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LayerNormTransformer.pdf
 [15]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/MacaronNet.pdf
+[16]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AnalysisMultiHeadAttention.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -82,6 +89,7 @@
 [10008]: https://git.code.tecnalia.com/comvis_public/piccolo/constellation_loss/
 [10010]: https://github.com/congyingxia/Multi-Grained-NER
 [10013]: https://www.github.com/salesforce/ctrl
+[10016]: https://github.com/lena-voita/the-story-of-heads
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
