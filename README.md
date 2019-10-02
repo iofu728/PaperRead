@@ -36,6 +36,12 @@
 | ------ | ------ | ---------------- | ------------ | ------------ | ---- | ----- |
 | 190928 | 190926 | submit ICLR 2020 | [ALBert][12] | ReduceParams | -    | -     |
 
+### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)
+
+| Read   | Public | Conference       | Title          | HighLight     | Code | Other |
+| ------ | ------ | ---------------- | -------------- | ------------- | ---- | ----- |
+| 191002 | 190926 | submit ICLR 2020 | [TinyBert][17] | new tew-stage | -    | -     |
+
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
 | Read   | Public | Conference | Title      | HighLight               | Code          | Other |
@@ -80,6 +86,7 @@
 [14]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LayerNormTransformer.pdf
 [15]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/MacaronNet.pdf
 [16]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AnalysisMultiHeadAttention.pdf
+[17]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyBert.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
