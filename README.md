@@ -15,6 +15,7 @@
 | 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
 | 190920 | 190824 | -          | [Query-based NER][9]               | ->QA                | -                   | usePriorInfo |
 | 190812 | 190804 | ACL 2019   | [Linearization Nest NER][4]        | label -> CONLL-like | -                   | Seq2seq      |
+| 190703 | 190630 | ACL 2019   | [Merge and label][18]              | Two-stage           | [mergeLabel][10018] | threshold    |
 | 190703 | 190620 | ACL 2019   | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
 | 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
 
@@ -87,6 +88,7 @@
 [15]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/MacaronNet.pdf
 [16]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AnalysisMultiHeadAttention.pdf
 [17]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyBert.pdf
+[18]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MergeAndLabel.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -97,6 +99,7 @@
 [10010]: https://github.com/congyingxia/Multi-Grained-NER
 [10013]: https://www.github.com/salesforce/ctrl
 [10016]: https://github.com/lena-voita/the-story-of-heads
+[10018]: https://github.com/fishjh2/merge_label
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

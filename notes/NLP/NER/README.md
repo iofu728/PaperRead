@@ -1,6 +1,6 @@
-## NER
+# NER
 
-### Nested NER
+## Nested NER
 
 1. [Combining Spans into Entities: A Neural Two-Stage Approach for Recognizing Discontiguous Entitie](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf) [EMNLP 2019] Bailin Wang, Wei Lu.
    - Improve Traditional Sequence Label Method CRF -> a Neural Method
@@ -35,3 +35,9 @@
    - two-stage framework
    - detection + classification
    - center search
+8. [Merge and Label: A novel neural network architecture for nested NER](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MergeAndLabel.pdf) [ACL 2019] Joseph Fisher, Andreas Vlachos.
+   - Two-stage
+     - boundaries, 0-1
+       - a complexity neural network
+       - static layer + structure layer + update layer
+     - classification
