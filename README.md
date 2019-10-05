@@ -36,6 +36,7 @@
 | Read   | Public | Conference       | Title        | HighLight    | Code | Other |
 | ------ | ------ | ---------------- | ------------ | ------------ | ---- | ----- |
 | 190928 | 190926 | submit ICLR 2020 | [ALBert][12] | ReduceParams | -    | -     |
+| 190801 | 190508 | -                | [UniLM][21]  | three Mask   | -    | -     |
 
 ### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)
 
@@ -100,6 +101,7 @@
 [18]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MergeAndLabel.pdf
 [19]: https://github.com/iofu728/PaperRead/blob/master/paper/CV/VideoPrediction/CrevNet.pdf
 [20]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf
+[21]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLM.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
