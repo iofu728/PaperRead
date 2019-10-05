@@ -16,3 +16,8 @@
      - extensions to other areas
      - analysis relationship between LM and train data
      - making the interface between human and LM more explicit and intuitive
+2. [BERTScore: Evaluating Text Generation with BERT](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf) [submit ICLR 2020] Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi.
+   - using Bert to automatically evaluating text generation
+   - more robust than origin metric
+   - capture more semantic info and evaluation more semantic level.
+   - test in adversarial data sets.

@@ -45,9 +45,10 @@
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
-| Read   | Public | Conference | Title      | HighLight               | Code          | Other |
-| ------ | ------ | ---------- | ---------- | ----------------------- | ------------- | ----- |
-| 190926 | 190926 | -          | [CTRL][13] | controllable generation | [ctrl][10013] | -     |
+| Read   | Public | Conference         | Title           | HighLight                | Code               | Other |
+| ------ | ------ | ------------------ | --------------- | ------------------------ | ------------------ | ----- |
+| 191005 | 191001 | [submit ICLR 2020] | [BertScore][20] | auto evaluation use bert | [bertScore][10020] | -     |
+| 190926 | 190926 | -                  | [CTRL][13]      | controllable generation  | [ctrl][10013]      | -     |
 
 ## ML
 
@@ -98,6 +99,7 @@
 [17]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyBert.pdf
 [18]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MergeAndLabel.pdf
 [19]: https://github.com/iofu728/PaperRead/blob/master/paper/CV/VideoPrediction/CrevNet.pdf
+[20]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -109,6 +111,7 @@
 [10013]: https://www.github.com/salesforce/ctrl
 [10016]: https://github.com/lena-voita/the-story-of-heads
 [10018]: https://github.com/fishjh2/merge_label
+[10020]: https://github.com/Tiiiger/bert_score
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
