@@ -71,6 +71,14 @@
 | ------ | ------ | ---------- | ------------------------- | --------------- | -------------- | ----- |
 | 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16] | every head role | [heads][10016] | -     |
 
+## CV
+
+### [Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)
+
+| Read   | Public | Conference       | Title         | HighLight              | Code | Other |
+| ------ | ------ | ---------------- | ------------- | ---------------------- | ---- | ----- |
+| 191005 | 190926 | submit ICLR 2020 | [CrevNet][19] | information preserving | -    | -     |
+
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
 [3]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Adversarial/UniversalAdversarialTriggers.pdf
@@ -89,6 +97,7 @@
 [16]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AnalysisMultiHeadAttention.pdf
 [17]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyBert.pdf
 [18]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MergeAndLabel.pdf
+[19]: https://github.com/iofu728/PaperRead/blob/master/paper/CV/VideoPrediction/CrevNet.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
