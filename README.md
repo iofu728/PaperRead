@@ -23,6 +23,7 @@
   - [Tabular Learning](#tabular-learning)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
+- [License](#license)
 
 ## NLP
 
@@ -119,6 +120,12 @@
 | Read   | Public | Conference       | Title         | HighLight              | Code | Other |
 | ------ | ------ | ---------------- | ------------- | ---------------------- | ---- | ----- |
 | 191005 | 190926 | submit ICLR 2020 | [CrevNet][19] | information preserving | -    | -     |
+
+## License
+
+[Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+
+Copyright (c) 2019-present, Jianpan(iofu728) Gun
 
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
