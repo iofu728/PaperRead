@@ -41,3 +41,11 @@
        - a complexity neural network
        - static layer + structure layer + update layer
      - classification
+
+## Unlabeled
+
+1. [Learning A Uniﬁed Named Entity Tagger From Multiple Partially Annotated Corpora For Efﬁcient Adaptation](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/UnifiedNETagger.pdf) [CONLL 2020] Xiao Huang, Li Dong, Elizabeth Boschee, Nanyun Peng.
+   - combine multi-corpus entity
+   - the entity tag set of every corpus is different, so the combine is challenge.
+   - O can be every entity
+   - maximum the total likelihood of all possible tag sequences consistent with the gold label.

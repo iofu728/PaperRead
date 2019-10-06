@@ -4,9 +4,37 @@
 ❱❱❱❱❱❱❱ ❱❱❱❱❱❱ ❱❱❱❱❱ ❱❱❱❱ ❱❱❱❱ ❱❱❱ ❱❱ ❱
 ```
 
+## Categories
+
+<!-- TOC -->
+
+- [Categories](#categories)
+- [NLP](#nlp)
+  - [NER](#ner)
+    - [Nested NER](#nested-ner)
+  - [Summarization](#summarization)
+  - [Adversarial](#adversarial)
+  - [Bertology](#bertology)
+  - [Bert Distilled](#bert-distilled)
+  - [NLG](#nlg)
+- [ML](#ml)
+  - [Metric Learning](#metric-learning)
+  - [Transformer](#transformer)
+  - [Attention](#attention)
+  - [Tabular Learning](#tabular-learning)
+- [CV](#cv)
+  - [Video Prediction](#video-prediction)
+    <!-- /TOC -->
+
 ## NLP
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
+
+| Read   | Public | Conference | Title                 | HighLight    | Code               | Other     |
+| ------ | ------ | ---------- | --------------------- | ------------ | ------------------ | --------- |
+| 191006 | 190925 | CONLL 2020 | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
+
+#### Nested NER
 
 | Read   | Public | Conference | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ---------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
@@ -109,6 +137,7 @@
 [20]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf
 [21]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLM.pdf
 [22]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/TabularLearning/TabNet.pdf
+[23]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/UnifiedNETagger.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -122,6 +151,7 @@
 [10018]: https://github.com/fishjh2/merge_label
 [10020]: https://github.com/Tiiiger/bert_score
 [10022]: https://github.com/google-research/google-research/tree/master/tabnet
+[10023]: https://github.com/xhuang28/NewBioNer
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
