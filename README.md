@@ -6,7 +6,23 @@
 
 ## Categories
 
-<!-- TOC -->autoauto- [Categories](#categories)auto- [NLP](#nlp)auto    - [[NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)](#nerhttpsgithubcomiofu728paperreadblobmasternotesnlpner)auto        - [Nested NER](#nested-ner)auto    - [Summarization](#summarization)auto    - [Adversarial](#adversarial)auto    - [[Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)](#bertologyhttpsgithubcomiofu728paperreadblobmasternotesnlpbertology)auto    - [[Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)](#bert-distilledhttpsgithubcomiofu728paperreadblobmasternotesnlpbertdistilled)auto    - [[NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)](#nlghttpsgithubcomiofu728paperreadblobmasternotesnlpnlg)auto- [ML](#ml)auto    - [[Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)](#metric-learninghttpsgithubcomiofu728paperreadtreemasternotesmlmetriclearning)auto    - [[Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)](#transformerhttpsgithubcomiofu728paperreadblobmasternotesmltransformer)auto    - [[Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)](#attentionhttpsgithubcomiofu728paperreadblobmasternotesmlattention)auto    - [[Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)](#tabular-learninghttpsgithubcomiofu728paperreadblobmasternotesmltabularlearning)auto- [CV](#cv)auto    - [[Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)](#video-predictionhttpsgithubcomiofu728paperreadblobmasternotescvvideoprediction)autoauto<!-- /TOC -->
+- [Categories](#categories)
+- [NLP](#nlp)
+  - [NER](#ner)
+    - [Nested NER](#nested-ner)
+  - [Summarization](#summarization)
+  - [Adversarial](#adversarial)
+  - [Bertology](#bertology)
+  - [Bert Distilled](#bert-distilled)
+  - [NLG](#nlg)
+  - [Text Style Transfer](#text-style-transfer)
+- [ML](#ml)
+  - [Metric Learning](#metric-learning)
+  - [Transformer](#transformer)
+  - [Attention](#attention)
+  - [Tabular Learning](#tabular-learning)
+- [CV](#cv)
+  - [Video Prediction](#video-prediction)
 
 ## NLP
 
@@ -61,6 +77,12 @@
 | ------ | ------ | ------------------ | --------------- | ------------------------ | ------------------ | ----- |
 | 191005 | 191001 | [submit ICLR 2020] | [BertScore][20] | auto evaluation use bert | [bertScore][10020] | -     |
 | 190926 | 190926 | -                  | [CTRL][13]      | controllable generation  | [ctrl][10013]      | -     |
+
+### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
+
+| Read   | Public | Conference | Title              | HighLight            | Code                  | Other |
+| ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
+| 191006 | 190925 | EMNLP 2019 | [CrossProject][25] | Latent Space Project | [CrossProject][10025] | -     |
 
 ## ML
 
@@ -122,6 +144,7 @@
 [22]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/TabularLearning/TabNet.pdf
 [23]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/UnifiedNETagger.pdf
 [24]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CrfVAEInNER.pdf
+[25]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/TextStyleTransfer/SemisupervisedTextStyleTransfer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -136,6 +159,7 @@
 [10020]: https://github.com/Tiiiger/bert_score
 [10022]: https://github.com/google-research/google-research/tree/master/tabnet
 [10023]: https://github.com/xhuang28/NewBioNer
+[10025]: https://tinyurl.com/yyc8zkqg
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
