@@ -6,33 +6,16 @@
 
 ## Categories
 
-<!-- TOC -->
-
-- [Categories](#categories)
-- [NLP](#nlp)
-  - [NER](#ner)
-    - [Nested NER](#nested-ner)
-  - [Summarization](#summarization)
-  - [Adversarial](#adversarial)
-  - [Bertology](#bertology)
-  - [Bert Distilled](#bert-distilled)
-  - [NLG](#nlg)
-- [ML](#ml)
-  - [Metric Learning](#metric-learning)
-  - [Transformer](#transformer)
-  - [Attention](#attention)
-  - [Tabular Learning](#tabular-learning)
-- [CV](#cv)
-  - [Video Prediction](#video-prediction)
-    <!-- /TOC -->
+<!-- TOC -->autoauto- [Categories](#categories)auto- [NLP](#nlp)auto    - [[NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)](#nerhttpsgithubcomiofu728paperreadblobmasternotesnlpner)auto        - [Nested NER](#nested-ner)auto    - [Summarization](#summarization)auto    - [Adversarial](#adversarial)auto    - [[Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)](#bertologyhttpsgithubcomiofu728paperreadblobmasternotesnlpbertology)auto    - [[Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)](#bert-distilledhttpsgithubcomiofu728paperreadblobmasternotesnlpbertdistilled)auto    - [[NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)](#nlghttpsgithubcomiofu728paperreadblobmasternotesnlpnlg)auto- [ML](#ml)auto    - [[Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)](#metric-learninghttpsgithubcomiofu728paperreadtreemasternotesmlmetriclearning)auto    - [[Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)](#transformerhttpsgithubcomiofu728paperreadblobmasternotesmltransformer)auto    - [[Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)](#attentionhttpsgithubcomiofu728paperreadblobmasternotesmlattention)auto    - [[Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)](#tabular-learninghttpsgithubcomiofu728paperreadblobmasternotesmltabularlearning)auto- [CV](#cv)auto    - [[Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)](#video-predictionhttpsgithubcomiofu728paperreadblobmasternotescvvideoprediction)autoauto<!-- /TOC -->
 
 ## NLP
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference | Title                 | HighLight    | Code               | Other     |
-| ------ | ------ | ---------- | --------------------- | ------------ | ------------------ | --------- |
-| 191006 | 190925 | CONLL 2020 | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
+| Read   | Public | Conference       | Title                 | HighLight    | Code               | Other     |
+| ------ | ------ | ---------------- | --------------------- | ------------ | ------------------ | --------- |
+| 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER   | -                  | Unlabeled |
+| 191006 | 190925 | CONLL 2020       | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
 
 #### Nested NER
 
@@ -138,6 +121,7 @@
 [21]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLM.pdf
 [22]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/TabularLearning/TabNet.pdf
 [23]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/UnifiedNETagger.pdf
+[24]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CrfVAEInNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
