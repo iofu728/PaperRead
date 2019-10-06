@@ -73,6 +73,12 @@
 | ------ | ------ | ---------- | ------------------------- | --------------- | -------------- | ----- |
 | 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16] | every head role | [heads][10016] | -     |
 
+### [Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)
+
+| Read   | Public | Conference       | Title        | HighLight | Code                    | Other         |
+| ------ | ------ | ---------------- | ------------ | --------- | ----------------------- | ------------- |
+| 191006 | 190926 | submit ICLR 2020 | [TabNet][22] | NN method | [googleResearch][10022] | interpretable |
+
 ## CV
 
 ### [Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)
@@ -102,6 +108,7 @@
 [19]: https://github.com/iofu728/PaperRead/blob/master/paper/CV/VideoPrediction/CrevNet.pdf
 [20]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf
 [21]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLM.pdf
+[22]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/TabularLearning/TabNet.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -114,6 +121,7 @@
 [10016]: https://github.com/lena-voita/the-story-of-heads
 [10018]: https://github.com/fishjh2/merge_label
 [10020]: https://github.com/Tiiiger/bert_score
+[10022]: https://github.com/google-research/google-research/tree/master/tabnet
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
