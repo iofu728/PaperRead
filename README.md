@@ -1,4 +1,6 @@
 > 🤧Some paper read by gunjianpan
+>
+> this is a repository like douban in arxiv.
 
 ```console
 ❱❱❱❱❱❱❱ ❱❱❱❱❱❱ ❱❱❱❱❱ ❱❱❱❱ ❱❱❱❱ ❱❱❱ ❱❱ ❱
@@ -92,7 +94,8 @@
 | Read   | Public | Conference | Title                   | HighLight             | Code                        | Other |
 | ------ | ------ | ---------- | ----------------------- | --------------------- | --------------------------- | ----- |
 | 190829 | 190525 | NIPS 2019  | [Constellation Loss][8] | Multiclass n + Triple | [constellation_loss][10008] | -     |
-| 190827 | 150617 | CVPR 2015  | [Triplet Loss][11]      | Triple                |                             | -     |
+| 191007 | 170406 | CVPR 2017  | [Quadruplet Loss][26]   | two margin            | -                           | -     |
+| 190827 | 150617 | CVPR 2015  | [Triplet Loss][11]      | Triple                | -                           | -     |
 
 ### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
@@ -152,6 +155,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [23]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/UnifiedNETagger.pdf
 [24]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CrfVAEInNER.pdf
 [25]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/TextStyleTransfer/SemisupervisedTextStyleTransfer.pdf
+[26]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/QuadrupletLoss.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

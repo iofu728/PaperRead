@@ -7,3 +7,6 @@
    - a unified embedding for Recognition and Clustering
    - Triple Loss to align the distance between Position sample and negative sample
    - online negative sample mining strategy
+3. [Beyond triplet loss: a deep quadruplet network for person re-identification](https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/QuadrupletLoss.pdf) [CVPR 2017] Weihua Chen, Xiaotang Chen, Jianguo Zhang, Kaiqi Huang.
+   - large inter-class variation + small intra-class variation
+   - $$\begin{aligned} L_{q u a d}=& \sum_{i, j, k}^{N}\left[g\left(x_{i}, x_{j}\right)^{2}-g\left(x_{i}, x_{k}\right)^{2}+\alpha_{1}\right]_{+} \\ &+\sum_{i, j, k, l}^{N}\left[g\left(x_{i}, x_{j}\right)^{2}-g\left(x_{l}, x_{k}\right)^{2}+\alpha_{2}\right]_{+} \\ & s_{i}=s_{j}, s_{l} \neq s_{k}, s_{i} \neq s_{l}, s_{i} \neq s_{k} \end{aligned}$$
