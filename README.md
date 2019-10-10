@@ -76,10 +76,11 @@
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
-| Read   | Public | Conference         | Title           | HighLight                | Code               | Other |
-| ------ | ------ | ------------------ | --------------- | ------------------------ | ------------------ | ----- |
-| 191005 | 191001 | [submit ICLR 2020] | [BertScore][20] | auto evaluation use bert | [bertScore][10020] | -     |
-| 190926 | 190926 | -                  | [CTRL][13]      | controllable generation  | [ctrl][10013]      | -     |
+| Read   | Public | Conference         | Title              | HighLight                | Code               | Other |
+| ------ | ------ | ------------------ | ------------------ | ------------------------ | ------------------ | ----- |
+| 191005 | 191001 | [submit ICLR 2020] | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
+| 190926 | 190926 | -                  | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
+| 191010 | 190812 | -                  | [UnLikelihood][27] | unLikelihood             |                    | -     |
 
 ### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
 
@@ -156,6 +157,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [24]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CrfVAEInNER.pdf
 [25]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/TextStyleTransfer/SemisupervisedTextStyleTransfer.pdf
 [26]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/QuadrupletLoss.pdf
+[27]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/Unlikelihood.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
