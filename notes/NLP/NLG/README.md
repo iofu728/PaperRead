@@ -1,6 +1,6 @@
 # Neural Language Generation
 
-1. [CTRL: A C ONDITIONAL T RANSFORMER L ANGUAGE M ODEL FOR C ONTROLLABLE G ENERATION](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf) [-] Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher.
+1. [**CTRL: A C ONDITIONAL T RANSFORMER L ANGUAGE M ODEL FOR C ONTROLLABLE G ENERATION**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/ctrl.pdf) [-] _Nitish Shirish Keskar, Bryan McCann, Lav R. Varshney, Caiming Xiong, Richard Socher_.
    - controllable generation
    - conditional language model
    - two block
@@ -16,12 +16,12 @@
      - extensions to other areas
      - analysis relationship between LM and train data
      - making the interface between human and LM more explicit and intuitive
-2. [BERTScore: Evaluating Text Generation with BERT](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf) [submit ICLR 2020] Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi.
+2. [**BERTScore: Evaluating Text Generation with BERT**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/BertScore.pdf) [submit ICLR 2020] _Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi_.
    - using Bert to automatically evaluating text generation
    - more robust than origin metric
    - capture more semantic info and evaluation more semantic level.
    - test in adversarial data sets.
-3. [Neural Text Generation with Unlikelihood Training](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/Unlikelihood.pdf) [-] Sean Welleck, Ilia Kulikov, Stephen Roller, Emily Dinan, Kyunghyun Cho, Jason Weston.
+3. [**Neural Text Generation with Unlikelihood Training**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/Unlikelihood.pdf) [-] _Sean Welleck, Ilia Kulikov, Stephen Roller, Emily Dinan, Kyunghyun Cho, Jason Weston_.
    - some problem in NLG
      - repetition
      - next-token

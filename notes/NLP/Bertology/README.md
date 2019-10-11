@@ -1,6 +1,6 @@
 # Bertology
 
-1. [ALBERT: A L ITE BERT FOR S ELF - SUPERVISED L EARNING OF L ANGUAGE R EPRESENTATIONS](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf)[submit ICLR 2020] Anonymous authors.
+1. [**ALBERT: A L ITE BERT FOR S ELF - SUPERVISED L EARNING OF L ANGUAGE R EPRESENTATIONS**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf)[submit ICLR 2020] _Anonymous authors_.
 
    - 感觉下来 ALBert 更像是一篇调参实验报告 🍋
    - 整个工作的 Motivation 是减少参数量，加速训练时间，所以 performance 掉一点问题不大
@@ -19,7 +19,7 @@
    - 而 ALBert-xxlarge 比 ALBert-xlarge 更 work, 感觉也是差不多的原因. 增加 Hidden size 是扩充靠后层级获得的 semantic 信息. 主要是因为做了参数共享,实际上作用到输出的是 layer 的某种平均. ALBert-xlarge 比 ALbert-large work, ALBert-xxlarge 比 ALbert-xlarge work 说明对 ALBert 这种 Language Model 所蕴含的信息量还能通过放大 hidden size 扩充.( 还是觉得少了一组 12 layer 2048 hidden size 的实验, 现在这种情况只能盲猜
    - 总的来说，这是一篇 Betrology 集大成的 paper，文章逻辑实验都写的不错，包括一些 idea 的提出，参考文献的选择，还是建议一看，能加深对 Bertology 的理解。（话说 refer 里面还有 10 多篇没看过 要去面壁了
 
-2. [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLM.pdf) [-] Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon.
+2. [**Unified Language Model Pre-training for Natural Language Understanding and Generation**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLM.pdf) [-] _Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon_.
    - three mask
      - unidirectional
      - bidirectional
