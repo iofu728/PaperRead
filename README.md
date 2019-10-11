@@ -1,6 +1,6 @@
-> 🤧Some paper read by gunjianpan
+> **🤧*Some Paper Read By @gunjianpan***
 >
-> this is a repository like douban in arxiv.
+> This is a repository like 'douban' personal home page in AI field.
 
 ```console
 ❱❱❱❱❱❱❱ ❱❱❱❱❱❱ ❱❱❱❱❱ ❱❱❱❱ ❱❱❱❱ ❱❱❱ ❱❱ ❱
@@ -23,6 +23,7 @@
   - [Transformer](#transformer)
   - [Attention](#attention)
   - [Tabular Learning](#tabular-learning)
+  - [Unbalance Classify](#unbalance-classify)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
 - [License](#license)
@@ -117,6 +118,12 @@
 | ------ | ------ | ---------------- | ------------ | --------- | ----------------------- | ------------- |
 | 191006 | 190926 | submit ICLR 2020 | [TabNet][22] | NN method | [googleResearch][10022] | interpretable |
 
+### [Unbalance Classify](https://github.com/iofu728/PaperRead/blob/master/notes/ML/UnbalanceClassify)
+
+| Read   | Public | Conference | Title                    | HighLight               | Code                    | Other |
+| ------ | ------ | ---------- | ------------------------ | ----------------------- | ----------------------- | ----- |
+| 191011 | 190116 | ICLR 2019  | [Class-Balance Loss][28] | effective number sample | [googleResearch][10028] | -     |
+
 ## CV
 
 ### [Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)
@@ -158,6 +165,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [25]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/TextStyleTransfer/SemisupervisedTextStyleTransfer.pdf
 [26]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/QuadrupletLoss.pdf
 [27]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/Unlikelihood.pdf
+[28]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/Class-BalancedLoss.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -174,6 +182,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [10022]: https://github.com/google-research/google-research/tree/master/tabnet
 [10023]: https://github.com/xhuang28/NewBioNer
 [10025]: https://tinyurl.com/yyc8zkqg
+[10028]: https://github.com/vandit15/Class-balanced-loss-pytorch
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
