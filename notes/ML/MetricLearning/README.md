@@ -10,3 +10,5 @@
 3. [**Beyond triplet loss: a deep quadruplet network for person re-identification**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/QuadrupletLoss.pdf) [CVPR 2017] _Weihua Chen, Xiaotang Chen, Jianguo Zhang, Kaiqi Huang_.
    - large inter-class variation + small intra-class variation
    - $$\begin{aligned} L_{q u a d}=& \sum_{i, j, k}^{N}\left[g\left(x_{i}, x_{j}\right)^{2}-g\left(x_{i}, x_{k}\right)^{2}+\alpha_{1}\right]_{+} \\ &+\sum_{i, j, k, l}^{N}\left[g\left(x_{i}, x_{j}\right)^{2}-g\left(x_{l}, x_{k}\right)^{2}+\alpha_{2}\right]_{+} \\ & s_{i}=s_{j}, s_{l} \neq s_{k}, s_{i} \neq s_{l}, s_{i} \neq s_{k} \end{aligned}$$
+4. [**Improved Deep Metric Learning with Multi-class N-pair Loss Objective**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/Multi-classN-pairLoss.pdf) [CVPR 2016] _Kihyuk Sohn_.
+   - $$\mathcal{L}_{N-\text { pair me }}\left(\left\{\left(x_{i}, x_{i}^{+}\right)\right\}_{i=1}^{N} ; f\right)=\frac{1}{N} \sum_{i=1}^{N} \log \left(1+\sum_{j \neq i} \exp \left(f_{i}^{\top} f_{j}^{+}-f_{i}^{\top} f_{i}^{+}\right)\right)$$
