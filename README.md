@@ -109,9 +109,10 @@
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
-| Read   | Public | Conference | Title                     | HighLight       | Code           | Other |
-| ------ | ------ | ---------- | ------------------------- | --------------- | -------------- | ----- |
-| 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16] | every head role | [heads][10016] | -     |
+| Read   | Public | Conference | Title                           | HighLight                    | Code                          | Other |
+| ------ | ------ | ---------- | ------------------------------- | ---------------------------- | ----------------------------- | ----- |
+| 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16]       | every head role              | [heads][10016]                | -     |
+| 190619 | 190226 | NAACL 2019 | [Attention not explanation][30] | weighted correction + robust | [AttentionExplanation][10030] | -     |
 
 ### [Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)
 
@@ -168,6 +169,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [27]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/Unlikelihood.pdf
 [28]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/Class-BalancedLoss.pdf
 [29]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/Multi-classN-pairLoss.pdf
+[30]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AttentionNotExplanation.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -185,6 +187,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [10023]: https://github.com/xhuang28/NewBioNer
 [10025]: https://tinyurl.com/yyc8zkqg
 [10028]: https://github.com/vandit15/Class-balanced-loss-pytorch
+[10030]: https://github.com/successar/AttentionExplanation
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
