@@ -102,10 +102,11 @@
 
 ### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
-| Read   | Public | Conference       | Title                       | HighLight       | Code | Other         |
-| ------ | ------ | ---------------- | --------------------------- | --------------- | ---- | ------------- |
-| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14] | improve warm-up | -    | -             |
-| 190908 | 190606 | -                | [Macaron Net][15]           | Strange-Macaron | -    | [note][30015] |
+| Read   | Public | Conference       | Title                       | HighLight       | Code         | Other            |
+| ------ | ------ | ---------------- | --------------------------- | --------------- | ------------ | ---------------- |
+| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14] | improve warm-up | -            | -                |
+| 190716 | 190710 | -                | [Large Memory Layer][31]    | KeyValue search | [XLM][10031] | [twitter][30031] |
+| 190908 | 190606 | -                | [Macaron Net][15]           | Strange-Macaron | -            | [note][30015]    |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
@@ -170,6 +171,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [28]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/Class-BalancedLoss.pdf
 [29]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/Multi-classN-pairLoss.pdf
 [30]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AttentionNotExplanation.pdf
+[31]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LargeMemoryLayers.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -188,6 +190,8 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [10025]: https://tinyurl.com/yyc8zkqg
 [10028]: https://github.com/vandit15/Class-balanced-loss-pytorch
 [10030]: https://github.com/successar/AttentionExplanation
+[10031]: https://github.com/facebookresearch/XLM
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
+[30031]: https://twitter.com/guillaumelample/status/1149646895377076224
