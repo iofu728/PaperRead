@@ -18,6 +18,7 @@
   - [Bert Distilled](#bert-distilled)
   - [NLG](#nlg)
   - [Text Style Transfer](#text-style-transfer)
+  - [Chinese](#chinese)
 - [ML](#ml)
   - [Metric Learning](#metric-learning)
   - [Transformer](#transformer)
@@ -89,6 +90,12 @@
 | Read   | Public | Conference | Title              | HighLight            | Code                  | Other |
 | ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
 | 191006 | 190925 | EMNLP 2019 | [CrossProject][25] | Latent Space Project | [CrossProject][10025] | -     |
+
+### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
+
+| Read   | Public | Conference | Title       | HighLight    | Code | Other |
+| ------ | ------ | ---------- | ----------- | ------------ | ---- | ----- |
+| 191013 | 190906 | -          | [NeZha][36] | chinese bert | -    | -     |
 
 ## ML
 
@@ -186,6 +193,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [33]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TensorizedTransformer.pdf
 [34]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/AdaptiveAttSpanInTransformer.pdf
 [35]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/UniversalTransformers.pdf
+[36]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/NeZha.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
