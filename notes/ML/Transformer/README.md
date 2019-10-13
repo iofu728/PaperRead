@@ -23,3 +23,7 @@
    - proposal a masking function to control attention span.
    - $m_{z}(x)=\min \left[\max \left[\frac{1}{R}(R+z-x), 0\right], 1\right]$
    - $a_{t r}=\frac{m_{z}(t-r) \exp \left(s_{t r}\right)}{\sum_{q=t-S}^{t-1} m_{z}(t-q) \exp \left(s_{t q}\right)}$
+6. [**Universal Transformers**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/UniversalTransformers.pdf) [ICLR 2019] _Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser_.
+   - Recurrent Architectures -> time loop
+   - Transition functions -> share parameters
+   - adaptive computational time -> dynamic adjust step time

@@ -110,6 +110,7 @@
 | 190718 | 190624 | NIPS 2019        | [Tensorized Transformer][33] | decompose + param share | -                     | -                |
 | 190908 | 190606 | -                | [Macaron Net][15]            | Strange-Macaron         | -                     | [note][30015]    |
 | 190718 | 190519 | ACL 2019         | [Adaptive Att span][34]      | adapting span           | [adaptiveSpan][10034] | -                |
+| 190719 | 180710 | ICLR 2019        | [Universal Transformer][35]  | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
@@ -184,6 +185,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [32]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/Transformers.pdf
 [33]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TensorizedTransformer.pdf
 [34]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/AdaptiveAttSpanInTransformer.pdf
+[35]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/UniversalTransformers.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -205,7 +207,9 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10031]: https://github.com/facebookresearch/XLM
 [10032]: https://github.com/huggingface/transformers
 [10034]: https://github.com/facebookresearch/adaptive-span
+[10035]: https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/research/universal_transformer.py
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
 [30031]: https://twitter.com/guillaumelample/status/1149646895377076224
+[30035]: https://mostafadehghani.com/wp-content/uploads/2018/08/Universal_Transformers.pdf
