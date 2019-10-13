@@ -24,6 +24,7 @@
   - [Attention](#attention)
   - [Tabular Learning](#tabular-learning)
   - [Unbalance Classify](#unbalance-classify)
+  - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
 - [License](#license)
@@ -77,11 +78,11 @@
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
-| Read   | Public | Conference         | Title              | HighLight                | Code               | Other |
-| ------ | ------ | ------------------ | ------------------ | ------------------------ | ------------------ | ----- |
-| 191005 | 191001 | [submit ICLR 2020] | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
-| 190926 | 190926 | -                  | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
-| 191010 | 190812 | -                  | [UnLikelihood][27] | unLikelihood             |                    | -     |
+| Read   | Public | Conference       | Title              | HighLight                | Code               | Other |
+| ------ | ------ | ---------------- | ------------------ | ------------------------ | ------------------ | ----- |
+| 191005 | 191001 | submit ICLR 2020 | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
+| 190926 | 190926 | -                | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
+| 191010 | 190812 | -                | [UnLikelihood][27] | unLikelihood             |                    | -     |
 
 ### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
 
@@ -127,6 +128,12 @@
 | ------ | ------ | ---------- | ------------------------ | ----------------------- | ----------------------- | ----- |
 | 191011 | 190116 | ICLR 2019  | [Class-Balance Loss][28] | effective number sample | [googleResearch][10028] | -     |
 
+### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
+
+| Read   | Public | Conference | Title              | HighLight   | Code                  | Other |
+| ------ | ------ | ---------- | ------------------ | ----------- | --------------------- | ----- |
+| 191011 | 191009 | -          | [Transformers][32] | Unified API | [Transformers][10032] | -     |
+
 ## CV
 
 ### [Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)
@@ -139,7 +146,7 @@
 
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
-Copyright (c) 2019-present, Jianpan(iofu728) Gun
+Copyright (c) 2019-present, gunjianpan(iofu728)
 
 [1]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CombingSpansintoEntities.pdf
 [2]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/ConvS2S.pdf
@@ -172,6 +179,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [29]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/Multi-classN-pairLoss.pdf
 [30]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AttentionNotExplanation.pdf
 [31]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LargeMemoryLayers.pdf
+[32]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/Transformers.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -191,6 +199,7 @@ Copyright (c) 2019-present, Jianpan(iofu728) Gun
 [10028]: https://github.com/vandit15/Class-balanced-loss-pytorch
 [10030]: https://github.com/successar/AttentionExplanation
 [10031]: https://github.com/facebookresearch/XLM
+[10032]: https://github.com/huggingface/transformers
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
