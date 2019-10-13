@@ -16,3 +16,10 @@
    - block-term tensor decomposition(BTD)
    - Multi-linear Attention by BTD
    - reduce computational complexity
+5. [**Adaptive Attention Span in Transformers**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/AdaptiveAttSpanInTransformer.pdf) [ACL 2019] _Sainbayar Sukhbaatar, Edouard Grave, Piotr Bojanowski, Armand Joulin_.
+   - adaptive attention span size reduce unnecessary cost.
+   - origin Attention span $\in [t-S, t)$
+   - In fact, diff head have diff focus. Maybe focus on near info, maybe on global info.
+   - proposal a masking function to control attention span.
+   - $m_{z}(x)=\min \left[\max \left[\frac{1}{R}(R+z-x), 0\right], 1\right]$
+   - $a_{t r}=\frac{m_{z}(t-r) \exp \left(s_{t r}\right)}{\sum_{q=t-S}^{t-1} m_{z}(t-q) \exp \left(s_{t q}\right)}$
