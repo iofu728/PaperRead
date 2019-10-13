@@ -103,11 +103,12 @@
 
 ### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
-| Read   | Public | Conference       | Title                       | HighLight       | Code         | Other            |
-| ------ | ------ | ---------------- | --------------------------- | --------------- | ------------ | ---------------- |
-| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14] | improve warm-up | -            | -                |
-| 190716 | 190710 | -                | [Large Memory Layer][31]    | KeyValue search | [XLM][10031] | [twitter][30031] |
-| 190908 | 190606 | -                | [Macaron Net][15]           | Strange-Macaron | -            | [note][30015]    |
+| Read   | Public | Conference       | Title                        | HighLight               | Code         | Other            |
+| ------ | ------ | ---------------- | ---------------------------- | ----------------------- | ------------ | ---------------- |
+| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14]  | improve warm-up         | -            | -                |
+| 190716 | 190710 | -                | [Large Memory Layer][31]     | KeyValue search         | [XLM][10031] | [twitter][30031] |
+| 190718 | 190624 | NIPS 2019        | [Tensorized Transformer][33] | decompose + param share | -            | -                |
+| 190908 | 190606 | -                | [Macaron Net][15]            | Strange-Macaron         | -            | [note][30015]    |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
@@ -180,6 +181,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/AttentionNotExplanation.pdf
 [31]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LargeMemoryLayers.pdf
 [32]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/Transformers.pdf
+[33]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TensorizedTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

@@ -11,3 +11,8 @@
 3. [**Large Memory Layers with Product Keys**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LargeMemoryLayers.pdf) [-] _Guillaume Lample, Alexandre Sablayrolles, Marc'Aurelio Ranzato, Ludovic Denoyer, Hervé Jégou_.
    - a network about key-value memory layer instead of FC in Transformer
    - It can reduce computational complexity.
+4. [**A Tensorized Transformer for Language Modeling**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TensorizedTransformer.pdf) [NIPS 2019] _Xindian Ma, Peng Zhang, Shuai Zhang, Nan Duan, Yuexian Hou, Dawei Song, Ming Zhou_.
+   - parameters sharing + tensor decomposition
+   - block-term tensor decomposition(BTD)
+   - Multi-linear Attention by BTD
+   - reduce computational complexity
