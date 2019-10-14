@@ -16,6 +16,7 @@
   - [Adversarial](#adversarial)
   - [Bertology](#bertology)
   - [Bert Distilled](#bert-distilled)
+  - [Probe](#probe)
   - [NLG](#nlg)
   - [Text Style Transfer](#text-style-transfer)
   - [Chinese](#chinese)
@@ -76,6 +77,12 @@
 | Read   | Public | Conference       | Title          | HighLight     | Code | Other |
 | ------ | ------ | ---------------- | -------------- | ------------- | ---- | ----- |
 | 191002 | 190926 | submit ICLR 2020 | [TinyBert][17] | new tew-stage | -    | -     |
+
+### [Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
+
+| Read   | Public | Conference | Title                 | HighLight        | Code | Other |
+| ------ | ------ | ---------- | --------------------- | ---------------- | ---- | ----- |
+| 191014 | 190515 | ACL 2019   | [Bert Rediscover][37] | probe bert layer | -    | -     |
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
@@ -194,6 +201,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [34]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/AdaptiveAttSpanInTransformer.pdf
 [35]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/UniversalTransformers.pdf
 [36]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/NeZha.pdf
+[37]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/BertRediscovers.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
