@@ -75,9 +75,10 @@
 
 #### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)
 
-| Read   | Public | Conference       | Title          | HighLight     | Code | Other |
-| ------ | ------ | ---------------- | -------------- | ------------- | ---- | ----- |
-| 191002 | 190926 | submit ICLR 2020 | [TinyBert][17] | new tew-stage | -    | -     |
+| Read   | Public | Conference       | Title             | HighLight      | Code                  | Other |
+| ------ | ------ | ---------------- | ----------------- | -------------- | --------------------- | ----- |
+| 191018 | 191002 | NIPS 2019        | [DistillBert][39] | support device | [transformers][10039] | -     |
+| 191002 | 190926 | submit ICLR 2020 | [TinyBert][17]    | new tew-stage  | -                     | -     |
 
 #### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
@@ -87,9 +88,9 @@
 
 ### [Parallelism](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Parallelism)
 
-| Read   | Public | Conference | Title             | HighLight                        | Code                 | Other |
-| ------ | ------ | ---------- | ----------------- | -------------------------------- | -------------------- | ----- |
-| 191017 | 191005 | -          | [Megatron-LM][38] | parallelism & little code change | [megatron-LM][10038] | -     |
+| Read   | Public | Conference | Title             | HighLight                        | Code                 | Other         |
+| ------ | ------ | ---------- | ----------------- | -------------------------------- | -------------------- | ------------- |
+| 191017 | 191005 | -          | [Megatron-LM][38] | parallelism & little code change | [megatron-LM][10038] | [blog][30038] |
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
@@ -210,6 +211,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [36]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/NeZha.pdf
 [37]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/BertRediscovers.pdf
 [38]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parallelism/MegatronLM.pdf
+[39]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/DistilBERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -233,8 +235,10 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10034]: https://github.com/facebookresearch/adaptive-span
 [10035]: https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/research/universal_transformer.py
 [10038]: https://github.com/nvidia/megatron-lm
+[10039]: https://github.com/huggingface/transformers
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
 [30031]: https://twitter.com/guillaumelample/status/1149646895377076224
 [30035]: https://mostafadehghani.com/wp-content/uploads/2018/08/Universal_Transformers.pdf
+[30038]: https://nv-adlr.github.io/MegatronLM

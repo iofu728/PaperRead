@@ -10,3 +10,7 @@
        - Hidden Distillations
      - Embedding-layer Distillations
      - Prediction-layer Distillations
+2. [**DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/DistilBERT.pdf) [NIPS 2019] _Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf_.
+   - cross entropy loss Lce + masked language model Lmlm + cosine embedding loss Lcos
+   - Triplet Loss combining language modeling, distillation and cosine-distance losses
+   - can be deploy in device, like iphone 7
