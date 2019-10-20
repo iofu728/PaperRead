@@ -17,6 +17,7 @@
   - [Bertology](#bertology)
     - [Bert Distilled](#bert-distilled)
     - [Bert Probe](#bert-probe)
+    - [Bert DownStream](#bert-downstream)
   - [Parallelism](#parallelism)
   - [NLG](#nlg)
   - [Text Style Transfer](#text-style-transfer)
@@ -85,6 +86,12 @@
 | Read   | Public | Conference | Title                 | HighLight        | Code | Other |
 | ------ | ------ | ---------- | --------------------- | ---------------- | ---- | ----- |
 | 191014 | 190515 | ACL 2019   | [Bert Rediscover][37] | probe bert layer | -    | -     |
+
+#### Bert DownStream
+
+| Read   | Public | Conference | Title               | HighLight   | Code                           | Other |
+| ------ | ------ | ---------- | ------------------- | ----------- | ------------------------------ | ----- |
+| 191020 | 190827 | EMNLP 2019 | [Sentence Bert][40] | Bert in STS | [sentence-transformers][10040] | -     |
 
 ### [Parallelism](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Parallelism)
 
@@ -212,6 +219,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [37]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/BertRediscovers.pdf
 [38]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parallelism/MegatronLM.pdf
 [39]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/DistilBERT.pdf
+[40]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/SentenceBert.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -236,6 +244,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10035]: https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/research/universal_transformer.py
 [10038]: https://github.com/nvidia/megatron-lm
 [10039]: https://github.com/huggingface/transformers
+[10040]: https://github.com/UKPLab/sentence-transformers
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
