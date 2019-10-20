@@ -37,10 +37,11 @@
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference       | Title                 | HighLight    | Code               | Other     |
-| ------ | ------ | ---------------- | --------------------- | ------------ | ------------------ | --------- |
-| 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER   | -                  | Unlabeled |
-| 191006 | 190925 | CONLL 2020       | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
+| Read   | Public | Conference       | Title                 | HighLight       | Code               | Other     |
+| ------ | ------ | ---------------- | --------------------- | --------------- | ------------------ | --------- |
+| 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER      | -                  | Unlabeled |
+| 191006 | 190925 | CONLL 2020       | [UnifiedNETagger][23] | Multi-Corpus    | [NewBioNer][10023] | Unlabeled |
+| 191020 | 190712 | AAAI 2019        | [GRNN][41]            | +Long-term->CNN | [GRN][10041]       | -         |
 
 #### Nested NER
 
@@ -220,6 +221,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [38]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parallelism/MegatronLM.pdf
 [39]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/DistilBERT.pdf
 [40]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/SentenceBert.pdf
+[41]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -245,6 +247,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10038]: https://github.com/nvidia/megatron-lm
 [10039]: https://github.com/huggingface/transformers
 [10040]: https://github.com/UKPLab/sentence-transformers
+[10041]: https://github.com/HuiChen24/NER-GRN
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

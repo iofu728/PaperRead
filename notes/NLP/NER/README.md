@@ -55,3 +55,14 @@
    - joint tag-encoding Transformer architecture leads to an ≈1% improvement in F1.
    - resolving unlabeled
    - test in pre-train model
+
+## Common NER
+
+1. [**GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf) [AAAI 2019] _Hui Chen, Zijia Lin, Guiguang Ding, Jianguang Lou, Yusen Zhang, Borje Karlsson_.
+   - Improving Long-term abilities of CNN.
+   - Four Layer
+     - Embed layer - representation layer
+     - CNN - Contextualized Layer
+     - Gated - Relation Layer
+       - can replace to Direct Fused Layer / ATTention
+     - CRF
