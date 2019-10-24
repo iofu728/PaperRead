@@ -25,3 +25,16 @@
      - bidirectional
      - seq2seq
    - framework support both NLU & NLG
+3. [**Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/T5.pdf) [-] _Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu._
+   - Natural Language Decathlon.
+   - every task -> seq2seq.
+     - (TaskName: Sentences) -> (Task result)
+     - except regression task -> (1, 1.2, 1.4 ... 5) multi-class classification
+   - C4 Colossal Clean Crawled Corpus. by some heuristic method.
+   - using teacher forcing + cross-entropy loss.
+   - AdaFactor Optimizer + greedy decoding.
+   - pack multi seq -> each entity of one batch.
+   - inverse square root warm-up strategy $1/sqrt(max(n, k))$
+   - SentencePrice -> 32000 vocab
+   - like UnifiedLM Architectures -> Prefix LM
+   - Test for multi corruption rate & corrupted span lens.
