@@ -27,3 +27,27 @@
    - Recurrent Architectures -> time loop
    - Transition functions -> share parameters
    - adaptive computational time -> dynamic adjust step time
+7. [**Depth-Adaptive Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf) [submit ICLR 2020] _Maha Elbayad, Jiatao Gu, Edouard Grave, Michael Auli_.
+   - depth adaptive Transformer
+   - not enough every token run -> last layer
+   - $$\forall n, p\left(y_{t+1} | h_{t}^{n}\right)=\operatorname{softmax}\left(W_{n} h_{t}^{n}\right)$$
+   - disadvantages: O(N), classification sole.
+   - origin method: dynamic calculate
+     - Aligned Training: know 1~i-1 layers all hidden parameters
+       - $$\mathrm{LL}_{t}^{n}=\log p\left(y_{t} | h_{t-1}^{n}\right), \quad \mathrm{LL}^{n}=\sum_{t=1}^{|\boldsymbol{y}|} \mathrm{LL}_{t}^{n}, \quad \mathcal{L}_{d e c}(\boldsymbol{x}, \boldsymbol{y})=-\frac{1}{\sum_{n} \omega_{n}} \sum_{n=1}^{N} \omega_{n} \mathrm{LL}^{n}$$
+     - Mixed Training: i+1 copy i layer
+       - $$\mathrm{LL}_{t}=\log p\left(y_{t} | h_{t-1}^{n}\right), \quad \mathrm{LL}=\sum_{t=1}^{|\boldsymbol{y}|} \mathrm{LL}_{t}, \quad \mathcal{L}_{\operatorname{dec}}(\boldsymbol{x}, \boldsymbol{y})=-\frac{1}{M} \sum_{m=1}^{M} \mathrm{LL}$$
+   - Paper Method: Depth-Adaptive
+     - Sequence-specific depth: the same sequence quit same time
+       - likelihood-based
+         - $$q^{*}(\boldsymbol{x}, \boldsymbol{y})=\delta\left(\arg \max _{n} \mathrm{LL}^{n}-\lambda n\right)$$
+       - correctness-based
+         - $$C^{n}=\#\left\{t\left|y_{t}=\arg \max _{y} p\left(y | h_{t-1}^{n}\right\}, \quad q^{*}(\boldsymbol{x}, \boldsymbol{y})=\delta\left(\arg \max _{n} C^{n}-\lambda n\right)\right.\right.$$
+     - token-specific depth
+       - Multinomial
+       - Poisson Binomial
+       - likelihood-based
+         - $$\begin{array}{l}{\kappa\left(t, t^{\prime}\right)=e^{-\frac{\left|t-t^{\prime}\right|^{2}}{\sigma}}, \text { smoothLL }_{t}^{n}=\sum_{t^{\prime}} \kappa\left(t, t^{\prime}\right) \mathrm{LL}_{t^{\prime}}^{n}} \\ {q_{t}^{*}(\boldsymbol{x}, \boldsymbol{y})=\delta\left(\arg \max _{n} \operatorname{smooth} \mathrm{LL} \mathrm{L}_{t}^{n}-\lambda n\right)}\end{array}$$
+       - correctness-based
+         - $$\begin{array}{l}{C_{t}^{n}=y_{t}=\arg \max _{y} p\left(y | h_{t-1}^{n}\right), \operatorname{smooth} \mathrm{C}_{t}^{n}=\sum_{t^{\prime}} \kappa\left(t, t^{\prime}\right) C_{t}^{n}} \\ {q_{t}^{*}(\boldsymbol{x}, \boldsymbol{y})=\delta\left(\arg \max _{n} \operatorname{smooth} \mathrm{C}_{t}^{n}-\lambda n\right)}\end{array}$$
+       - confidence threshold

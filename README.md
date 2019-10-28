@@ -134,14 +134,15 @@
 
 ### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
-| Read   | Public | Conference       | Title                        | HighLight               | Code                  | Other            |
-| ------ | ------ | ---------------- | ---------------------------- | ----------------------- | --------------------- | ---------------- |
-| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14]  | improve warm-up         | -                     | -                |
-| 190716 | 190710 | -                | [Large Memory Layer][31]     | KeyValue search         | [XLM][10031]          | [twitter][30031] |
-| 190718 | 190624 | NIPS 2019        | [Tensorized Transformer][33] | decompose + param share | -                     | -                |
-| 190908 | 190606 | -                | [Macaron Net][15]            | Strange-Macaron         | -                     | [note][30015]    |
-| 190718 | 190519 | ACL 2019         | [Adaptive Att span][34]      | adapting span           | [adaptiveSpan][10034] | -                |
-| 190719 | 180710 | ICLR 2019        | [Universal Transformer][35]  | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
+| Read   | Public | Conference       | Title                            | HighLight               | Code                  | Other            |
+| ------ | ------ | ---------------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 191028 | 191022 | submit ICLR 2020 | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
+| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14]      | improve warm-up         | -                     | -                |
+| 190716 | 190710 | -                | [Large Memory Layer][31]         | KeyValue search         | [XLM][10031]          | [twitter][30031] |
+| 190718 | 190624 | NIPS 2019        | [Tensorized Transformer][33]     | decompose + param share | -                     | -                |
+| 190908 | 190606 | -                | [Macaron Net][15]                | Strange-Macaron         | -                     | [note][30015]    |
+| 190718 | 190519 | ACL 2019         | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
+| 190719 | 180710 | ICLR 2019        | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
@@ -224,6 +225,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [40]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/SentenceBert.pdf
 [41]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf
 [42]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/T5.pdf
+[43]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
