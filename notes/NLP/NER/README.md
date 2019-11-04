@@ -41,6 +41,9 @@
        - a complexity neural network
        - static layer + structure layer + update layer
      - classification
+9. [**A Unified MRC Framework for Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MRCNER.pdf) [-] _Xiaoya Li, Jingrong Feng, Yuxian Meng, Qinghong Han, Fei Wu, Jiwei Li_.
+   - change ner task to a query answered task(same as Query-based NER).
+   - and do nested QA to improve the question answered result.
 
 ## Unlabeled
 

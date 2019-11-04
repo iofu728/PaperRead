@@ -47,6 +47,7 @@
 
 | Read   | Public | Conference | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ---------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
+| 191101 | 191028 | -          | [MRCNER][44]                       | QA gen + Nested QA  | -                   | -            |
 | 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
 | 190919 | 190905 | -          | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
 | 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
@@ -226,6 +227,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [41]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf
 [42]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/T5.pdf
 [43]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf
+[44]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MRCNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
