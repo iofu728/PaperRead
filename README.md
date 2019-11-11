@@ -21,6 +21,7 @@
   - [Parallelism](#parallelism)
   - [NLG](#nlg)
   - [Text Style Transfer](#text-style-transfer)
+  - [Discourse Parsing](#discourse-parsing)
   - [Chinese](#chinese)
 - [ML](#ml)
   - [Metric Learning](#metric-learning)
@@ -116,6 +117,12 @@
 | Read   | Public | Conference | Title              | HighLight            | Code                  | Other |
 | ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
 | 191006 | 190925 | EMNLP 2019 | [CrossProject][25] | Latent Space Project | [CrossProject][10025] | -     |
+
+### [Discourse Parsing](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DiscourseParsing)
+
+| Read   | Public | Conference | Title                            | HighLight                           | Code | Other |
+| ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | ---- | ----- |
+| 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -    | -     |
 
 ### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
 
@@ -236,6 +243,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [43]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf
 [44]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MRCNER.pdf
 [45]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/LearningWithNoisyLabels/Co-teaching.pdf
+[46]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/DiscourseParsing/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -263,6 +271,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10040]: https://github.com/UKPLab/sentence-transformers
 [10041]: https://github.com/HuiChen24/NER-GRN
 [10042]: https://github.com/google-research/text-to-text-transfer-transformer
+[10045]: https://github.com/bhanML/Co-teaching
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
