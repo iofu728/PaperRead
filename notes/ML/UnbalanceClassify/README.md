@@ -7,3 +7,7 @@
      - $$E_{n}=\left(1-\beta^{n}\right) /(1-\beta)=\sum_{j=1}^{n} \beta^{j-1}$$
      - N more, $\beta$ -> 1; N=1, $\beta$ -> 0
    - use in softMax cross entropy, sigmoid, focal loss
+2. [**Dice Loss for Data-imbalanced NLP Tasks**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/DiceLoss.pdf) [-] _Xiaoya Li, Xiaofei Sun, Yuxian Meng, Junjun Liang, Fei Wu, Jiwei Li_.
+   - To solve imbalance issue in NLP
+   - using Dice Loss
+   - like F1-score, attach similar FP == FN
