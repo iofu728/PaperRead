@@ -38,3 +38,11 @@
    - SentencePrice -> 32000 vocab
    - like UnifiedLM Architectures -> Prefix LM
    - Test for multi corruption rate & corrupted span lens.
+4. [**BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/BART.pdf) [-] _Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer_.
+   - Auto-ENcode + Auto-Regressive
+   - add more noisy to text
+   - first, corrupting text with an arbitrary noising function.
+   - second, reconstruct the original text.
+   - Token Mask + Token Deletion + Text Infilling + Sentence Permutation + Document Rotation
+   - LM + Permutation LM + MLM + Multitask MLM + Masked Seq-seq
+   - good at NLG
