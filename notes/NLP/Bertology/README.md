@@ -46,3 +46,10 @@
    - Token Mask + Token Deletion + Text Infilling + Sentence Permutation + Document Rotation
    - LM + Permutation LM + MLM + Multitask MLM + Masked Seq-seq
    - good at NLG
+5. [**ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators **](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf) [submit ICLR 2020] _Anonymous_.
+   - Motivation: more difficult MASK
+   - a little smaller MLM -> Generate random MASK -> a result
+   - a discriminator if the result is correct
+   - Weight Sharing -> sharing embedding & weight
+   - Smaller generators
+   - Training Algorithm: frozen.

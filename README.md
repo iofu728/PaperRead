@@ -74,12 +74,13 @@
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
-| Read   | Public | Conference       | Title        | HighLight                     | Code           | Other |
-| ------ | ------ | ---------------- | ------------ | ----------------------------- | -------------- | ----- |
-| 191112 | 191029 | -                | [BART][48]   | Auto-Encode + Auto-Regressive | -              | -     |
-| 191024 | 191024 | -                | [T5][42]     | Decathlon                     | [T5][10042]    | C4    |
-| 190928 | 190926 | submit ICLR 2020 | [ALBert][12] | ReduceParams                  | -              | -     |
-| 190801 | 190508 | -                | [UniLM][21]  | three Mask                    | [unilm][10021] | -     |
+| Read   | Public | Conference       | Title         | HighLight                     | Code           | Other |
+| ------ | ------ | ---------------- | ------------- | ----------------------------- | -------------- | ----- |
+| 191112 | 191029 | -                | [BART][48]    | Auto-Encode + Auto-Regressive | -              | -     |
+| 191024 | 191024 | -                | [T5][42]      | Decathlon                     | [T5][10042]    | C4    |
+| 191113 | 190926 | submit ICLR 2020 | [ELECTRA][50] | GAN -> difficult MASK         | -              | -     |
+| 190928 | 190926 | submit ICLR 2020 | [ALBert][12]  | ReduceParams                  | -              | -     |
+| 190801 | 190508 | -                | [UniLM][21]   | three Mask                    | [unilm][10021] | -     |
 
 #### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)
 
@@ -250,6 +251,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [47]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/DiceLoss.pdf
 [48]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/BART.pdf
 [49]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TENER.pdf
+[50]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
