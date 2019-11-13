@@ -69,3 +69,8 @@
      - Gated - Relation Layer
        - can replace to Direct Fused Layer / ATTention
      - CRF
+2. [**TENER: Adapting Transformer Encoder for Name Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TENER.pdf) [-] _Hang Yan, Bocao Deng, Xiaonan Li, Xipeng Qiu_.
+   - improve Transformer preference in NER Task
+   - change Position Encoder -> relative Position Encoder
+   - remove scaled in MultiHeadAttention
+   - also using character-level information

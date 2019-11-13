@@ -39,11 +39,12 @@
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference       | Title                 | HighLight       | Code               | Other     |
-| ------ | ------ | ---------------- | --------------------- | --------------- | ------------------ | --------- |
-| 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER      | -                  | Unlabeled |
-| 191006 | 190925 | CONLL 2020       | [UnifiedNETagger][23] | Multi-Corpus    | [NewBioNer][10023] | Unlabeled |
-| 191020 | 190712 | AAAI 2019        | [GRNN][41]            | +Long-term->CNN | [GRN][10041]       | -         |
+| Read   | Public | Conference       | Title                 | HighLight                  | Code               | Other     |
+| ------ | ------ | ---------------- | --------------------- | -------------------------- | ------------------ | --------- |
+| 191113 | 191110 | -                | [TENER][49]           | improve Transformer in NER | -                  | -         |
+| 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER                 | -                  | Unlabeled |
+| 191006 | 190925 | CONLL 2020       | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
+| 191020 | 190712 | AAAI 2019        | [GRNN][41]            | +Long-term->CNN            | [GRN][10041]       | -         |
 
 #### Nested NER
 
@@ -248,6 +249,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [46]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/DiscourseParsing/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [47]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/DiceLoss.pdf
 [48]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/BART.pdf
+[49]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TENER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
