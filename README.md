@@ -154,6 +154,7 @@
 | 190718 | 190624 | NIPS 2019        | [Tensorized Transformer][33]     | decompose + param share | -                     | -                |
 | 190908 | 190606 | -                | [Macaron Net][15]                | Strange-Macaron         | -                     | [note][30015]    |
 | 190718 | 190519 | ACL 2019         | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
+| 191118 | 190228 | NAACL 2019       | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
 | 190719 | 180710 | ICLR 2019        | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
@@ -252,6 +253,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [48]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/BART.pdf
 [49]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TENER.pdf
 [50]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf
+[51]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/StarTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -280,6 +282,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10041]: https://github.com/HuiChen24/NER-GRN
 [10042]: https://github.com/google-research/text-to-text-transfer-transformer
 [10045]: https://github.com/bhanML/Co-teaching
+[10051]: https://github.com/fastnlp/fastNLP/blob/master/fastNLP/modules/encoder/star_transformer.py
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

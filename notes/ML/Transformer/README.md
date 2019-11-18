@@ -51,3 +51,6 @@
        - correctness-based
          - $$\begin{array}{l}{C_{t}^{n}=y_{t}=\arg \max _{y} p\left(y | h_{t-1}^{n}\right), \operatorname{smooth} \mathrm{C}_{t}^{n}=\sum_{t^{\prime}} \kappa\left(t, t^{\prime}\right) C_{t}^{n}} \\ {q_{t}^{*}(\boldsymbol{x}, \boldsymbol{y})=\delta\left(\arg \max _{n} \operatorname{smooth} \mathrm{C}_{t}^{n}-\lambda n\right)}\end{array}$$
        - confidence threshold
+8. [**Star-Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/StarTransformer.pdf) [NAACL 2019] _Qipeng Guo, Xipeng Qiu, Pengfei Liu, Yunfan Shao, Xiangyang Xue, Zheng Zhang_.
+   - change the FFN architecture of Transformer to Star architecture
+   - reduce the compute cost and the dataSet need.
