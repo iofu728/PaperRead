@@ -14,6 +14,7 @@
     - [Nested NER](#nested-ner)
   - [Summarization](#summarization)
   - [Adversarial](#adversarial)
+  - [Relation Extraction](#relation-extraction)
   - [Bertology](#bertology)
     - [Bert Distilled](#bert-distilled)
     - [Bert Probe](#bert-probe)
@@ -44,7 +45,7 @@
 | 191113 | 191110 | -                | [TENER][49]           | improve Transformer in NER | -                  | -         |
 | 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER                 | -                  | Unlabeled |
 | 191006 | 190925 | CONLL 2020       | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
-| 191020 | 190712 | AAAI 2019        | [GRNN][41]            | +Long-term->CNN            | [GRN][10041]       | -         |
+| 191020 | 190712 | AAAI 2019        | [GRN][41]             | +Long-term->CNN            | [GRN][10041]       | -         |
 
 #### Nested NER
 
@@ -71,6 +72,12 @@
 | Read   | Public | Conference | Title                               | HighLight       | Code                        | Other         |
 | ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
 | 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
+
+### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
+
+| Read   | Public | Conference | Title                     | HighLight                        | Code            | Other |
+| ------ | ------ | ---------- | ------------------------- | -------------------------------- | --------------- | ----- |
+| 191128 | 190607 | ACL 2019   | [Matching the Blanks][52] | How to use BERT in relation link | [BERTem][10052] | -     |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -254,6 +261,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [49]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TENER.pdf
 [50]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf
 [51]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/StarTransformer.pdf
+[52]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/MatchingtheBlanks.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -283,6 +291,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10042]: https://github.com/google-research/text-to-text-transfer-transformer
 [10045]: https://github.com/bhanML/Co-teaching
 [10051]: https://github.com/fastnlp/fastNLP/blob/master/fastNLP/modules/encoder/star_transformer.py
+[10052]: https://github.com/zhpmatrix/BERTem
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
