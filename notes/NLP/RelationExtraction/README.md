@@ -12,3 +12,6 @@
      3. Mention start
    - random replace the Entity -> `[BLANK]`
    - negative sample
+2. [**Inducing Relational Knowledge from BERT**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/InducingRelationfromBERT.pdf) [AAAI 2020] _Zied Bouraoui, Jose Camacho-Collados, Steven Schockaert_.
+   - using the middle sentence to represent the relation of the pair.
+   - choose one temperate to do the cloze task.

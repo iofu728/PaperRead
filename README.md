@@ -12,9 +12,9 @@
 - [NLP](#nlp)
   - [NER](#ner)
     - [Nested NER](#nested-ner)
+  - [Relation Extraction](#relation-extraction)
   - [Summarization](#summarization)
   - [Adversarial](#adversarial)
-  - [Relation Extraction](#relation-extraction)
   - [Bertology](#bertology)
     - [Bert Distilled](#bert-distilled)
     - [Bert Probe](#bert-probe)
@@ -62,6 +62,13 @@
 | 190703 | 190620 | ACL 2019   | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
 | 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
 
+### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
+
+| Read   | Public | Conference | Title                     | HighLight                        | Code            | Other |
+| ------ | ------ | ---------- | ------------------------- | -------------------------------- | --------------- | ----- |
+| 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]   | Induing Realtion using cloze     | -               | -     |
+| 191128 | 190607 | ACL 2019   | [Matching the Blanks][52] | How to use BERT in relation link | [BERTem][10052] | -     |
+
 ### Summarization
 
 | Read   | Public | Conference | Title        | HighLight    | Code             | Other          |
@@ -73,12 +80,6 @@
 | Read   | Public | Conference | Title                               | HighLight       | Code                        | Other         |
 | ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
 | 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
-
-### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
-
-| Read   | Public | Conference | Title                     | HighLight                        | Code            | Other |
-| ------ | ------ | ---------- | ------------------------- | -------------------------------- | --------------- | ----- |
-| 191128 | 190607 | ACL 2019   | [Matching the Blanks][52] | How to use BERT in relation link | [BERTem][10052] | -     |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -272,6 +273,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [52]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/MatchingtheBlanks.pdf
 [53]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/LearningWithoutForgot.pdf
 [54]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/LMasKB.pdf
+[55]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/InducingRelationfromBERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
