@@ -31,6 +31,7 @@
   - [Tabular Learning](#tabular-learning)
   - [Unbalance Classify](#unbalance-classify)
   - [Learning With Noisy Labels](#learning-with-noisy-labels)
+  - [Multi-task](#multi-task)
   - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
@@ -190,6 +191,12 @@
 | ------ | ------ | ---------- | ----------------- | --------------- | -------------------- | ----- |
 | 191029 | 181030 | NIPS 2018  | [Co-teaching][45] | Memorize effect | [Co-teaching][10045] | -     |
 
+### [Multi-task](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Multi-task)
+
+| Read   | Public | Conference | Title                             | HighLight                 | Code         | Other |
+| ------ | ------ | ---------- | --------------------------------- | ------------------------- | ------------ | ----- |
+| 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53] | Multi-task by no old data | [LwF][10053] | -     |
+
 ### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
 
 | Read   | Public | Conference | Title              | HighLight   | Code                  | Other |
@@ -262,6 +269,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [50]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf
 [51]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/StarTransformer.pdf
 [52]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/MatchingtheBlanks.pdf
+[53]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/LearningWithoutForgot.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -292,6 +300,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10045]: https://github.com/bhanML/Co-teaching
 [10051]: https://github.com/fastnlp/fastNLP/blob/master/fastNLP/modules/encoder/star_transformer.py
 [10052]: https://github.com/zhpmatrix/BERTem
+[10053]: https://github.com/lizhitwo/LearningWithoutForgetting
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
