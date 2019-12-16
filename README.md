@@ -99,9 +99,10 @@
 
 #### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
-| Read   | Public | Conference | Title                 | HighLight        | Code | Other |
-| ------ | ------ | ---------- | --------------------- | ---------------- | ---- | ----- |
-| 191014 | 190515 | ACL 2019   | [Bert Rediscover][37] | probe bert layer | -    | -     |
+| Read   | Public | Conference | Title                 | HighLight                   | Code          | Other |
+| ------ | ------ | ---------- | --------------------- | --------------------------- | ------------- | ----- |
+| 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]       | Bert in Relation Extraction | [LAMA][]10054 | -     |
+| 191014 | 190515 | ACL 2019   | [Bert Rediscover][37] | probe bert layer            | -             | -     |
 
 #### Bert DownStream
 
@@ -270,6 +271,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [51]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/StarTransformer.pdf
 [52]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/MatchingtheBlanks.pdf
 [53]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/LearningWithoutForgot.pdf
+[54]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/LMasKB.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -301,6 +303,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10051]: https://github.com/fastnlp/fastNLP/blob/master/fastNLP/modules/encoder/star_transformer.py
 [10052]: https://github.com/zhpmatrix/BERTem
 [10053]: https://github.com/lizhitwo/LearningWithoutForgetting
+[10054]: https://github.com/facebookresearch/LAMA
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
