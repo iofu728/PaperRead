@@ -208,9 +208,10 @@
 
 ### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
 
-| Read   | Public | Conference | Title              | HighLight   | Code                  | Other |
-| ------ | ------ | ---------- | ------------------ | ----------- | --------------------- | ----- |
-| 191011 | 191009 | -          | [Transformers][32] | Unified API | [Transformers][10032] | -     |
+| Read   | Public | Conference   | Title                   | HighLight            | Code                  | Other |
+| ------ | ------ | ------------ | ----------------------- | -------------------- | --------------------- | ----- |
+| 191218 | 191015 | [ICMLA 2019] | [ComprehendMedical][57] | Medical NER + RE API | [AWS][10057]          | -     |
+| 191011 | 191009 | -            | [Transformers][32]      | Unified API          | [Transformers][10032] | -     |
 
 ## CV
 
@@ -282,6 +283,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [54]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/LMasKB.pdf
 [55]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/InducingRelationfromBERT.pdf
 [56]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/KagNet.pdf
+[57]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/ComprehendMedical.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -315,6 +317,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10053]: https://github.com/lizhitwo/LearningWithoutForgetting
 [10054]: https://github.com/facebookresearch/LAMA
 [10056]: https://github.com/INK-USC/KagNet
+[10057]: https://aws.amazon.com/cn/comprehend/medical/
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
