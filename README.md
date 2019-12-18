@@ -15,6 +15,7 @@
   - [Relation Extraction](#relation-extraction)
   - [Summarization](#summarization)
   - [Adversarial](#adversarial)
+  - [Common Sense](#common-sense)
   - [Bertology](#bertology)
     - [Bert Distilled](#bert-distilled)
     - [Bert Probe](#bert-probe)
@@ -80,6 +81,12 @@
 | Read   | Public | Conference | Title                               | HighLight       | Code                        | Other         |
 | ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
 | 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
+
+### [Common Sense](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CommonSense)
+
+| Read   | Public | Conference | Title        | HighLight                     | Code            | Other |
+| ------ | ------ | ---------- | ------------ | ----------------------------- | --------------- | ----- |
+| 191218 | 190904 | EMNLP 2019 | [KagNet][56] | Commonsense via KB + Pretrain | [KagNet][10056] | -     |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -274,6 +281,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [53]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/LearningWithoutForgot.pdf
 [54]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/LMasKB.pdf
 [55]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/InducingRelationfromBERT.pdf
+[56]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/KagNet.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -306,6 +314,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10052]: https://github.com/zhpmatrix/BERTem
 [10053]: https://github.com/lizhitwo/LearningWithoutForgetting
 [10054]: https://github.com/facebookresearch/LAMA
+[10056]: https://github.com/INK-USC/KagNet
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
