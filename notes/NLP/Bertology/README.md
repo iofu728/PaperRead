@@ -1,6 +1,6 @@
 # Bertology
 
-1. [**ALBERT: A L ITE BERT FOR S ELF - SUPERVISED L EARNING OF L ANGUAGE R EPRESENTATIONS**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf)[submit ICLR 2020] _Anonymous authors_.
+1. [**ALBERT: A L ITE BERT FOR S ELF - SUPERVISED L EARNING OF L ANGUAGE R EPRESENTATIONS**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ALBert.pdf)[ICLR 2020] _Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut_.
 
    - 感觉下来 ALBert 更像是一篇调参实验报告 🍋
    - 整个工作的 Motivation 是减少参数量，加速训练时间，所以 performance 掉一点问题不大
@@ -46,7 +46,7 @@
    - Token Mask + Token Deletion + Text Infilling + Sentence Permutation + Document Rotation
    - LM + Permutation LM + MLM + Multitask MLM + Masked Seq-seq
    - good at NLG
-5. [**ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators **](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf) [submit ICLR 2020] _Anonymous_.
+5. [**ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators **](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/ELECTRA.pdf) [ICLR 2020] _Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning_.
    - Motivation: more difficult MASK
    - a little smaller MLM -> Generate random MASK -> a result
    - a discriminator if the result is correct

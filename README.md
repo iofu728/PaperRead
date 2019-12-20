@@ -42,14 +42,14 @@
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference       | Title                 | HighLight                  | Code               | Other     |
-| ------ | ------ | ---------------- | --------------------- | -------------------------- | ------------------ | --------- |
-| 191220 | 190926 | ICLR 2020        | [WKLM][59]            | add KB in pretrain         | -                  | -         |
-| 191113 | 191110 | -                | [TENER][49]           | improve Transformer in NER | -                  | -         |
-| 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER                 | -                  | Unlabeled |
-| 191006 | 190925 | CONLL 2019       | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
-| 191020 | 190712 | AAAI 2019        | [GRN][41]             | +Long-term->CNN            | [GRN][10041]       | -         |
-| 191220 | 190327 | EMNLP 2019       | [capitalized][58]     | capitalized in ner and pos | -                  | -         |
+| Read   | Public | Conference | Title                 | HighLight                  | Code               | Other     |
+| ------ | ------ | ---------- | --------------------- | -------------------------- | ------------------ | --------- |
+| 191220 | 190926 | ICLR 2020  | [WKLM][59]            | add KB in pretrain         | -                  | -         |
+| 191113 | 191110 | -          | [TENER][49]           | improve Transformer in NER | -                  | -         |
+| 191006 | 190926 | -          | [CRF-VAEs][24]        | VAE in NER                 | -                  | Unlabeled |
+| 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
+| 191020 | 190712 | AAAI 2019  | [GRN][41]             | +Long-term->CNN            | [GRN][10041]       | -         |
+| 191220 | 190327 | EMNLP 2019 | [capitalized][58]     | capitalized in ner and pos | -                  | -         |
 
 #### Nested NER
 
@@ -92,20 +92,20 @@
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
-| Read   | Public | Conference       | Title         | HighLight                     | Code           | Other |
-| ------ | ------ | ---------------- | ------------- | ----------------------------- | -------------- | ----- |
-| 191112 | 191029 | -                | [BART][48]    | Auto-Encode + Auto-Regressive | -              | -     |
-| 191024 | 191024 | -                | [T5][42]      | Decathlon                     | [T5][10042]    | C4    |
-| 191113 | 190926 | submit ICLR 2020 | [ELECTRA][50] | GAN -> difficult MASK         | -              | -     |
-| 190928 | 190926 | submit ICLR 2020 | [ALBert][12]  | ReduceParams                  | -              | -     |
-| 190801 | 190508 | -                | [UniLM][21]   | three Mask                    | [unilm][10021] | -     |
+| Read   | Public | Conference | Title         | HighLight                     | Code           | Other |
+| ------ | ------ | ---------- | ------------- | ----------------------------- | -------------- | ----- |
+| 191112 | 191029 | -          | [BART][48]    | Auto-Encode + Auto-Regressive | -              | -     |
+| 191024 | 191024 | -          | [T5][42]      | Decathlon                     | [T5][10042]    | C4    |
+| 191113 | 190926 | ICLR 2020  | [ELECTRA][50] | GAN -> difficult MASK         | -              | -     |
+| 190928 | 190926 | ICLR 2020  | [ALBert][12]  | ReduceParams                  | -              | -     |
+| 190801 | 190508 | -          | [UniLM][21]   | three Mask                    | [unilm][10021] | -     |
 
 #### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/BertDistilled)
 
-| Read   | Public | Conference       | Title             | HighLight      | Code                  | Other |
-| ------ | ------ | ---------------- | ----------------- | -------------- | --------------------- | ----- |
-| 191018 | 191002 | NIPS 2019        | [DistillBert][39] | support device | [transformers][10039] | -     |
-| 191002 | 190926 | submit ICLR 2020 | [TinyBert][17]    | new tew-stage  | -                     | -     |
+| Read   | Public | Conference | Title             | HighLight      | Code                  | Other |
+| ------ | ------ | ---------- | ----------------- | -------------- | --------------------- | ----- |
+| 191018 | 191002 | NIPS 2019  | [DistillBert][39] | support device | [transformers][10039] | -     |
+| 191002 | 190926 | -          | [TinyBert][17]    | new tew-stage  | -                     | -     |
 
 #### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
@@ -128,11 +128,11 @@
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
-| Read   | Public | Conference       | Title              | HighLight                | Code               | Other |
-| ------ | ------ | ---------------- | ------------------ | ------------------------ | ------------------ | ----- |
-| 191005 | 191001 | submit ICLR 2020 | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
-| 190926 | 190926 | -                | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
-| 191010 | 190812 | -                | [UnLikelihood][27] | unLikelihood             |                    | -     |
+| Read   | Public | Conference | Title              | HighLight                | Code               | Other |
+| ------ | ------ | ---------- | ------------------ | ------------------------ | ------------------ | ----- |
+| 191005 | 191001 | ICLR 2020  | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
+| 190926 | 190926 | -          | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
+| 191010 | 190812 | -          | [UnLikelihood][27] | unLikelihood             |                    | -     |
 
 ### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
 
@@ -165,16 +165,16 @@
 
 ### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
-| Read   | Public | Conference       | Title                            | HighLight               | Code                  | Other            |
-| ------ | ------ | ---------------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
-| 191028 | 191022 | submit ICLR 2020 | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
-| 190929 | 190926 | submit ICLR 2020 | [LayerNorm Transformer][14]      | improve warm-up         | -                     | -                |
-| 190716 | 190710 | -                | [Large Memory Layer][31]         | KeyValue search         | [XLM][10031]          | [twitter][30031] |
-| 190718 | 190624 | NIPS 2019        | [Tensorized Transformer][33]     | decompose + param share | -                     | -                |
-| 190908 | 190606 | -                | [Macaron Net][15]                | Strange-Macaron         | -                     | [note][30015]    |
-| 190718 | 190519 | ACL 2019         | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
-| 191118 | 190228 | NAACL 2019       | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
-| 190719 | 180710 | ICLR 2019        | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
+| Read   | Public | Conference | Title                            | HighLight               | Code                  | Other            |
+| ------ | ------ | ---------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 191028 | 191022 | ICLR 2020  | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
+| 190929 | 190926 | -          | [LayerNorm Transformer][14]      | improve warm-up         | -                     | -                |
+| 190716 | 190710 | -          | [Large Memory Layer][31]         | KeyValue search         | [XLM][10031]          | [twitter][30031] |
+| 190718 | 190624 | NIPS 2019  | [Tensorized Transformer][33]     | decompose + param share | -                     | -                |
+| 190908 | 190606 | -          | [Macaron Net][15]                | Strange-Macaron         | -                     | [note][30015]    |
+| 190718 | 190519 | ACL 2019   | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
+| 191118 | 190228 | NAACL 2019 | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
+| 190719 | 180710 | ICLR 2019  | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
@@ -185,9 +185,9 @@
 
 ### [Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)
 
-| Read   | Public | Conference       | Title        | HighLight | Code                    | Other         |
-| ------ | ------ | ---------------- | ------------ | --------- | ----------------------- | ------------- |
-| 191006 | 190926 | submit ICLR 2020 | [TabNet][22] | NN method | [googleResearch][10022] | interpretable |
+| Read   | Public | Conference | Title        | HighLight | Code                    | Other         |
+| ------ | ------ | ---------- | ------------ | --------- | ----------------------- | ------------- |
+| 191006 | 190926 | -          | [TabNet][22] | NN method | [googleResearch][10022] | interpretable |
 
 ### [Unbalance Classify](https://github.com/iofu728/PaperRead/blob/master/notes/ML/UnbalanceClassify)
 
@@ -219,9 +219,9 @@
 
 ### [Video Prediction](https://github.com/iofu728/PaperRead/blob/master/notes/CV/VideoPrediction)
 
-| Read   | Public | Conference       | Title         | HighLight              | Code | Other |
-| ------ | ------ | ---------------- | ------------- | ---------------------- | ---- | ----- |
-| 191005 | 190926 | submit ICLR 2020 | [CrevNet][19] | information preserving | -    | -     |
+| Read   | Public | Conference | Title         | HighLight              | Code | Other |
+| ------ | ------ | ---------- | ------------- | ---------------------- | ---- | ----- |
+| 191005 | 190926 | ICLR 2020  | [CrevNet][19] | information preserving | -    | -     |
 
 ## License
 

@@ -52,7 +52,7 @@
    - the entity tag set of every corpus is different, so the combine is challenge.
    - O can be every entity
    - maximum the total likelihood of all possible tag sequences consistent with the gold label.
-2. [**Semi-Supervised Named Entity Recognition with CRF-VAEs**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CrfVAEInNER.pdf) [submit ICLR 2020] _Anonymous_.
+2. [**Semi-Supervised Named Entity Recognition with CRF-VAEs**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/CrfVAEInNER.pdf) [-] _Thomas Effland, Michael Collins_.
    - Semi-supervised
    - Using VAE in NER as the amortized approximation posterior.
    - joint tag-encoding Transformer architecture leads to an ≈1% improvement in F1.

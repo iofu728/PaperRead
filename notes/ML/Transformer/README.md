@@ -1,6 +1,6 @@
 # Transformer
 
-1. [**On Layer Normalization IN The Transformer A Rchitecture**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LayerNormTransformer.pdf) [submit ICLR 2020] _anonymous authors_.
+1. [**On Layer Normalization IN The Transformer A Rchitecture**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LayerNormTransformer.pdf) [-] _Ruibin Xiong, Yunchang Yang, Di He, Kai Zheng, Shuxin Zheng, Huishuai Zhang, Yanyan Lan, Liwei Wang, Tie-Yan Liu_.
    - the reason of post-LN Transformer needing warm-up process in theoretically and empirically.
    - The Position of Layer Normalization in residual connections is significant.
    - $\left\|\frac{\partial \tilde{\mathcal{L}}}{\partial W^{2, L}}\right\|_{F} \leq \mathcal{O}(d \sqrt{\ln d})$
@@ -27,7 +27,7 @@
    - Recurrent Architectures -> time loop
    - Transition functions -> share parameters
    - adaptive computational time -> dynamic adjust step time
-7. [**Depth-Adaptive Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf) [submit ICLR 2020] _Maha Elbayad, Jiatao Gu, Edouard Grave, Michael Auli_.
+7. [**Depth-Adaptive Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf) [ICLR 2020] _Maha Elbayad, Jiatao Gu, Edouard Grave, Michael Auli_.
    - depth adaptive Transformer
    - not enough every token run -> last layer
    - $$\forall n, p\left(y_{t+1} | h_{t}^{n}\right)=\operatorname{softmax}\left(W_{n} h_{t}^{n}\right)$$
