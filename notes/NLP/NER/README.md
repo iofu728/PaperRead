@@ -77,3 +77,8 @@
 3. [**ner and pos when nothing is capitalized**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NER&POS.pdf) [EMNLP 2019] _Stephen Mayhew, Tatiana Tsygankova, Dan Roth_.
    - solve capitalize problem in NER and POS.
    - mix cased and uncased sample in training is better way than Truecase.
+4. [**Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf) [ICLR 2020] _Wenhan Xiong, Jingfei Du, William Yang Wang, Veselin Stoyanov_.
+   - add KB in pretrained process.
+   - solve the multi-token entity predict problem.
+   - random replace entity to same type entity.
+   - verify in zero-shot entity and commonsense QA.

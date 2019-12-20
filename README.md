@@ -44,6 +44,7 @@
 
 | Read   | Public | Conference       | Title                 | HighLight                  | Code               | Other     |
 | ------ | ------ | ---------------- | --------------------- | -------------------------- | ------------------ | --------- |
+| 191220 | 190926 | ICLR 2020        | [WKLM][59]            | add KB in pretrain         | -                  | -         |
 | 191113 | 191110 | -                | [TENER][49]           | improve Transformer in NER | -                  | -         |
 | 191006 | 190926 | submit ICLR 2020 | [CRF-VAEs][24]        | VAE in NER                 | -                  | Unlabeled |
 | 191006 | 190925 | CONLL 2019       | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
@@ -286,6 +287,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [56]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/KagNet.pdf
 [57]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/ComprehendMedical.pdf
 [58]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NER&POS.pdf
+[59]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
