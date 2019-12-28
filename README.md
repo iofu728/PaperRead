@@ -34,6 +34,7 @@
   - [Unbalance Classify](#unbalance-classify)
   - [Learning With Noisy Labels](#learning-with-noisy-labels)
   - [Multi-task](#multi-task)
+  - [Dropout](#dropout)
   - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
@@ -217,6 +218,12 @@
 | ------ | ------ | ---------- | --------------------------------- | ------------------------- | ------------ | ----- |
 | 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53] | Multi-task by no old data | [LwF][10053] | -     |
 
+### [Dropout](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Dropout)
+
+| Read   | Public | Conference | Title        | HighLight        | Code | Other |
+| ------ | ------ | ---------- | ------------ | ---------------- | ---- | ----- |
+| 191228 | 190926 | ICLR 2020  | [Mixout][62] | origin + dropout | -    | -     |
+
 ### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
 
 | Read   | Public | Conference   | Title                   | HighLight            | Code                  | Other |
@@ -299,6 +306,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [59]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [60]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/SHA-RNN.pdf
 [61]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/DEFINE.pdf
+[62]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/Mixout.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
