@@ -167,6 +167,7 @@
 
 | Read   | Public | Conference | Title                            | HighLight               | Code                  | Other            |
 | ------ | ------ | ---------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 191229 | 191127 | -          | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
 | 191028 | 191022 | ICLR 2020  | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
 | 190929 | 190926 | -          | [LayerNorm Transformer][14]      | improve warm-up         | -                     | -                |
 | 190716 | 190710 | -          | [Large Memory Layer][31]         | KeyValue search         | [XLM][10031]          | [twitter][30031] |
@@ -288,6 +289,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [57]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/ComprehendMedical.pdf
 [58]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NER&POS.pdf
 [59]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf
+[60]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/SHA-RNN.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -322,6 +324,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10054]: https://github.com/facebookresearch/LAMA
 [10056]: https://github.com/INK-USC/KagNet
 [10057]: https://aws.amazon.com/cn/comprehend/medical/
+[10060]: https://github.com/Smerity/sha-rnn
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

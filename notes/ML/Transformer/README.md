@@ -54,3 +54,7 @@
 8. [**Star-Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/StarTransformer.pdf) [NAACL 2019] _Qipeng Guo, Xipeng Qiu, Pengfei Liu, Yunfan Shao, Xiangyang Xue, Zheng Zhang_.
    - change the FFN architecture of Transformer to Star architecture
    - reduce the compute cost and the dataSet need.
+9. [**Single Headed Attention RNN: Stop Thinking With Your Head**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/SHA-RNN.pdf) [-] _Stephen Merity_.
+   - Paper style is like a blog.
+   - LSTM + Att + FFN(save memory)
+   - get completable result.
