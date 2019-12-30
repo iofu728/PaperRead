@@ -29,6 +29,7 @@
 - [ML](#ml)
   - [Metric Learning](#metric-learning)
   - [Transformer](#transformer)
+    - [Relative position embedding](#relative-position-embedding)
   - [Attention](#attention)
   - [Tabular Learning](#tabular-learning)
   - [Unbalance Classify](#unbalance-classify)
@@ -185,6 +186,12 @@
 | 190718 | 190519 | ACL 2019   | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
 | 191118 | 190228 | NAACL 2019 | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
 | 190719 | 180710 | ICLR 2019  | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
+
+#### Relative position embedding
+
+| Read   | Public | Conference | Title                           | HighLight   | Code | Other              |
+| ------ | ------ | ---------- | ------------------------------- | ----------- | ---- | ------------------ |
+| 191229 | 180306 | NAACL 2018 | [Self-Att with Relative PE][63] | Relative PE | -    | Transformer Writer |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 

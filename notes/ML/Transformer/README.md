@@ -58,3 +58,15 @@
    - Paper style is like a blog.
    - LSTM + Att + FFN(save memory)
    - get completable result.
+
+## Relative position embedding
+
+1. [**Self-Attention with Relative Position Representations**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/RelativePEAtt.pdf) [NAACL 2018] _Peter Shaw, Jakob Uszkoreit, Ashish Vaswani_.
+   - 18 年的 NAACL(那就是 17 年底的工作)，文章是一篇短文，_Peter Shaw, Jakob Uszkoreit, Ashish Vaswani_ 看名字是发 Transformer 的那批人（想来其他人也不能在那么短时间有那么深的思考 🤔）.
+   - 他们分别在 QK 乘积计算 Attention bias 的时候和 SoftMax 之后在 Value 后面两处地方加上了一个相对编码(两处参数不共享)。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577650515531-b28795fb-b793-4599-b964-bed869b0e34a.png)
+   - 为了降低复杂度，在不同 head 之间共享了参数。
+   - 实验显示，在 WMT14 英德数据集上 base model BLEU 提升了 0.3, big model 提升了 1.3.
+   - Ablation 实验中，改变最大位置距离 k，显示 k 从 0-4 增大的过程 performance 有明显的提升，之后再增大 k 提升不明显。
+   - Attention bias 中的相对项提高更多的 performance, 而 SoftMax 之后再 Value 上加的那个相对项提升的性能略少。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648873593-abd42821-6a14-4e07-aa2c-95559109e13c.png)
