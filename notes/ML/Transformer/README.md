@@ -86,3 +86,36 @@
    - RECL 是一个逼近实验，通过测量上下文长度为 c + △，相对长度为 c 时最小 loss 的变化率。
    - 当变化率低于一个阈值的时候就说明大于长度 c 的信息对模型 performance 提升帮助不大。
    - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577649253152-4c73f333-edd8-4e05-abe6-30d582043a09.png)
+3. [**Encoding word order in complex embeddings**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/encoding_word_order_in_complex_embeddings.pdf) [ICLR 2020] _Benyou Wang, Donghao Zhao, Christina Lioma, Qiuchi Li, Peng Zhang, Jakob Grue Simonsen_.
+   - 除了上面一系列从 Attention bias 出发的角度，还有 dalao 从 PE 与 WE 结合方式角度出发做的工作。
+   - 从抽象层次看，前面的方法都是在补救因为（WE+PE）乘积项造成的丢失相对位置信息。
+   - 如果 WE 和 PE 的结合方式不是加性呢。
+   - 今年 ICLR 的有一篇工作就是从这个角度出发，将 WE 于 PE 组合分解成独立的连续函数。
+   - 这样在之后的 Attention Bias 计算时也不会丢失 Position 相对信息。
+   - 为了达成这个目的，就需要找到一种变换，使得对于任意位置 pos，都有$g(pos+n) = \text{Transform}_n(g(pos))$, 为了降低难度把标准降低成找到一种线性变换 Transform。
+   - 而我们的 Embed 除了上面的性质之外应该还是有界的。
+   - 这篇文章证明在满足上述条件下，Transform 的唯一解是复数域中的$g(pos)=z_{2} z_{1}^{pos}$, 且 z1 的幅值小于 1。
+   - （这个证明也是有、简单，reviewer 的说法就是有、优美
+   - 根据欧拉公式，可以进一步对上述式子进行化简
+   - $g(\text { pos })=z_{2} z_{1}^{\text {pos }}=r_{2} e^{i \theta_{2}}\left(r_{1} e^{i \theta_{1}}\right)^{\text {pos }}=r_{2} r_{1}^{\text {pos }} e^{i\left(\theta_{2}+\theta_{1} \text { pos }\right)}$
+   - 为了偷懒，把 r1 设成 1, 而$e^{ix}$的幅值等于 1，就恒满足 r1 的限定。
+   - 于是，进一步化简为 $g(\mathrm{pos})=r e^{i(\omega \mathrm{pos}+\theta)}$
+   - 这就是标标准准的虚单位圆的形式，r 为半径，$\theta$为初始幅角，$\frac{\omega}{2\pi}$ 为频率，逆时针旋转。
+   - 这个式子又可以化成$f(j, \text { pos })=g_{w e}(j) \odot g_{p e}(j, \text { pos })$ WE 与 PE 的多项式乘积，其中两者所占系数取决于学习到的系数。
+   - 于是这相当于一个自适应的调节 WE 和 PE 占比的模式。
+   - 实际上我们只需要去学习幅值 r, 频率 w，初始幅角$\theta$ (会造成参数量略微增大)
+   - 可以看出 Vanilla Transformer 中的 PE 是上式的一种特殊形式。
+   - 为了适应 Embedding 拓展到复数域，RNN，LSTM, Transformer 的计算也应该要拓展到复数域.
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648877715-21485bde-7aa8-412f-9b9d-1bd6f6d603da.png)
+   - 实验部分做了 Text Classification, MT, LM 三个 task。
+   - Text Classification 选了 4 个 sentiment analysis 数据集，一个主观客观分类，一个问题分类，共六个 benchmark。
+   - Baseline 设置 1. without PE; 2. random PE and train; 3. 三角 PE; 4. r 由 pretrain 初始化，w 随机初始化$(-\pi, \pi)$; 5. r 由 pretrain 初始化，w train;
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648879630-4b3f1e39-cb94-4946-b140-267207022da5.png)
+   - 可以看出 performance 中三角 PE 与 Train PE 几乎没什么区别，所以 Vanilla Transformer 使用 Fix 的 PE 也是有一定道理的。
+   - Complex order 对模型有一定提升，但不是特别多。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648881717-c065aabc-520c-41b2-a9ca-6335e61a70d9.png)
+   - 然后为了降低参数量，尝试了几种参数共享的组合
+   - （参数量的增大主要是因为 Transformer 结构扩充到复数域，参数量增大了一倍。但参数增大与 prefermance 关联度不大，共享 W 之后性能几乎不变。
+   - 然后在 WMT16 英德和 text8 上测了在 MT 和 LM 上的性能，这两部分性能提升还是很明显的。尤其是 LM 在同等参数量下的对比试验。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648883560-364bafa1-455d-430e-bfe4-a4246c3e0e15.png)
+   - (这篇的作者之前也发了几篇关于复数域上 NLP 的应用，之前模型的名字也很有意思 什么 [CNM](https://www.aclweb.org/anthology/N19-1420/)的 很真实
