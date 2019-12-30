@@ -189,9 +189,10 @@
 
 #### Relative position embedding
 
-| Read   | Public | Conference | Title                           | HighLight   | Code | Other              |
-| ------ | ------ | ---------- | ------------------------------- | ----------- | ---- | ------------------ |
-| 191229 | 180306 | NAACL 2018 | [Self-Att with Relative PE][63] | Relative PE | -    | Transformer Writer |
+| Read   | Public | Conference | Title                           | HighLight               | Code                    | Other              |
+| ------ | ------ | ---------- | ------------------------------- | ----------------------- | ----------------------- | ------------------ |
+| 190425 | 190306 | ACL 2019   | [Transformer-XL][64]            | Recurrent + Relative PE | [Transformer-XL][10064] | reject once        |
+| 191229 | 180306 | NAACL 2018 | [Self-Att with Relative PE][63] | Relative PE             | -                       | Transformer Writer |
 
 ### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
@@ -314,6 +315,8 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [60]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/SHA-RNN.pdf
 [61]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/DEFINE.pdf
 [62]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/Mixout.pdf
+[63]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/RelativePEAtt.pdf
+[64]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Transformer-XL.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -349,6 +352,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10056]: https://github.com/INK-USC/KagNet
 [10057]: https://aws.amazon.com/cn/comprehend/medical/
 [10060]: https://github.com/Smerity/sha-rnn
+[10064]: https://github.com/kimiyoung/transformer-xl
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

@@ -70,3 +70,19 @@
    - Ablation 实验中，改变最大位置距离 k，显示 k 从 0-4 增大的过程 performance 有明显的提升，之后再增大 k 提升不明显。
    - Attention bias 中的相对项提高更多的 performance, 而 SoftMax 之后再 Value 上加的那个相对项提升的性能略少。
    - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648873593-abd42821-6a14-4e07-aa2c-95559109e13c.png)
+2. [**Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Transformer-XL.pdf) [ACL 2019] _Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov_.
+   - Transformer-XL 的工作现在可以称之上开创性的了。
+   - 除却递归更新 blank 的过程，relative position embedding 也是论文的一大亮点.
+   - 可能作者在思考的过程中更多是在 recurrent 是 PE 重叠造成的偏移角度出发。
+   - 但实际上 relative 的改动对于模型获得句内细粒度层次的信息也是很有帮助的。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577650361230-3fe5fa1f-953a-4428-a4c5-bff76c128554.png)
+   - 与 NAACL18 那篇不同的地方，Transformer-XL 舍弃了在 SoftMax 之后再叠加 Rij。
+   - 另外把 Attention Bias 中，另外两项因为引入 PE 产生的表征绝对位置信息的两项替换成不包含位置信息的一维向量(这里专门为前面 recurrent 模式设计的，感觉如果不搭配 Transformer-XL 使用的话这个改动并不一定是最合适的)。
+   - 除此之外，为了避免相对引入的巨大计算量，利用类似 AES 中的 shift 操作可以把复杂度降到线性。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648875063-0c613a26-13a6-4b50-bb8f-fb236d82f3e3.png)
+   - 通过 Ablation 实验可以看出相对于 NAACL18 的改进能显著提升效果。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577650364187-bef17d51-131c-40aa-ba48-7aee6a8db06f.png)
+   - 另外通过 RECL 实验也能看出 relative PE 对模型的长程能力有所帮助
+   - RECL 是一个逼近实验，通过测量上下文长度为 c + △，相对长度为 c 时最小 loss 的变化率。
+   - 当变化率低于一个阈值的时候就说明大于长度 c 的信息对模型 performance 提升帮助不大。
+   - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577649253152-4c73f333-edd8-4e05-abe6-30d582043a09.png)
