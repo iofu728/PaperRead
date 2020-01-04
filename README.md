@@ -36,6 +36,7 @@
   - [Learning With Noisy Labels](#learning-with-noisy-labels)
   - [Multi-task](#multi-task)
   - [Dropout](#dropout)
+  - [Extreme Classification](#extreme-classification)
   - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
@@ -233,6 +234,12 @@
 | ------ | ------ | ---------- | ------------ | ---------------- | ---- | ----- |
 | 191228 | 190926 | ICLR 2020  | [Mixout][62] | origin + dropout | -    | -     |
 
+### [Extreme Classification](https://github.com/iofu728/PaperRead/blob/master/notes/ML/ExtremeClassification)
+
+| Read   | Public | Conference | Title                    | HighLight            | Code                        | Other |
+| ------ | ------ | ---------- | ------------------------ | -------------------- | --------------------------- | ----- |
+| 200104 | 190926 | ICLR 2020  | [AdversarialSoftmax][66] | negative sample + DT | [AdversarialSoftMax][10066] | -     |
+
 ### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
 
 | Read   | Public | Conference   | Title                   | HighLight            | Code                  | Other |
@@ -319,6 +326,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [63]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/RelativePEAtt.pdf
 [64]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Transformer-XL.pdf
 [65]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/encoding_word_order_in_complex_embeddings.pdf
+[66]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/ExtremeClassification/extreme_classification_via_adversarial_softmax_approximation.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -356,6 +364,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10060]: https://github.com/Smerity/sha-rnn
 [10064]: https://github.com/kimiyoung/transformer-xl
 [10065]: https://github.com/iclr-complex-order/complex-order
+[10066]: https://www.dropbox.com/sh/wn040szm4fulwqy/AADv0LSQ-3BindJ9eAhltoO9a?dl=0
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
