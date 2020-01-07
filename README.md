@@ -91,9 +91,10 @@
 
 ### [Common Sense](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CommonSense)
 
-| Read   | Public | Conference | Title        | HighLight                     | Code            | Other |
-| ------ | ------ | ---------- | ------------ | ----------------------------- | --------------- | ----- |
-| 191218 | 190904 | EMNLP 2019 | [KagNet][56] | Commonsense via KB + Pretrain | [KagNet][10056] | -     |
+| Read   | Public | Conference | Title            | HighLight                     | Code                                  | Other |
+| ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------------------------- | ----- |
+| 191218 | 190904 | EMNLP 2019 | [KagNet][56]     | Commonsense via KB + Pretrain | [KagNet][10056]                       | -     |
+| 200107 | 190604 | ACL 2019   | [quantities][68] | Rule-base Quantity            | [distribution-over-quantities][10068] | -     |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -329,6 +330,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [65]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/encoding_word_order_in_complex_embeddings.pdf
 [66]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/ExtremeClassification/extreme_classification_via_adversarial_softmax_approximation.pdf
 [67]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/ZeroShotMRC.pdf
+[68]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/QuantitativeAttributes.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -367,6 +369,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10064]: https://github.com/kimiyoung/transformer-xl
 [10065]: https://github.com/iclr-complex-order/complex-order
 [10066]: https://www.dropbox.com/sh/wn040szm4fulwqy/AADv0LSQ-3BindJ9eAhltoO9a?dl=0
+[10068]: https://github.com/google-research-datasets/distribution-over-quantities
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
