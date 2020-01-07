@@ -54,6 +54,7 @@
 | 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
 | 191020 | 190712 | AAAI 2019  | [GRN][41]             | +Long-term->CNN            | [GRN][10041]       | -         |
 | 191220 | 190327 | EMNLP 2019 | [capitalized][58]     | capitalized in ner and pos | -                  | -         |
+| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67]   | view NER as MRC            | -                  | -         |
 
 #### Nested NER
 
@@ -327,6 +328,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [64]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Transformer-XL.pdf
 [65]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/encoding_word_order_in_complex_embeddings.pdf
 [66]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/ExtremeClassification/extreme_classification_via_adversarial_softmax_approximation.pdf
+[67]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/ZeroShotMRC.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
