@@ -15,3 +15,5 @@
 2. [**Inducing Relational Knowledge from BERT**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/InducingRelationfromBERT.pdf) [AAAI 2020] _Zied Bouraoui, Jose Camacho-Collados, Steven Schockaert_.
    - using the middle sentence to represent the relation of the pair.
    - choose one temperate to do the cloze task.
+3. [**Entity-Relation Extraction as Multi-Turn Question Answering**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/REasMulti-turnQA.pdf) [ACL 2019] _Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li, Arianna Yuan, Duo Chai, Mingxin Zhou, Jiwei Li_.
+   - Start-end + Multi-time => RL. The model also a pipeline model.
