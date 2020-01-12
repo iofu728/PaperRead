@@ -15,6 +15,7 @@
   - [Relation Extraction](#relation-extraction)
   - [Knowledge Bases](#knowledge-bases)
   - [Summarization](#summarization)
+  - [Rank](#rank)
   - [Adversarial](#adversarial)
   - [Common Sense](#common-sense)
   - [Bertology](#bertology)
@@ -90,6 +91,12 @@
 | Read   | Public | Conference | Title        | HighLight    | Code             | Other          |
 | ------ | ------ | ---------- | ------------ | ------------ | ---------------- | -------------- |
 | 181212 | 170725 | ICML 2017  | [ConvS2S][2] | CNN semantic | [fairseq][10002] | [notes][20002] |
+
+### [Rank](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Rank)
+
+| Read   | Public | Conference | Title         | HighLight                         | Code             | Other |
+| ------ | ------ | ---------- | ------------- | --------------------------------- | ---------------- | ----- |
+| 200113 | 191031 | -          | [DuoBERT][71] | Three-stage Recall-Rank(pairwise) | [DuoBERT][10071] | -     |
 
 ### Adversarial
 
@@ -341,6 +348,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [68]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/QuantitativeAttributes.pdf
 [69]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/REasMulti-turnQA.pdf
 [70]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-BERT.pdf
+[71]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Rank/DuoBert.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -382,6 +390,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10068]: https://github.com/google-research-datasets/distribution-over-quantities
 [10069]: https://github.com/ShannonAI/mrc-for-flat-nested-ner
 [10070]: https://github.com/autoliuweijie/K-BERT
+[10071]: https://github.com/castorini/duobert
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
