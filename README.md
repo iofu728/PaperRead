@@ -13,6 +13,7 @@
   - [NER](#ner)
     - [Nested NER](#nested-ner)
   - [Relation Extraction](#relation-extraction)
+  - [Knowledge Bases](#knowledge-bases)
   - [Summarization](#summarization)
   - [Adversarial](#adversarial)
   - [Common Sense](#common-sense)
@@ -77,6 +78,12 @@
 | 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]         | Induing Realtion using cloze     | -               | -     |
 | 200108 | 190904 | ACL 2019   | [RE view as Multi-turn MRC][69] | Multi-turn like RL, MRC          | [MRC][10069]    | -     |
 | 191128 | 190607 | ACL 2019   | [Matching the Blanks][52]       | How to use BERT in relation link | [BERTem][10052] | -     |
+
+### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
+
+| Read   | Public | Conference       | Title        | HighLight                 | Code            | Other |
+| ------ | ------ | ---------------- | ------------ | ------------------------- | --------------- | ----- |
+| 200112 | 190917 | AAAI 2020 Reject | [K-BERT][70] | Integrated KG to sentence | [K-BERT][10070] | -     |
 
 ### Summarization
 
@@ -333,6 +340,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [67]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/ZeroShotMRC.pdf
 [68]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/QuantitativeAttributes.pdf
 [69]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/REasMulti-turnQA.pdf
+[70]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-BERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -373,6 +381,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10066]: https://www.dropbox.com/sh/wn040szm4fulwqy/AADv0LSQ-3BindJ9eAhltoO9a?dl=0
 [10068]: https://github.com/google-research-datasets/distribution-over-quantities
 [10069]: https://github.com/ShannonAI/mrc-for-flat-nested-ner
+[10070]: https://github.com/autoliuweijie/K-BERT
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
