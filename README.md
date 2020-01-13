@@ -25,6 +25,7 @@
     - [Bert DownStream](#bert-downstream)
   - [Parallelism](#parallelism)
   - [NLG](#nlg)
+  - [NMT](#nmt)
   - [Text Style Transfer](#text-style-transfer)
   - [Discourse Parsing](#discourse-parsing)
   - [Chinese](#chinese)
@@ -161,6 +162,12 @@
 | 191005 | 191001 | ICLR 2020  | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
 | 190926 | 190926 | -          | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
 | 191010 | 190812 | -          | [UnLikelihood][27] | unLikelihood             |                    | -     |
+
+### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
+
+| Read   | Public | Conference | Title                       | HighLight                         | Code                 | Other |
+| ------ | ------ | ---------- | --------------------------- | --------------------------------- | -------------------- | ----- |
+| 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72] | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
 
 ### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
 
@@ -349,6 +356,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [69]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/REasMulti-turnQA.pdf
 [70]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-BERT.pdf
 [71]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Rank/DuoBert.pdf
+[72]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/NoAutoregressiveNMT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -391,6 +399,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10069]: https://github.com/ShannonAI/mrc-for-flat-nested-ner
 [10070]: https://github.com/autoliuweijie/K-BERT
 [10071]: https://github.com/castorini/duobert
+[10072]: https://github.com/salesforce/nonauto-nmt
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
