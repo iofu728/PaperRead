@@ -78,6 +78,7 @@
 | Read   | Public | Conference | Title                           | HighLight                        | Code            | Other |
 | ------ | ------ | ---------- | ------------------------------- | -------------------------------- | --------------- | ----- |
 | 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]         | Induing Realtion using cloze     | -               | -     |
+| 200115 | 190721 | NLE 2019   | [25 years IE][73]               | survey IE in past 25years        | -               | -     |
 | 200108 | 190904 | ACL 2019   | [RE view as Multi-turn MRC][69] | Multi-turn like RL, MRC          | [MRC][10069]    | -     |
 | 191128 | 190607 | ACL 2019   | [Matching the Blanks][52]       | How to use BERT in relation link | [BERTem][10052] | -     |
 
@@ -357,6 +358,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [70]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-BERT.pdf
 [71]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Rank/DuoBert.pdf
 [72]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/NoAutoregressiveNMT.pdf
+[73]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/25YearsIE.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

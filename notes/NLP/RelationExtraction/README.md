@@ -17,3 +17,5 @@
    - choose one temperate to do the cloze task.
 3. [**Entity-Relation Extraction as Multi-Turn Question Answering**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/REasMulti-turnQA.pdf) [ACL 2019] _Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li, Arianna Yuan, Duo Chai, Mingxin Zhou, Jiwei Li_.
    - Start-end + Multi-time => RL. The model also a pipeline model.
+4. [**Twenty-ﬁve years of information extraction**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/25YearsIE.pdf) [NLE 2019] _Ralph Grishman_
+   - From Three Corpus to introduce the problem and method in Information Extraction IE in past 25 years.
