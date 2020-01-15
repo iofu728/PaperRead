@@ -19,3 +19,5 @@
    - Start-end + Multi-time => RL. The model also a pipeline model.
 4. [**Twenty-ﬁve years of information extraction**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/25YearsIE.pdf) [NLE 2019] _Ralph Grishman_
    - From Three Corpus to introduce the problem and method in Information Extraction IE in past 25 years.
+5. [**Improving Entity Linking by Modeling Latent Entity Type Information**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/ImprovingEntityLinkingbyModelingLatentEntityTypeInformation.pdf) [AAAI 2020] _Shuang Chen, Jinpeng Wang, Feng Jiang, Chin-Yew Lin_.
+   - Improve the embedding by [MASK]
