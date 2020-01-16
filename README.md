@@ -36,6 +36,7 @@
   - [Attention](#attention)
   - [Tabular Learning](#tabular-learning)
   - [Unbalance Classify](#unbalance-classify)
+  - [Negative Sample](#negative-sample)
   - [Learning With Noisy Labels](#learning-with-noisy-labels)
   - [Multi-task](#multi-task)
   - [Dropout](#dropout)
@@ -242,6 +243,12 @@
 | 191111 | 191107 | -          | [Dice Loss in NLP][47]   | like F1 FP==FN          | -                       | -     |
 | 191011 | 190116 | ICLR 2019  | [Class-Balance Loss][28] | effective number sample | [googleResearch][10028] | -     |
 
+### [Negative Sample](https://github.com/iofu728/PaperRead/tree/master/notes/ML/NegativeSample)
+
+| Read   | Public | Conference | Title                                     | HighLight                             | Code | Other |
+| ------ | ------ | ---------- | ----------------------------------------- | ------------------------------------- | ---- | ----- |
+| 200117 | 180923 | AAAI 2018  | [Incorporating GAN in Entity Linking][75] | using GAN to generate high quality NS | -    | -     |
+
 ### [Learning With Noisy Labels](https://github.com/iofu728/PaperRead/blob/master/notes/ML/LearningWithNoisyLabels)
 
 | Read   | Public | Conference | Title             | HighLight       | Code                 | Other |
@@ -361,6 +368,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [72]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/NoAutoregressiveNMT.pdf
 [73]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/25YearsIE.pdf
 [74]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/ImprovingEntityLinkingbyModelingLatentEntityTypeInformation.pdf
+[75]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/IncorporatingGANforNegativeSamplinginKnowledgeRepresentationLearning.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
