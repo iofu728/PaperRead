@@ -245,9 +245,10 @@
 
 ### [Negative Sample](https://github.com/iofu728/PaperRead/tree/master/notes/ML/NegativeSample)
 
-| Read   | Public | Conference | Title                                     | HighLight                             | Code | Other |
-| ------ | ------ | ---------- | ----------------------------------------- | ------------------------------------- | ---- | ----- |
-| 200117 | 180923 | AAAI 2018  | [Incorporating GAN in Entity Linking][75] | using GAN to generate high quality NS | -    | -     |
+| Read   | Public | Conference | Title                                     | HighLight                                 | Code               | Other |
+| ------ | ------ | ---------- | ----------------------------------------- | ----------------------------------------- | ------------------ | ----- |
+| 200117 | 181216 | ICDE 2019  | [NSCaching][76]                           | dynamical probability sampler replace GAN | [NSCashing][10076] | -     |
+| 200117 | 180923 | AAAI 2018  | [Incorporating GAN in Entity Linking][75] | using GAN to generate high quality NS     | -                  | -     |
 
 ### [Learning With Noisy Labels](https://github.com/iofu728/PaperRead/blob/master/notes/ML/LearningWithNoisyLabels)
 
@@ -369,6 +370,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [73]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/25YearsIE.pdf
 [74]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/ImprovingEntityLinkingbyModelingLatentEntityTypeInformation.pdf
 [75]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/IncorporatingGANforNegativeSamplinginKnowledgeRepresentationLearning.pdf
+[76]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/NSCaching.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -412,6 +414,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10070]: https://github.com/autoliuweijie/K-BERT
 [10071]: https://github.com/castorini/duobert
 [10072]: https://github.com/salesforce/nonauto-nmt
+[10076]: https://github.com/yzhangee/NSCaching
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
