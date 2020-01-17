@@ -5,3 +5,5 @@
    - view origin model as reward
 2. [**NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/NSCaching.pdf) [ICDE 2019] _Yongqi Zhang, Quanming Yao, Yingxia Shao, Lei Chen_.
    - Using one dynamical strategy replace GAN to reduce vanishing gradient problem.
+3. [**VSE-ens: Visual-Semantic Embeddings with Efficient Negative Sampling**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/VSE-ens.pdf) [AAAI 2018] _Guibing Guo, Songlin Zhai, Fajie Yuan, Yuan Liu, Xingwei Wang_.
+   - Dynamic Sampler to reduce the sample time in the later training period.
