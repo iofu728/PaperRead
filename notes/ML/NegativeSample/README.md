@@ -7,3 +7,5 @@
    - Using one dynamical strategy replace GAN to reduce vanishing gradient problem.
 3. [**VSE-ens: Visual-Semantic Embeddings with Efficient Negative Sampling**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/VSE-ens.pdf) [AAAI 2018] _Guibing Guo, Songlin Zhai, Fajie Yuan, Yuan Liu, Xingwei Wang_.
    - Dynamic Sampler to reduce the sample time in the later training period.
+4. [**Negative Sampling in Variational Autoencoders**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/NegativeSamplingInVariationalAutoencoders.pdf) [-] _Adrián Csiszárik, Beatrix Benkő, Dániel Varga_.
+   - Negative Sampling in Variational Autoencoders
