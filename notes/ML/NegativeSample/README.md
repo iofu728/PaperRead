@@ -9,3 +9,7 @@
    - Dynamic Sampler to reduce the sample time in the later training period.
 4. [**Negative Sampling in Variational Autoencoders**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/NegativeSamplingInVariationalAutoencoders.pdf) [-] _Adrián Csiszárik, Beatrix Benkő, Dániel Varga_.
    - Negative Sampling in Variational Autoencoders
+5. [**Knowledge Graph Embedding by Translating on Hyperplanes**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/KnowledgeGraphEmbeddingbyTranslatingonHyperplanes.pdf) [AAAI 2014] _Zhen Wang, Jianwen Zhang, Jianlin Feng, Zheng Chen_.
+   - Motivation: There are many-to-many pair in Entity Linking Problem.
+   - 1.h+r-t => project in hyperplanes.
+   - 2.Bernoulli Sample when dicide which entity will be replace (head or tail). reduce the probability of which entity is multi-label.
