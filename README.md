@@ -41,7 +41,8 @@
   - [Multi-task](#multi-task)
   - [Dropout](#dropout)
   - [Extreme Classification](#extreme-classification)
-  - [Demo](#demo)
+  - [Applied Data Scrience](#applied-data-scrience)
+    - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
 - [License](#license)
@@ -277,12 +278,18 @@
 | ------ | ------ | ---------- | ------------------------ | -------------------- | --------------------------- | ----- |
 | 200104 | 190926 | ICLR 2020  | [AdversarialSoftmax][66] | negative sample + DT | [AdversarialSoftMax][10066] | -     |
 
-### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
+### [Applied Data Scrience](https://github.com/iofu728/PaperRead/blob/master/notes/ML/AppliedDataScience)
 
-| Read   | Public | Conference   | Title                   | HighLight            | Code                  | Other |
-| ------ | ------ | ------------ | ----------------------- | -------------------- | --------------------- | ----- |
-| 191218 | 191015 | [ICMLA 2019] | [ComprehendMedical][57] | Medical NER + RE API | [AWS][10057]          | -     |
-| 191011 | 191009 | -            | [Transformers][32]      | Unified API          | [Transformers][10032] | -     |
+| Read   | Public | Conference | Title                         | HighLight                       | Code | Other          |
+| ------ | ------ | ---------- | ----------------------------- | ------------------------------- | ---- | -------------- |
+| 200101 | 190725 | KDD 2019   | [Job Mobility Prediction][80] | Data Encoder + evaluate for job | -    | [video][30080] |
+
+#### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
+
+| Read   | Public | Conference | Title                   | HighLight            | Code                  | Other |
+| ------ | ------ | ---------- | ----------------------- | -------------------- | --------------------- | ----- |
+| 191218 | 191015 | ICMLA 2019 | [ComprehendMedical][57] | Medical NER + RE API | [AWS][10057]          | -     |
+| 191011 | 191009 | -          | [Transformers][32]      | Unified API          | [Transformers][10032] | -     |
 
 ## CV
 
@@ -377,6 +384,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [77]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/VSE-ens.pdf
 [78]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/NegativeSamplingInVariationalAutoencoders.pdf
 [79]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/KnowledgeGraphEmbeddingbyTranslatingonHyperplanes.pdf
+[80]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/JobMobilityPrediction.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -429,3 +437,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30031]: https://twitter.com/guillaumelample/status/1149646895377076224
 [30035]: https://mostafadehghani.com/wp-content/uploads/2018/08/Universal_Transformers.pdf
 [30038]: https://nv-adlr.github.io/MegatronLM
+[30080]: https://www.kdd.org/kdd2019/accepted-papers/view/a-hierarchical-career-path-aware-neural-network-for-job-mobility-prediction
