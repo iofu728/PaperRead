@@ -7,3 +7,9 @@
    - Data Encoder to solve hierarchical information
    - Local + Global Attention
    - evaluation
+
+## Table&Chart
+
+1. [TableSense: Spreadsheet Table Detection with Convolutional Neural Networks](https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/TableSense_AAAI19.pdf) [AAAI 2019] _Haoyu Dong, Shijie Liu, Shi Han, Zhouyu Fu, Dongmei Zhang_.
+   - detection table boundary from spreadsheet.
+   - CNN base + Loss smooth L1 Loss.

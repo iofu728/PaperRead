@@ -42,6 +42,7 @@
   - [Dropout](#dropout)
   - [Extreme Classification](#extreme-classification)
   - [Applied Data Scrience](#applied-data-scrience)
+    - [Table&Chart](#tablechart)
     - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
@@ -284,6 +285,12 @@
 | ------ | ------ | ---------- | ----------------------------- | ------------------------------- | ---- | -------------- |
 | 200101 | 190725 | KDD 2019   | [Job Mobility Prediction][80] | Data Encoder + evaluate for job | -    | [video][30080] |
 
+#### Table&Chart
+
+| Read   | Public | Conference | Title            | HighLight                                | Code | Other |
+| ------ | ------ | ---------- | ---------------- | ---------------------------------------- | ---- | ----- |
+| 200110 | 190725 | AAAI 2019  | [TableSense][81] | detect Table Boundaries from spreadsheet | -    | -     |
+
 #### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
 
 | Read   | Public | Conference | Title                   | HighLight            | Code                  | Other |
@@ -385,6 +392,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [78]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/NegativeSamplingInVariationalAutoencoders.pdf
 [79]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/KnowledgeGraphEmbeddingbyTranslatingonHyperplanes.pdf
 [80]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/JobMobilityPrediction.pdf
+[81]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/TableSense_AAAI19.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
