@@ -53,3 +53,9 @@
    - Weight Sharing -> sharing embedding & weight
    - Smaller generators
    - Training Algorithm: frozen.
+
+## Multi-modality Bert
+
+1. [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf) [-] _Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou_.
+   - PL + NL
+   - MLM + RDT(Replaced Token Detection)
