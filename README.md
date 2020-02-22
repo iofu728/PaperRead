@@ -1,6 +1,6 @@
 > **🤧*Some Paper Read By @gunjianpan***
 >
-> This is a repository like 'douban' personal home page in AI field.
+> This is a repository like 'douban' personal home page in ML & System field.
 
 ```console
 ❱❱❱❱❱❱❱ ❱❱❱❱❱❱ ❱❱❱❱❱ ❱❱❱❱ ❱❱❱❱ ❱❱❱ ❱❱ ❱
@@ -46,6 +46,8 @@
     - [Demo](#demo)
 - [CV](#cv)
   - [Video Prediction](#video-prediction)
+- [System](#system)
+  - [Distribution](#distribution)
 - [License](#license)
 
 ## NLP
@@ -306,6 +308,14 @@
 | ------ | ------ | ---------- | ------------- | ---------------------- | ---- | ----- |
 | 191005 | 190926 | ICLR 2020  | [CrevNet][19] | information preserving | -    | -     |
 
+## System
+
+### [Distribution](https://github.com/iofu728/PaperRead/blob/master/notes/System/Distribution)
+
+| Read   | Public | Conference | Title           | HighLight                         | Code               | Other |
+| ------ | ------ | ---------- | --------------- | --------------------------------- | ------------------ | ----- |
+| 200222 | 040301 | OSDI 2004  | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -     |
+
 ## License
 
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
@@ -394,6 +404,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [80]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/JobMobilityPrediction.pdf
 [81]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/TableSense_AAAI19.pdf
 [82]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf
+[83]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/mapreduce.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -440,6 +451,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10076]: https://github.com/yzhangee/NSCaching
 [10077]: https://github.com/slinzhai/VSE-ens
 [10079]: https://github.com/jimmywangheng/knowledge_representation_pytorch
+[10083]: https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
