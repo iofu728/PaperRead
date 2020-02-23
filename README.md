@@ -69,6 +69,7 @@
 | Read   | Public | Conference | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ---------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
 | 200223 | 191120 | EMNLP 2019 | [Boundary-aware][84]               | Boundary + Classify | [boundary][10084]   | -            |
+| 200223 | 191110 | -          | [KGNER][85]                        | MAQA + Knowledge    | -                   | -            |
 | 191101 | 191028 | -          | [MRCNER][44]                       | QA gen + Nested QA  | -                   | -            |
 | 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
 | 190919 | 190905 | -          | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
@@ -407,6 +408,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [82]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf
 [83]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/mapreduce.pdf
 [84]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNestedNER.pdf
+[85]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/KnowledgeNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

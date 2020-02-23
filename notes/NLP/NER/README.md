@@ -49,6 +49,12 @@
     - Boundary use BIO -> so assume only have nested NER or flat NER.
     - Classification use the average hidden of the region representation.
     - evaluation in GENIA.
+11. [**Knowledge Guided Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/KnowledgeNER.pdf) [-] _Pratyay Banerjee, Kuntal Kumar Pal, Murthy Devarakonda, Chitta Baral_.
+    - short paper.
+    - view NER task as MAQA.
+    - and add Knowledge.
+      - Specially, context = entity types + question + definition + example.
+    - Evaluation in biomedical dataset.
 
 ## Unlabeled
 
