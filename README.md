@@ -406,7 +406,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [81]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/TableSense_AAAI19.pdf
 [82]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf
 [83]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/mapreduce.pdf
-[84]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNER.pdf
+[84]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNestedNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
