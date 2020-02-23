@@ -55,6 +55,12 @@
     - and add Knowledge.
       - Specially, context = entity types + question + definition + example.
     - Evaluation in biomedical dataset.
+12. [**Linguistically Informed Relation Extraction and Neural Architectures for Nested Named Entity Recognition in BioNLP-OST 2019**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinguisticallyInformedNestedNER.pdf) [BioNLP 2019] _Pankaj Gupta, Usama Yaseen, Hinrich Schütze_.
+    - Recursive NER to deal Nested NER problem.
+    - Multitask to auxiliary loss.
+    - Rank loss + CRF loss.
+    - using KB and Bagging.
+    - many hand-crafted features.
 
 ## Unlabeled
 

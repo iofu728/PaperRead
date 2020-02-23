@@ -66,19 +66,20 @@
 
 #### Nested NER
 
-| Read   | Public | Conference | Title                              | HighLight           | Code                | Other        |
-| ------ | ------ | ---------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
-| 200223 | 191120 | EMNLP 2019 | [Boundary-aware][84]               | Boundary + Classify | [boundary][10084]   | -            |
-| 200223 | 191110 | -          | [KGNER][85]                        | MAQA + Knowledge    | -                   | -            |
-| 191101 | 191028 | -          | [MRCNER][44]                       | QA gen + Nested QA  | -                   | -            |
-| 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
-| 190919 | 190905 | -          | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
-| 190912 | 190903 | EMNLP 2019 | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
-| 190920 | 190824 | -          | [Query-based NER][9]               | ->QA                | -                   | usePriorInfo |
-| 190812 | 190804 | ACL 2019   | [Linearization Nest NER][4]        | label -> CONLL-like | -                   | Seq2seq      |
-| 190703 | 190630 | ACL 2019   | [Merge and label][18]              | Two-stage           | [mergeLabel][10018] | threshold    |
-| 190703 | 190620 | ACL 2019   | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
-| 190707 | 190405 | NAACL 2019 | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
+| Read   | Public | Conference  | Title                              | HighLight           | Code                | Other        |
+| ------ | ------ | ----------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
+| 200223 | 191120 | EMNLP 2019  | [Boundary-aware][84]               | Boundary + Classify | [boundary][10084]   | -            |
+| 200223 | 191120 | BioNLP 2019 | [ost][86]                          | Recursive NER       | [ost][10086]        | -            |
+| 200223 | 191110 | -           | [KGNER][85]                        | MAQA + Knowledge    | -                   | -            |
+| 191101 | 191028 | -           | [MRCNER][44]                       | QA gen + Nested QA  | -                   | -            |
+| 190916 | 190910 | EMNLP 2019  | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
+| 190919 | 190905 | -           | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
+| 190912 | 190903 | EMNLP 2019  | [Combining Spans into Entities][1] | Neural Net->CRF     | [disco_em19][10001] | Two stage    |
+| 190920 | 190824 | -           | [Query-based NER][9]               | ->QA                | -                   | usePriorInfo |
+| 190812 | 190804 | ACL 2019    | [Linearization Nest NER][4]        | label -> CONLL-like | -                   | Seq2seq      |
+| 190703 | 190630 | ACL 2019    | [Merge and label][18]              | Two-stage           | [mergeLabel][10018] | threshold    |
+| 190703 | 190620 | ACL 2019    | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
+| 190707 | 190405 | NAACL 2019  | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
 
 ### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
 
@@ -409,6 +410,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [83]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/mapreduce.pdf
 [84]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNestedNER.pdf
 [85]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/KnowledgeNER.pdf
+[86]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinguisticallyInformedNestedNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -457,6 +459,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10079]: https://github.com/jimmywangheng/knowledge_representation_pytorch
 [10083]: https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
 [10084]: https://github.com/thecharm/boundary-aware-nested-ner
+[10086]: https://github.com/uyaseen/bionlp-ost-2019
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
