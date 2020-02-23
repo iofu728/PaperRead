@@ -44,6 +44,11 @@
 9. [**A Unified MRC Framework for Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MRCNER.pdf) [-] _Xiaoya Li, Jingrong Feng, Yuxian Meng, Qinghong Han, Fei Wu, Jiwei Li_.
    - change ner task to a query answered task(same as Query-based NER).
    - and do nested QA to improve the question answered result.
+10. [**A Boundary-aware Neural Model for Nested Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNER.pdf) [EMNLP 2019] _Changmeng Zheng, Yi Cai, Jingyun Xu, Ho-fung Leung, Guandong Xu_.
+    - Boundary-aware + Classification two task.
+    - Boundary use BIO -> so assume only have nested NER or flat NER.
+    - Classification use the average hidden of the region representation.
+    - evaluation in GENIA.
 
 ## Unlabeled
 

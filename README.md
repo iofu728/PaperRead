@@ -68,6 +68,7 @@
 
 | Read   | Public | Conference | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ---------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
+| 200223 | 191120 | EMNLP 2019 | [Boundary-aware][84]               | Boundary + Classify | [boundary][10084]   | -            |
 | 191101 | 191028 | -          | [MRCNER][44]                       | QA gen + Nested QA  | -                   | -            |
 | 190916 | 190910 | EMNLP 2019 | [DyGIE++][6]                       | Bertology           | [dygiepp][10006]    | -            |
 | 190919 | 190905 | -          | [Second Best CRF][7]               | Recursive CRF       | [secondbest][10007] | optime cost  |
@@ -405,6 +406,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [81]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/TableSense_AAAI19.pdf
 [82]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf
 [83]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/mapreduce.pdf
+[84]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -452,6 +454,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10077]: https://github.com/slinzhai/VSE-ens
 [10079]: https://github.com/jimmywangheng/knowledge_representation_pytorch
 [10083]: https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
+[10084]: https://github.com/thecharm/boundary-aware-nested-ner
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
