@@ -76,6 +76,16 @@
    - resolving unlabeled
    - test in pre-train model
 
+## Cross-Lingual
+
+1. [**Enhanced Meta-Learning for Cross-lingual Named Entity Recognition with Minimal Resources**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross-lingualNER.pdf) [AAAI 2020] _Qianhui Wu, Zijia Lin, Guoxin Wang, Hui Chen, Börje F. Karlsson, Biqing Huang, Chin-Yew Lin_.
+   - direct transfer.
+   - meta-learning to fast adaptation new task.
+   - pseudo-meta-NER task to generate the similar data set.
+   - mask scheme.
+   - max loss.
+   - low-resource.
+
 ## Common NER
 
 1. [**GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf) [AAAI 2019] _Hui Chen, Zijia Lin, Guiguang Ding, Jianguang Lou, Yusen Zhang, Borje Karlsson_.

@@ -12,6 +12,8 @@
 - [NLP](#nlp)
   - [NER](#ner)
     - [Nested NER](#nested-ner)
+    - [Unlabeled](#unlabeled)
+    - [Cross-Lingual](#cross-lingual)
   - [Relation Extraction](#relation-extraction)
   - [Knowledge Bases](#knowledge-bases)
   - [Summarization](#summarization)
@@ -54,15 +56,13 @@
 
 ### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference | Title                 | HighLight                  | Code               | Other     |
-| ------ | ------ | ---------- | --------------------- | -------------------------- | ------------------ | --------- |
-| 191220 | 190926 | ICLR 2020  | [WKLM][59]            | add KB in pretrain         | -                  | -         |
-| 191113 | 191110 | -          | [TENER][49]           | improve Transformer in NER | -                  | -         |
-| 191006 | 190926 | -          | [CRF-VAEs][24]        | VAE in NER                 | -                  | Unlabeled |
-| 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus               | [NewBioNer][10023] | Unlabeled |
-| 191020 | 190712 | AAAI 2019  | [GRN][41]             | +Long-term->CNN            | [GRN][10041]       | -         |
-| 191220 | 190327 | EMNLP 2019 | [capitalized][58]     | capitalized in ner and pos | -                  | -         |
-| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67]   | view NER as MRC            | -                  | -         |
+| Read   | Public | Conference | Title               | HighLight                  | Code         | Other |
+| ------ | ------ | ---------- | ------------------- | -------------------------- | ------------ | ----- |
+| 191220 | 190926 | ICLR 2020  | [WKLM][59]          | add KB in pretrain         | -            | -     |
+| 191113 | 191110 | -          | [TENER][49]         | improve Transformer in NER | -            | -     |
+| 191020 | 190712 | AAAI 2019  | [GRN][41]           | +Long-term->CNN            | [GRN][10041] | -     |
+| 191220 | 190327 | EMNLP 2019 | [capitalized][58]   | capitalized in ner and pos | -            | -     |
+| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67] | view NER as MRC            | -            | -     |
 
 #### Nested NER
 
@@ -80,6 +80,19 @@
 | 190703 | 190630 | ACL 2019    | [Merge and label][18]              | Two-stage           | [mergeLabel][10018] | threshold    |
 | 190703 | 190620 | ACL 2019    | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
 | 190707 | 190405 | NAACL 2019  | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
+
+#### Unlabeled
+
+| Read   | Public | Conference | Title                 | HighLight    | Code               | Other     |
+| ------ | ------ | ---------- | --------------------- | ------------ | ------------------ | --------- |
+| 191006 | 190926 | -          | [CRF-VAEs][24]        | VAE in NER   | -                  | Unlabeled |
+| 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
+
+#### Cross-Lingual
+
+| Read   | Public | Conference | Title                             | HighLight                       | Code | Other |
+| ------ | ------ | ---------- | --------------------------------- | ------------------------------- | ---- | ----- |
+| 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -    | -     |
 
 ### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
 
@@ -411,6 +424,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [84]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Boundary-awareNestedNER.pdf
 [85]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/KnowledgeNER.pdf
 [86]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinguisticallyInformedNestedNER.pdf
+[87]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross-lingualNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
