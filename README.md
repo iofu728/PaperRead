@@ -331,6 +331,7 @@
 | Read   | Public | Conference | Title           | HighLight                         | Code               | Other |
 | ------ | ------ | ---------- | --------------- | --------------------------------- | ------------------ | ----- |
 | 200222 | 040301 | OSDI 2004  | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -     |
+| 200225 | 041020 | SOSP 2003  | [GFS][83]       | distribution file system          | -                  | -     |
 
 ## License
 
@@ -425,6 +426,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [85]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/KnowledgeNER.pdf
 [86]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinguisticallyInformedNestedNER.pdf
 [87]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross-lingualNER.pdf
+[88]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/gfs.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

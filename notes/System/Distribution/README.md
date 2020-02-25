@@ -22,3 +22,12 @@
      - to alleviate "straggler"
      - When MapReduce is close to completed, start a backup worker to the unfinished worker.
      - The task is marked as completed whenever the primary worker or the backup worker completed.
+2. [**The Google File System**](https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/gfs.pdf) [SOSP 2003] _Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung_
+   - Distribution File System with huge, most appending, relaxed consistency.
+   - A single master + N chunk servers(Three replica: primary and secondaries).
+   - Control stream and data stream.
+   - Master store chunk ID, NOT have the location of chuck which reduce the master pressure in the start or Internet error.
+     - The chuck report the location using the _HeartBeat_.
+   - Data flow are forwards by each machine to the "closest" machine in the network topology that has not received it.
+   - lease period and version to improve the fault tolerant.
+   - periods garbage collection.
