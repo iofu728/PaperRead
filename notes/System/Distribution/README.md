@@ -29,5 +29,11 @@
    - Master store chunk ID, NOT have the location of chuck which reduce the master pressure in the start or Internet error.
      - The chuck report the location using the _HeartBeat_.
    - Data flow are forwards by each machine to the "closest" machine in the network topology that has not received it.
-   - lease period and version to improve the fault tolerant.
-   - periods garbage collection.
+   - Lease period and version to improve the fault tolerant.
+   - Periods garbage collection.
+   - Copy-on-write to reduce the copy in snapshot which use reference counts.
+   - Record append at-least-once when secondaries failed.
+   - Chunk check padding and duplicate records using a **predictable magic number** at the start of a valid record, or checksum.
+   - Nearest replica using IP.
+   - Lease mechanism make no two primary.
+   - A single master is not good.
