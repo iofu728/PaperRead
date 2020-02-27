@@ -43,6 +43,7 @@
   - [Multi-task](#multi-task)
   - [Dropout](#dropout)
   - [Extreme Classification](#extreme-classification)
+  - [Optimization](#optimization)
   - [Applied Data Scrience](#applied-data-scrience)
     - [Table&Chart](#tablechart)
     - [Demo](#demo)
@@ -297,6 +298,12 @@
 | ------ | ------ | ---------- | ------------------------ | -------------------- | --------------------------- | ----- |
 | 200104 | 190926 | ICLR 2020  | [AdversarialSoftmax][66] | negative sample + DT | [AdversarialSoftMax][10066] | -     |
 
+### [Optimization](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Optimization)
+
+| Read   | Public | Conference | Title      | HighLight                  | Code          | Other |
+| ------ | ------ | ---------- | ---------- | -------------------------- | ------------- | ----- |
+| 200227 | 141222 | ICLR 2015  | [Adam][89] | momentum +squared gradient | [Adam][10089] | -     |
+
 ### [Applied Data Scrience](https://github.com/iofu728/PaperRead/blob/master/notes/ML/AppliedDataScience)
 
 | Read   | Public | Conference | Title                         | HighLight                       | Code | Other          |
@@ -427,6 +434,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [86]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/LinguisticallyInformedNestedNER.pdf
 [87]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross-lingualNER.pdf
 [88]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/gfs.pdf
+[89]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Optimization/Adam.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -476,6 +484,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10083]: https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
 [10084]: https://github.com/thecharm/boundary-aware-nested-ner
 [10086]: https://github.com/uyaseen/bionlp-ost-2019
+[10089]: https://github.com/bigdatagenomics/adam
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
