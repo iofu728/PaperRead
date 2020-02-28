@@ -139,9 +139,10 @@
 
 #### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
 
-| Read   | Public | Conference | Title      | HighLight      | Code | Other |
-| ------ | ------ | ---------- | ---------- | -------------- | ---- | ----- |
-| 200228 | 170502 | -          | [NKLM][90] | Knowledge + LM | -    | -     |
+| Read   | Public | Conference | Title      | HighLight                    | Code          | Other           |
+| ------ | ------ | ---------- | ---------- | ---------------------------- | ------------- | --------------- |
+| 200228 | 200213 | AAAI 2020  | [LRLM][91] | Span level + latent to align | [lrlm][10091] | -               |
+| 200228 | 170502 | -          | [NKLM][90] | Knowledge + LM               | -             | [review][30090] |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -443,6 +444,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [88]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/gfs.pdf
 [89]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Optimization/Adam.pdf
 [90]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/KnowledgeLM.pdf
+[91]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/LatentRelationLM.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -493,6 +495,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10084]: https://github.com/thecharm/boundary-aware-nested-ner
 [10086]: https://github.com/uyaseen/bionlp-ost-2019
 [10089]: https://github.com/bigdatagenomics/adam
+[10091]: https://github.com/neulab/lrlm
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -500,3 +503,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30035]: https://mostafadehghani.com/wp-content/uploads/2018/08/Universal_Transformers.pdf
 [30038]: https://nv-adlr.github.io/MegatronLM
 [30080]: https://www.kdd.org/kdd2019/accepted-papers/view/a-hierarchical-career-path-aware-neural-network-for-job-mobility-prediction
+[30090]: https://openreview.net/forum?id=BJwFrvOeg

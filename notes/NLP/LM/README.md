@@ -7,3 +7,9 @@
    - Tuple(head entity, relation, tail entity).
    - token-level topic knowledge.
    - aligned knowledge.
+2. [**Latent Relation Language Models**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/LatentRelationLM.pdf) [AAAI 2020] _Hiroaki Hayashi*, Zecong Hu*, Chenyan Xiong, Graham Neubig_.
+   - Span-level.
+   - Aligned entity to raw text by latent parameters.
+     - span variable
+     - source variable
+     - relation variable
