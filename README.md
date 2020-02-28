@@ -20,6 +20,7 @@
   - [Rank](#rank)
   - [Adversarial](#adversarial)
   - [Common Sense](#common-sense)
+    - [Language Models](#language-models)
   - [Bertology](#bertology)
     - [Bert Distilled](#bert-distilled)
     - [Bert Probe](#bert-probe)
@@ -135,6 +136,12 @@
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------------------------- | ----- |
 | 191218 | 190904 | EMNLP 2019 | [KagNet][56]     | Commonsense via KB + Pretrain | [KagNet][10056]                       | -     |
 | 200107 | 190604 | ACL 2019   | [quantities][68] | Rule-base Quantity            | [distribution-over-quantities][10068] | -     |
+
+#### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
+
+| Read   | Public | Conference | Title      | HighLight      | Code | Other |
+| ------ | ------ | ---------- | ---------- | -------------- | ---- | ----- |
+| 200228 | 170502 | -          | [NKLM][90] | Knowledge + LM | -    | -     |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -435,6 +442,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [87]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross-lingualNER.pdf
 [88]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/gfs.pdf
 [89]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Optimization/Adam.pdf
+[90]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/KnowledgeLM.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
