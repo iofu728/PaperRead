@@ -189,11 +189,12 @@
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
-| Read   | Public | Conference | Title              | HighLight                | Code               | Other |
-| ------ | ------ | ---------- | ------------------ | ------------------------ | ------------------ | ----- |
-| 191005 | 191001 | ICLR 2020  | [BertScore][20]    | auto evaluation use bert | [bertScore][10020] | -     |
-| 190926 | 190926 | -          | [CTRL][13]         | controllable generation  | [ctrl][10013]      | -     |
-| 191010 | 190812 | -          | [UnLikelihood][27] | unLikelihood             |                    | -     |
+| Read   | Public | Conference | Title              | HighLight                                | Code               | Other |
+| ------ | ------ | ---------- | ------------------ | ---------------------------------------- | ------------------ | ----- |
+| 200302 | 190926 | ICLR 2020  | [D2GPo][92]        | negative influence <br>-> prior Gaussian | -                  | -     |
+| 191005 | 190926 | ICLR 2020  | [BertScore][20]    | auto evaluation use bert                 | [bertScore][10020] | -     |
+| 190926 | 190926 | -          | [CTRL][13]         | controllable generation                  | [ctrl][10013]      | -     |
+| 191010 | 190812 | -          | [UnLikelihood][27] | unLikelihood                             |                    | -     |
 
 ### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
 
@@ -445,6 +446,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [89]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Optimization/Adam.pdf
 [90]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/KnowledgeLM.pdf
 [91]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/LatentRelationLM.pdf
+[92]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/D2GPo.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

@@ -35,3 +35,8 @@
      - Token-level
      - sequence-level
    - $$\mathcal{L}_{\mathrm{UL}}^{t}\left(p_{\theta}\left(\cdot | x_{<t}\right), \mathcal{C}^{t}\right)=-\sum_{c \in \mathcal{C}^{t}} \log \left(1-p_{\theta}\left(c | x_{<t}\right)\right)$$
+4. [**Data-dependent Gaussian Prior Objective for Language Generation**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/D2GPo.pdf) [ICLR 2020] _Zuchao Li, Rui Wang, Kehai Chen, Masso Utiyama, Eiichiro Sumita, Zhuosheng Zhang, Hai Zhao_.
+   - To solve Negative diversity ignorance problem in NLG (same punishment for difference negative sample)
+   - construct a prior Gaussian distribution (pre-defined) argsort.
+     - Softmax embedding / T.
+     - KL(prior, predict) + MLE
