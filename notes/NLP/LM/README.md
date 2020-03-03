@@ -13,3 +13,8 @@
      - span variable
      - source variable
      - relation variable
+
+## Contextual Word Representation
+
+1. [**Contextual Word Representations: A Contextual Introduction**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/ContextualWordRepresentations.pdf) [-] _Noah A. Smith_.
+   - Survey of Contextual Word Representations

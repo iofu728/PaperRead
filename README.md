@@ -139,10 +139,11 @@
 
 #### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
 
-| Read   | Public | Conference | Title      | HighLight                    | Code          | Other           |
-| ------ | ------ | ---------- | ---------- | ---------------------------- | ------------- | --------------- |
-| 200228 | 200213 | AAAI 2020  | [LRLM][91] | Span level + latent to align | [lrlm][10091] | -               |
-| 200228 | 170502 | -          | [NKLM][90] | Knowledge + LM               | -             | [review][30090] |
+| Read   | Public | Conference | Title                         | HighLight                    | Code          | Other           |
+| ------ | ------ | ---------- | ----------------------------- | ---------------------------- | ------------- | --------------- |
+| 200228 | 200213 | AAAI 2020  | [LRLM][91]                    | Span level + latent to align | [lrlm][10091] | -               |
+| 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding               | -             | -               |
+| 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM               | -             | [review][30090] |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -447,6 +448,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [90]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/KnowledgeLM.pdf
 [91]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/LatentRelationLM.pdf
 [92]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/D2GPo.pdf
+[93]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/ContextualWordRepresentations.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
