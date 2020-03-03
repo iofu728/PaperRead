@@ -190,12 +190,13 @@
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
-| Read   | Public | Conference | Title              | HighLight                                | Code               | Other |
-| ------ | ------ | ---------- | ------------------ | ---------------------------------------- | ------------------ | ----- |
-| 200302 | 190926 | ICLR 2020  | [D2GPo][92]        | negative influence <br>-> prior Gaussian | -                  | -     |
-| 191005 | 190926 | ICLR 2020  | [BertScore][20]    | auto evaluation use bert                 | [bertScore][10020] | -     |
-| 190926 | 190926 | -          | [CTRL][13]         | controllable generation                  | [ctrl][10013]      | -     |
-| 191010 | 190812 | -          | [UnLikelihood][27] | unLikelihood                             |                    | -     |
+| Read   | Public | Conference | Title                  | HighLight                                | Code               | Other           |
+| ------ | ------ | ---------- | ---------------------- | ---------------------------------------- | ------------------ | --------------- |
+| 200303 | 190926 | ICLR 2020  | [Nucleus Sampling][94] | Top-p Sampling                           | [gpt2][10094]      | [review][30094] |
+| 200302 | 190926 | ICLR 2020  | [D2GPo][92]            | negative influence <br>-> prior Gaussian | -                  | -               |
+| 191005 | 190926 | ICLR 2020  | [BertScore][20]        | auto evaluation use bert                 | [bertScore][10020] | -               |
+| 190926 | 190926 | -          | [CTRL][13]             | controllable generation                  | [ctrl][10013]      | -               |
+| 191010 | 190812 | -          | [UnLikelihood][27]     | unLikelihood                             |                    | -               |
 
 ### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
 
@@ -449,6 +450,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [91]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/LatentRelationLM.pdf
 [92]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/D2GPo.pdf
 [93]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/ContextualWordRepresentations.pdf
+[94]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/CuriousCaseNTD.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -500,6 +502,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10086]: https://github.com/uyaseen/bionlp-ost-2019
 [10089]: https://github.com/bigdatagenomics/adam
 [10091]: https://github.com/neulab/lrlm
+[10094]: https://github.com/minimaxir/gpt-2-simple/issues/51
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -508,3 +511,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30038]: https://nv-adlr.github.io/MegatronLM
 [30080]: https://www.kdd.org/kdd2019/accepted-papers/view/a-hierarchical-career-path-aware-neural-network-for-job-mobility-prediction
 [30090]: https://openreview.net/forum?id=BJwFrvOeg
+[30094]: https://openreview.net/forum?id=rygGQyrFvH

@@ -40,3 +40,9 @@
    - construct a prior Gaussian distribution (pre-defined) argsort.
      - Softmax embedding / T.
      - KL(prior, predict) + MLE
+
+## Decoding
+
+1. [**The Curious Case of Neural Text Degeneration**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/CuriousCaseNTD.pdf) [ICLR 2020] _Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi_.
+   - Top-p sampling decoding.
+   - re-scale top-p probability.
