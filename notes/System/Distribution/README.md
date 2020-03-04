@@ -37,3 +37,23 @@
    - Nearest replica using IP.
    - Lease mechanism make no two primary.
    - A single master is not good.
+3. [**The Design of a Practical The Design System of a for Practical System for Fault-Tolerant Virtual Machines Fault-Tolerant Virtual Machines**](https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/vm-ft.pdf) [SIGOPS 2010] _Daniel J Scales, Michael Nelson, Ganesh Venkitachalam_
+   - replicating Fault-tolerant
+   - no-deterministic State-Machine
+   - Primary - Backup
+   - Fault-tolerant Protocol: logging channel
+     - Primary send Backup first and then output
+     - UDP heartbeat
+     - maybe have double output
+       - TCP discard and Disk idempotent
+   - split-brain: both primary and backup crush
+     - an atomic test-and-set
+     - shared storage
+   - bounce buffers
+     - FT avoids this problem by not copying into **guest memory** while the primary or backup is executing.
+     - FT first copies the network packet or disk block into a private **"bounce buffer"** that the primary cannot access.
+     - When this first copy completes, the FT hypervisor interrupts the primary so that it is not executing.
+     - FT records the **point at which it interrupted the primary** (as with any interrupt).
+     - Then FT **copies the bounce buffer into the primary's memory**, and after that allows the primary to continue executing.
+     - FT sends the data to the backup on the log channel.
+     - The backup's FT interrupts the backup at the same instruction as the primary was interrupted, copies the data into the backup's memory while the backup is into executing, and then resumes the backup.

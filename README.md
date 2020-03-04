@@ -346,10 +346,11 @@
 
 ### [Distribution](https://github.com/iofu728/PaperRead/blob/master/notes/System/Distribution)
 
-| Read   | Public | Conference | Title           | HighLight                         | Code               | Other |
-| ------ | ------ | ---------- | --------------- | --------------------------------- | ------------------ | ----- |
-| 200222 | 040301 | OSDI 2004  | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -     |
-| 200225 | 041020 | SOSP 2003  | [GFS][83]       | distribution file system          | -                  | -     |
+| Read   | Public | Conference  | Title           | HighLight                         | Code               | Other |
+| ------ | ------ | ----------- | --------------- | --------------------------------- | ------------------ | ----- |
+| 200304 | 101101 | SIGOPS 2010 | [VM-FT][95]     | Fault-Tolerant replicating        | -                  | -     |
+| 200222 | 040301 | OSDI 2004   | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -     |
+| 200225 | 041020 | SOSP 2003   | [GFS][83]       | distribution file system          | -                  | -     |
 
 ## License
 
@@ -451,6 +452,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [92]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/D2GPo.pdf
 [93]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/ContextualWordRepresentations.pdf
 [94]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/CuriousCaseNTD.pdf
+[95]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/vm-ft.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
