@@ -108,9 +108,10 @@
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
-| Read   | Public | Conference       | Title        | HighLight                 | Code            | Other |
-| ------ | ------ | ---------------- | ------------ | ------------------------- | --------------- | ----- |
-| 200112 | 190917 | AAAI 2020 Reject | [K-BERT][70] | Integrated KG to sentence | [K-BERT][10070] | -     |
+| Read   | Public | Conference       | Title           | HighLight                 | Code            | Other |
+| ------ | ------ | ---------------- | --------------- | ------------------------- | --------------- | ----- |
+| 200306 | 200210 | -                | [K-Adapter][96] | Plugin Knowledge          | -               | -     |
+| 200112 | 190917 | AAAI 2020 Reject | [K-BERT][70]    | Integrated KG to sentence | [K-BERT][10070] | -     |
 
 ### Summarization
 
@@ -453,6 +454,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [93]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/ContextualWordRepresentations.pdf
 [94]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/CuriousCaseNTD.pdf
 [95]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/vm-ft.pdf
+[96]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-Adapter.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
