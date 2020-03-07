@@ -37,6 +37,7 @@
   - [Transformer](#transformer)
     - [Relative position embedding](#relative-position-embedding)
   - [Attention](#attention)
+  - [Interpretability](#interpretability)
   - [Tabular Learning](#tabular-learning)
   - [Unbalance Classify](#unbalance-classify)
   - [Negative Sample](#negative-sample)
@@ -263,6 +264,12 @@
 | 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16]       | every head role              | [heads][10016]                | -     |
 | 190619 | 190226 | NAACL 2019 | [Attention not explanation][30] | weighted correction + robust | [AttentionExplanation][10030] | -     |
 
+### [Interpretability](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Interpretability)
+
+| Read   | Public | Conference | Title                             | HighLight                    | Code | Other         |
+| ------ | ------ | ---------- | --------------------------------- | ---------------------------- | ---- | ------------- |
+| 200307 | 200208 | -          | [Memorization-Generalization][97] | measure degree of generation | -    | Chiyuan Zhang |
+
 ### [Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)
 
 | Read   | Public | Conference | Title        | HighLight | Code                    | Other         |
@@ -455,6 +462,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [94]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NLG/CuriousCaseNTD.pdf
 [95]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/vm-ft.pdf
 [96]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-Adapter.pdf
+[97]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Interpretabilit/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
