@@ -13,11 +13,36 @@
 ## Adapter-based
 
 1. [**K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-Adapter.pdf) [-] _Ruize Wang, Duyu Tang, Nan Duan, Zhongyu Wei, Xuanjing Huang, Jianshu ji, Guihong Cao, Daxin Jiang, Ming Zhou_.
-   - Add some Dense between Transformer block in the Bert-like Architectures to Fine-tune in the downstream task.
-   - Bert params freeze.
-   - can parallelism.
-   - Continue learning.
+
+   - Motivation:
+     - Injection of knowledge into pre-trained models is necessary
+       - Large pre-trained models learned to struggle to capture rich knowledge/low ability to generalization.
+       - More inclined to learn co-occurrence information rather than low frequency but important knowledge.
+       - (Not, fail completely on half of eight reasoning tasks)
+     - Multi-task pre-training can cause catastrophic forgetting and is expensive in parameters and parallel.
+       - Previous knowledge-based method update model parameters in a multi-task learning manner in which conflict/catastrophic of infusing multiply knowledge.
+       - The paper proposal an adapter based method to parallel inject knowledge.
+   - Detail:
+     - The Adapter contains two FFN and one transformer layer.
+     - Not each Transformer has Adapter Layer, in this paper, plugin Adapter in RoBERTa Large 0, 11, 23 layers.
+     - So need parameters 3\left[2dm+d+m+3m^2+m^2+8m^2+2m\right]=47M
+     - Same skip-connect to align in initialize.
+     - Concatenate former adapter layer output and now layer transformer output. (And d is 2d? Can we use equal replace concatenate? Because what followed was a linear layer.)
+     - The token final output O_k is the concatenate of transformer output and the last adapter output.
+     - If infuse multi-knowledge, the token final output is the concatenate of difference knowledge output Concate(O_1, O_2, …).
+     - The paper uses two knowledge Adapter: Factual Adapter and Linguistic Adapter.
+     - Factual Adapter use relation classification task in T-RE-rc (filter less than 50 entity pairs). Use pooling to align the entity representation length. train the model for 5 epochs using a batch size of 128.
+     - Linguistic Adapter uses predicting dependency parser father index task in Book Corpus using the Standford Parser. train the model for 10 epochs using a batch size of 256.
+     - BaseLine:
+       1. ERNIE align entities from Wikipedia sentences to fact triples in WikiData and pre-trained the embedding using TransE.
+       2. LIBERT adds lexical relation classiﬁcation (LRC) task to inject linguistic constraints.
+       3. SenseBERT mask token and predict the mask word and supersense(like POS + fine-grain entity)
+       4. KnowBERT use entity link task(freeze BERT params when train EL and freeze EL params when train BERT.) L=L_BERT + L_EL
+       5. WKLM replace mask to the same type of entities.
+       6. BERT-MK uses a similar architecture with ERNIE, which uses GATs instead of TransE.
+
 2. [**Parameter-Efﬁcient Transfer Learning for NLP**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/AdapterBert.pdf) [ICML 2019] _Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly_.
+
    - Motivation:
      1. Cloud service (Pass)
      2. Without forgetting previous knowledge (compare with continual learning)
@@ -43,5 +68,6 @@
      3. Lower layers extract lower-level features that are shared among tasks, while the higher layers build features that are unique to different tasks.
      4. The Var of initialization parameters cannot too big.
    - Also, test for 1. Add LN/BN 2. Increase num of layers per adapter. 3. Difference activation func. … But the result is similar.
+
 3. [**BERT and PALs: Projected Attention Layers for Efﬁcient Adaptation in Multi-Task Learning**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/PALs.pdf) [ICML 2019] _Asa Cooper Stickland, Iain Murray_.
    - Projected Attention Layers to take task-specific layer to model.
