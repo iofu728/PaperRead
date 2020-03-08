@@ -10,42 +10,44 @@
 
 - [Categories](#categories)
 - [NLP](#nlp)
-  - [NER](#ner)
-    - [Nested NER](#nested-ner)
-    - [Unlabeled](#unlabeled)
-    - [Cross-Lingual](#cross-lingual)
   - [Relation Extraction](#relation-extraction)
+    - [NER](#ner)
+      - [Nested NER](#nested-ner)
+      - [Unlabeled](#unlabeled)
+      - [Cross-Lingual](#cross-lingual)
   - [Knowledge Bases](#knowledge-bases)
-  - [Summarization](#summarization)
-  - [Rank](#rank)
-  - [Adversarial](#adversarial)
-  - [Common Sense](#common-sense)
     - [Language Models](#language-models)
   - [Bertology](#bertology)
     - [Bert Distilled](#bert-distilled)
     - [Bert Probe](#bert-probe)
     - [Bert DownStream](#bert-downstream)
     - [Multi-modality Bert](#multi-modality-bert)
-  - [Parallelism](#parallelism)
   - [NLG](#nlg)
-  - [NMT](#nmt)
-  - [Text Style Transfer](#text-style-transfer)
-  - [Discourse Parsing](#discourse-parsing)
-  - [Chinese](#chinese)
+    - [Summarization](#summarization)
+    - [NMT](#nmt)
+  - [Other](#other)
+    - [Text Style Transfer](#text-style-transfer)
+    - [Discourse Parsing](#discourse-parsing)
+    - [Chinese](#chinese)
+    - [Adversarial](#adversarial)
+    - [Common Sense](#common-sense)
 - [ML](#ml)
-  - [Metric Learning](#metric-learning)
-  - [Transformer](#transformer)
-    - [Relative position embedding](#relative-position-embedding)
-  - [Attention](#attention)
-  - [Interpretability](#interpretability)
-  - [Tabular Learning](#tabular-learning)
-  - [Unbalance Classify](#unbalance-classify)
-  - [Negative Sample](#negative-sample)
-  - [Learning With Noisy Labels](#learning-with-noisy-labels)
-  - [Multi-task](#multi-task)
-  - [Dropout](#dropout)
-  - [Extreme Classification](#extreme-classification)
-  - [Optimization](#optimization)
+  - [Architecture](#architecture)
+    - [Transformer](#transformer)
+      - [Relative position embedding](#relative-position-embedding)
+    - [Attention](#attention)
+  - [Strategy](#strategy)
+    - [Metric Learning](#metric-learning)
+    - [Interpretability](#interpretability)
+    - [Multi-task](#multi-task)
+    - [Dropout](#dropout)
+    - [Optimization](#optimization)
+    - [Negative Sample](#negative-sample)
+  - [Data](#data)
+    - [Unbalance Classify](#unbalance-classify)
+    - [Noisy Labels](#noisy-labels)
+    - [Extreme Classification](#extreme-classification)
+    - [Tabular Learning](#tabular-learning)
   - [Applied Data Scrience](#applied-data-scrience)
     - [Table&Chart](#tablechart)
     - [Demo](#demo)
@@ -57,17 +59,26 @@
 
 ## NLP
 
-### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
+### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
+
+| Read   | Public | Conference | Title                                 | HighLight                        | Code            | Other |
+| ------ | ------ | ---------- | ------------------------------------- | -------------------------------- | --------------- | ----- |
+| 200116 | 200106 | AAAI 2020  | [Improve EL via latent Embedding][74] | improve the embedding            | -               | -     |
+| 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]               | Induing Realtion using cloze     | -               | -     |
+| 200115 | 190721 | NLE 2019   | [25 years IE][73]                     | survey IE in past 25years        | -               | -     |
+| 200108 | 190904 | ACL 2019   | [RE view as Multi-turn MRC][69]       | Multi-turn like RL, MRC          | [MRC][10069]    | -     |
+| 191128 | 190607 | ACL 2019   | [Matching the Blanks][52]             | How to use BERT in relation link | [BERTem][10052] | -     |
+
+#### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
 | Read   | Public | Conference | Title               | HighLight                  | Code         | Other |
 | ------ | ------ | ---------- | ------------------- | -------------------------- | ------------ | ----- |
-| 191220 | 190926 | ICLR 2020  | [WKLM][59]          | add KB in pretrain         | -            | -     |
 | 191113 | 191110 | -          | [TENER][49]         | improve Transformer in NER | -            | -     |
 | 191020 | 190712 | AAAI 2019  | [GRN][41]           | +Long-term->CNN            | [GRN][10041] | -     |
 | 191220 | 190327 | EMNLP 2019 | [capitalized][58]   | capitalized in ner and pos | -            | -     |
 | 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67] | view NER as MRC            | -            | -     |
 
-#### Nested NER
+##### Nested NER
 
 | Read   | Public | Conference  | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ----------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
@@ -84,68 +95,35 @@
 | 190703 | 190620 | ACL 2019    | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]      | centerSearch |
 | 190707 | 190405 | NAACL 2019  | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]      | IE Framework |
 
-#### Unlabeled
+##### Unlabeled
 
 | Read   | Public | Conference | Title                 | HighLight    | Code               | Other     |
 | ------ | ------ | ---------- | --------------------- | ------------ | ------------------ | --------- |
 | 191006 | 190926 | -          | [CRF-VAEs][24]        | VAE in NER   | -                  | Unlabeled |
 | 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
 
-#### Cross-Lingual
+##### Cross-Lingual
 
 | Read   | Public | Conference | Title                             | HighLight                       | Code | Other |
 | ------ | ------ | ---------- | --------------------------------- | ------------------------------- | ---- | ----- |
 | 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -    | -     |
-
-### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
-
-| Read   | Public | Conference | Title                                 | HighLight                        | Code            | Other |
-| ------ | ------ | ---------- | ------------------------------------- | -------------------------------- | --------------- | ----- |
-| 200116 | 200106 | AAAI 2020  | [Improve EL via latent Embedding][74] | improve the embedding            | -               | -     |
-| 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]               | Induing Realtion using cloze     | -               | -     |
-| 200115 | 190721 | NLE 2019   | [25 years IE][73]                     | survey IE in past 25years        | -               | -     |
-| 200108 | 190904 | ACL 2019   | [RE view as Multi-turn MRC][69]       | Multi-turn like RL, MRC          | [MRC][10069]    | -     |
-| 191128 | 190607 | ACL 2019   | [Matching the Blanks][52]             | How to use BERT in relation link | [BERTem][10052] | -     |
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
 | Read   | Public | Conference       | Title           | HighLight                 | Code            | Other |
 | ------ | ------ | ---------------- | --------------- | ------------------------- | --------------- | ----- |
 | 200306 | 200210 | -                | [K-Adapter][96] | Plugin Knowledge          | -               | -     |
+| 191220 | 190926 | ICLR 2020        | [WKLM][59]      | add KB in pretrain        | -               | -     |
 | 200112 | 190917 | AAAI 2020 Reject | [K-BERT][70]    | Integrated KG to sentence | [K-BERT][10070] | -     |
-
-### Summarization
-
-| Read   | Public | Conference | Title        | HighLight    | Code             | Other          |
-| ------ | ------ | ---------- | ------------ | ------------ | ---------------- | -------------- |
-| 181212 | 170725 | ICML 2017  | [ConvS2S][2] | CNN semantic | [fairseq][10002] | [notes][20002] |
-
-### [Rank](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Rank)
-
-| Read   | Public | Conference | Title         | HighLight                         | Code             | Other |
-| ------ | ------ | ---------- | ------------- | --------------------------------- | ---------------- | ----- |
-| 200113 | 191031 | -          | [DuoBERT][71] | Three-stage Recall-Rank(pairwise) | [DuoBERT][10071] | -     |
-
-### Adversarial
-
-| Read   | Public | Conference | Title                               | HighLight       | Code                        | Other         |
-| ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
-| 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
-
-### [Common Sense](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CommonSense)
-
-| Read   | Public | Conference | Title            | HighLight                     | Code                                  | Other |
-| ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------------------------- | ----- |
-| 191218 | 190904 | EMNLP 2019 | [KagNet][56]     | Commonsense via KB + Pretrain | [KagNet][10056]                       | -     |
-| 200107 | 190604 | ACL 2019   | [quantities][68] | Rule-base Quantity            | [distribution-over-quantities][10068] | -     |
 
 #### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
 
-| Read   | Public | Conference | Title                         | HighLight                    | Code          | Other           |
-| ------ | ------ | ---------- | ----------------------------- | ---------------------------- | ------------- | --------------- |
-| 200228 | 200213 | AAAI 2020  | [LRLM][91]                    | Span level + latent to align | [lrlm][10091] | -               |
-| 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding               | -             | -               |
-| 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM               | -             | [review][30090] |
+| Read   | Public | Conference | Title                         | HighLight                        | Code                 | Other           |
+| ------ | ------ | ---------- | ----------------------------- | -------------------------------- | -------------------- | --------------- |
+| 200228 | 200213 | AAAI 2020  | [LRLM][91]                    | Span level + latent to align     | [lrlm][10091]        | -               |
+| 191017 | 191005 | -          | [Megatron-LM][38]             | parallelism & little code change | [megatron-LM][10038] | [blog][30038]   |
+| 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding                   | -                    | -               |
+| 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM                   | -                    | [review][30090] |
 
 ### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
@@ -174,21 +152,16 @@
 
 #### Bert DownStream
 
-| Read   | Public | Conference | Title               | HighLight   | Code                           | Other |
-| ------ | ------ | ---------- | ------------------- | ----------- | ------------------------------ | ----- |
-| 191020 | 190827 | EMNLP 2019 | [Sentence Bert][40] | Bert in STS | [sentence-transformers][10040] | -     |
+| Read   | Public | Conference | Title               | HighLight                         | Code                           | Other |
+| ------ | ------ | ---------- | ------------------- | --------------------------------- | ------------------------------ | ----- |
+| 200113 | 191031 | -          | [DuoBERT][71]       | Three-stage Recall-Rank(pairwise) | [DuoBERT][10071]               | -     |
+| 191020 | 190827 | EMNLP 2019 | [Sentence Bert][40] | Bert in STS                       | [sentence-transformers][10040] | -     |
 
 #### Multi-modality Bert
 
 | Read   | Public | Conference | Title          | HighLight | Code | Other |
 | ------ | ------ | ---------- | -------------- | --------- | ---- | ----- |
 | 200221 | 200827 | -          | [CodeBERT][82] | NL + PL   | -    | -     |
-
-### [Parallelism](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Parallelism)
-
-| Read   | Public | Conference | Title             | HighLight                        | Code                 | Other         |
-| ------ | ------ | ---------- | ----------------- | -------------------------------- | -------------------- | ------------- |
-| 191017 | 191005 | -          | [Megatron-LM][38] | parallelism & little code change | [megatron-LM][10038] | [blog][30038] |
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
@@ -200,42 +173,56 @@
 | 190926 | 190926 | -          | [CTRL][13]             | controllable generation                  | [ctrl][10013]      | -               |
 | 191010 | 190812 | -          | [UnLikelihood][27]     | unLikelihood                             |                    | -               |
 
-### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
+#### Summarization
+
+| Read   | Public | Conference | Title        | HighLight    | Code             | Other          |
+| ------ | ------ | ---------- | ------------ | ------------ | ---------------- | -------------- |
+| 181212 | 170725 | ICML 2017  | [ConvS2S][2] | CNN semantic | [fairseq][10002] | [notes][20002] |
+
+#### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
 
 | Read   | Public | Conference | Title                       | HighLight                         | Code                 | Other |
 | ------ | ------ | ---------- | --------------------------- | --------------------------------- | -------------------- | ----- |
 | 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72] | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
 
-### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
+### Other
+
+#### [Text Style Transfer](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/TextStyleTransfer)
 
 | Read   | Public | Conference | Title              | HighLight            | Code                  | Other |
 | ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
 | 191006 | 190925 | EMNLP 2019 | [CrossProject][25] | Latent Space Project | [CrossProject][10025] | -     |
 
-### [Discourse Parsing](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DiscourseParsing)
+#### [Discourse Parsing](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DiscourseParsing)
 
 | Read   | Public | Conference | Title                            | HighLight                           | Code | Other |
 | ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | ---- | ----- |
 | 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -    | -     |
 
-### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
+#### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
 
 | Read   | Public | Conference | Title       | HighLight    | Code | Other |
 | ------ | ------ | ---------- | ----------- | ------------ | ---- | ----- |
 | 191013 | 190906 | -          | [NeZha][36] | chinese bert | -    | -     |
 
+#### Adversarial
+
+| Read   | Public | Conference | Title                               | HighLight       | Code                        | Other         |
+| ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
+| 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
+
+#### [Common Sense](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CommonSense)
+
+| Read   | Public | Conference | Title            | HighLight                     | Code                                  | Other |
+| ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------------------------- | ----- |
+| 191218 | 190904 | EMNLP 2019 | [KagNet][56]     | Commonsense via KB + Pretrain | [KagNet][10056]                       | -     |
+| 200107 | 190604 | ACL 2019   | [quantities][68] | Rule-base Quantity            | [distribution-over-quantities][10068] | -     |
+
 ## ML
 
-### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
+### Architecture
 
-| Read   | Public | Conference | Title                         | HighLight             | Code                        | Other |
-| ------ | ------ | ---------- | ----------------------------- | --------------------- | --------------------------- | ----- |
-| 190829 | 190525 | NIPS 2019  | [Constellation Loss][8]       | Multiclass n + Triple | [constellation_loss][10008] | -     |
-| 191007 | 170406 | CVPR 2017  | [Quadruplet Loss][26]         | two margin            | -                           | -     |
-| 190827 | 160601 | CVPR 2016  | [Multi-class N-pair Loss][29] | multi negative sample | -                           | -     |
-| 190827 | 150617 | CVPR 2015  | [Triplet Loss][11]            | Triple                | -                           | -     |
-
-### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
+#### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
 | Read   | Public | Conference | Title                            | HighLight               | Code                  | Other            |
 | ------ | ------ | ---------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
@@ -249,7 +236,7 @@
 | 191118 | 190228 | NAACL 2019 | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
 | 190719 | 180710 | ICLR 2019  | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
-#### Relative position embedding
+##### Relative position embedding
 
 | Read   | Public | Conference | Title                           | HighLight               | Code                    | Other              |
 | ------ | ------ | ---------- | ------------------------------- | ----------------------- | ----------------------- | ------------------ |
@@ -257,33 +244,49 @@
 | 190425 | 190306 | ACL 2019   | [Transformer-XL][64]            | Recurrent + Relative PE | [Transformer-XL][10064] | reject once        |
 | 191229 | 180306 | NAACL 2018 | [Self-Att with Relative PE][63] | Relative PE             | -                       | Transformer Writer |
 
-### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
+#### [Attention](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Attention)
 
 | Read   | Public | Conference | Title                           | HighLight                    | Code                          | Other |
 | ------ | ------ | ---------- | ------------------------------- | ---------------------------- | ----------------------------- | ----- |
 | 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16]       | every head role              | [heads][10016]                | -     |
 | 190619 | 190226 | NAACL 2019 | [Attention not explanation][30] | weighted correction + robust | [AttentionExplanation][10030] | -     |
 
-### [Interpretability](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Interpretability)
+### Strategy
+
+#### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
+
+| Read   | Public | Conference | Title                         | HighLight             | Code                        | Other |
+| ------ | ------ | ---------- | ----------------------------- | --------------------- | --------------------------- | ----- |
+| 190829 | 190525 | NIPS 2019  | [Constellation Loss][8]       | Multiclass n + Triple | [constellation_loss][10008] | -     |
+| 191007 | 170406 | CVPR 2017  | [Quadruplet Loss][26]         | two margin            | -                           | -     |
+| 190827 | 160601 | CVPR 2016  | [Multi-class N-pair Loss][29] | multi negative sample | -                           | -     |
+| 190827 | 150617 | CVPR 2015  | [Triplet Loss][11]            | Triple                | -                           | -     |
+
+#### [Interpretability](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Interpretability)
 
 | Read   | Public | Conference | Title                             | HighLight                    | Code | Other         |
 | ------ | ------ | ---------- | --------------------------------- | ---------------------------- | ---- | ------------- |
 | 200307 | 200208 | -          | [Memorization-Generalization][97] | measure degree of generation | -    | Chiyuan Zhang |
 
-### [Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)
+#### [Multi-task](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Multi-task)
 
-| Read   | Public | Conference | Title        | HighLight | Code                    | Other         |
-| ------ | ------ | ---------- | ------------ | --------- | ----------------------- | ------------- |
-| 191006 | 190926 | -          | [TabNet][22] | NN method | [googleResearch][10022] | interpretable |
+| Read   | Public | Conference | Title                             | HighLight                 | Code         | Other |
+| ------ | ------ | ---------- | --------------------------------- | ------------------------- | ------------ | ----- |
+| 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53] | Multi-task by no old data | [LwF][10053] | -     |
 
-### [Unbalance Classify](https://github.com/iofu728/PaperRead/blob/master/notes/ML/UnbalanceClassify)
+#### [Dropout](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Dropout)
 
-| Read   | Public | Conference | Title                    | HighLight               | Code                    | Other |
-| ------ | ------ | ---------- | ------------------------ | ----------------------- | ----------------------- | ----- |
-| 191111 | 191107 | -          | [Dice Loss in NLP][47]   | like F1 FP==FN          | -                       | -     |
-| 191011 | 190116 | ICLR 2019  | [Class-Balance Loss][28] | effective number sample | [googleResearch][10028] | -     |
+| Read   | Public | Conference | Title        | HighLight        | Code | Other |
+| ------ | ------ | ---------- | ------------ | ---------------- | ---- | ----- |
+| 191228 | 190926 | ICLR 2020  | [Mixout][62] | origin + dropout | -    | -     |
 
-### [Negative Sample](https://github.com/iofu728/PaperRead/tree/master/notes/ML/NegativeSample)
+#### [Optimization](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Optimization)
+
+| Read   | Public | Conference | Title      | HighLight                  | Code          | Other |
+| ------ | ------ | ---------- | ---------- | -------------------------- | ------------- | ----- |
+| 200227 | 141222 | ICLR 2015  | [Adam][89] | momentum +squared gradient | [Adam][10089] | -     |
+
+#### [Negative Sample](https://github.com/iofu728/PaperRead/tree/master/notes/ML/NegativeSample)
 
 | Read   | Public | Conference | Title                                     | HighLight                                 | Code               | Other |
 | ------ | ------ | ---------- | ----------------------------------------- | ----------------------------------------- | ------------------ | ----- |
@@ -293,35 +296,32 @@
 | 200118 | 180105 | AAAI 2018  | [VSE-ens][77]                             | dynamical sampler to reduce sample time   | [VSE-ens][10077]   | -     |
 | 200119 | 140621 | AAAI 2014  | [Translating2Hyperplanes][79]             | solve the multi-label problem             | [Knowledge][10079] | -     |
 
-### [Learning With Noisy Labels](https://github.com/iofu728/PaperRead/blob/master/notes/ML/LearningWithNoisyLabels)
+### Data
+
+#### [Unbalance Classify](https://github.com/iofu728/PaperRead/blob/master/notes/ML/UnbalanceClassify)
+
+| Read   | Public | Conference | Title                    | HighLight               | Code                    | Other |
+| ------ | ------ | ---------- | ------------------------ | ----------------------- | ----------------------- | ----- |
+| 191111 | 191107 | -          | [Dice Loss in NLP][47]   | like F1 FP==FN          | -                       | -     |
+| 191011 | 190116 | ICLR 2019  | [Class-Balance Loss][28] | effective number sample | [googleResearch][10028] | -     |
+
+#### [Noisy Labels](https://github.com/iofu728/PaperRead/blob/master/notes/ML/LearningWithNoisyLabels)
 
 | Read   | Public | Conference | Title             | HighLight       | Code                 | Other |
 | ------ | ------ | ---------- | ----------------- | --------------- | -------------------- | ----- |
 | 191029 | 181030 | NIPS 2018  | [Co-teaching][45] | Memorize effect | [Co-teaching][10045] | -     |
 
-### [Multi-task](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Multi-task)
-
-| Read   | Public | Conference | Title                             | HighLight                 | Code         | Other |
-| ------ | ------ | ---------- | --------------------------------- | ------------------------- | ------------ | ----- |
-| 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53] | Multi-task by no old data | [LwF][10053] | -     |
-
-### [Dropout](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Dropout)
-
-| Read   | Public | Conference | Title        | HighLight        | Code | Other |
-| ------ | ------ | ---------- | ------------ | ---------------- | ---- | ----- |
-| 191228 | 190926 | ICLR 2020  | [Mixout][62] | origin + dropout | -    | -     |
-
-### [Extreme Classification](https://github.com/iofu728/PaperRead/blob/master/notes/ML/ExtremeClassification)
+#### [Extreme Classification](https://github.com/iofu728/PaperRead/blob/master/notes/ML/ExtremeClassification)
 
 | Read   | Public | Conference | Title                    | HighLight            | Code                        | Other |
 | ------ | ------ | ---------- | ------------------------ | -------------------- | --------------------------- | ----- |
 | 200104 | 190926 | ICLR 2020  | [AdversarialSoftmax][66] | negative sample + DT | [AdversarialSoftMax][10066] | -     |
 
-### [Optimization](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Optimization)
+#### [Tabular Learning](https://github.com/iofu728/PaperRead/blob/master/notes/ML/TabularLearning)
 
-| Read   | Public | Conference | Title      | HighLight                  | Code          | Other |
-| ------ | ------ | ---------- | ---------- | -------------------------- | ------------- | ----- |
-| 200227 | 141222 | ICLR 2015  | [Adam][89] | momentum +squared gradient | [Adam][10089] | -     |
+| Read   | Public | Conference | Title        | HighLight | Code                    | Other         |
+| ------ | ------ | ---------- | ------------ | --------- | ----------------------- | ------------- |
+| 191006 | 190926 | -          | [TabNet][22] | NN method | [googleResearch][10022] | interpretable |
 
 ### [Applied Data Scrience](https://github.com/iofu728/PaperRead/blob/master/notes/ML/AppliedDataScience)
 
@@ -403,9 +403,9 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [35]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/UniversalTransformers.pdf
 [36]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/NeZha.pdf
 [37]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/BertRediscovers.pdf
-[38]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parallelism/MegatronLM.pdf
+[38]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP//MegatronLM.pdf
 [39]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/DistilBERT.pdf
-[40]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/SentenceBert.pdf
+[40]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/SentenceBert.pdf
 [41]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf
 [42]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/T5.pdf
 [43]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf
@@ -424,7 +424,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [56]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/KagNet.pdf
 [57]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/ComprehendMedical.pdf
 [58]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NER&POS.pdf
-[59]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf
+[59]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [60]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/SHA-RNN.pdf
 [61]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/DEFINE.pdf
 [62]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/Mixout.pdf
@@ -436,7 +436,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [68]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CommonSense/QuantitativeAttributes.pdf
 [69]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/REasMulti-turnQA.pdf
 [70]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-BERT.pdf
-[71]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Rank/DuoBert.pdf
+[71]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/DuoBert.pdf
 [72]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/NoAutoregressiveNMT.pdf
 [73]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/25YearsIE.pdf
 [74]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/ImprovingEntityLinkingbyModelingLatentEntityTypeInformation.pdf

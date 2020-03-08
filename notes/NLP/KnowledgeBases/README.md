@@ -9,3 +9,8 @@
    - Bert params freeze.
    - can parallelism.
    - Continue learning.
+3. [**Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf) [ICLR 2020] _Wenhan Xiong, Jingfei Du, William Yang Wang, Veselin Stoyanov_.
+   - add KB in pretrained process.
+   - solve the multi-token entity predict problem.
+   - random replace entity to same type entity.
+   - verify in zero-shot entity and commonsense QA.

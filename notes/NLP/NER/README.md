@@ -103,12 +103,7 @@
 3. [**ner and pos when nothing is capitalized**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NER&POS.pdf) [EMNLP 2019] _Stephen Mayhew, Tatiana Tsygankova, Dan Roth_.
    - solve capitalize problem in NER and POS.
    - mix cased and uncased sample in training is better way than Truecase.
-4. [**Pretrained Encyclopedia: Weakly Supervised Knowledge-Pretrained Language Model**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/PredictingDSusingDistantSupervisionFromSentiment.pdf) [ICLR 2020] _Wenhan Xiong, Jingfei Du, William Yang Wang, Veselin Stoyanov_.
-   - add KB in pretrained process.
-   - solve the multi-token entity predict problem.
-   - random replace entity to same type entity.
-   - verify in zero-shot entity and commonsense QA.
-5. [**Zero-Shot Relation Extraction via Reading Comprehension**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/ZeroShotMRC.pdf) [CONLL 2017] _Omer Levy, Minjoon Seo, Eunsol Choi, Luke Zettlemoyer_.
+4. [**Zero-Shot Relation Extraction via Reading Comprehension**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/ZeroShotMRC.pdf) [CONLL 2017] _Omer Levy, Minjoon Seo, Eunsol Choi, Luke Zettlemoyer_.
    - View NER as a MRC task which good at zero-shot.
    - I think it due to the representation of entity label which replace the traditional project representation space to one flat.
    - The question temperate which is to determine the performance is writer by human.
