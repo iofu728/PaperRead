@@ -43,3 +43,5 @@
      3. Lower layers extract lower-level features that are shared among tasks, while the higher layers build features that are unique to different tasks.
      4. The Var of initialization parameters cannot too big.
    - Also, test for 1. Add LN/BN 2. Increase num of layers per adapter. 3. Difference activation func. … But the result is similar.
+3. [**BERT and PALs: Projected Attention Layers for Efﬁcient Adaptation in Multi-Task Learning**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/PALs.pdf) [ICML 2019] _Asa Cooper Stickland, Iain Murray_.
+   - Projected Attention Layers to take task-specific layer to model.

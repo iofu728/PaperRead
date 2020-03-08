@@ -120,8 +120,9 @@
 
 | Read   | Public | Conference | Title              | HighLight            | Code                  | Other |
 | ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
-| 200308 | 190113 | ICML 2019  | [Adapter-BERT][98] | Fine-tune => Adapter | [adapter-bert][10098] | -     |
 | 191220 | 190926 | ICLR 2020  | [WKLM][59]         | add KB in pretrain   | -                     | -     |
+| 200308 | 190515 | ICML 2019  | [PALs][99]         | Project Att          | [Bert-n-Pals][10099]  | -     |
+| 200308 | 190113 | ICML 2019  | [Adapter-BERT][98] | Fine-tune => Adapter | [adapter-bert][10098] | -     |
 
 #### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
 
@@ -471,6 +472,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [96]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-Adapter.pdf
 [97]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Interpretabilit/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [98]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/AdapterBert.pdf
+[99]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/PALs.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -523,6 +525,8 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10089]: https://github.com/bigdatagenomics/adam
 [10091]: https://github.com/neulab/lrlm
 [10094]: https://github.com/minimaxir/gpt-2-simple/issues/51
+[10098]: https://github.com/google-research/adapter-bert
+[10099]: https://github.com/AsaCooperStickland/Bert-n-Pals
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
