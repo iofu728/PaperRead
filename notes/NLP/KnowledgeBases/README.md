@@ -9,6 +9,9 @@
    - solve the multi-token entity predict problem.
    - random replace entity to same type entity.
    - verify in zero-shot entity and commonsense QA.
+3. [**ERNIE: Enhanced Language Representation with Informative Entities**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/ERNIE.pdf) [ACL 2019] _Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, Qun Liu_.
+   - TransE as entity embedding.
+   - Multi-task.
 
 ## Adapter-based
 
