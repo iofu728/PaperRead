@@ -17,12 +17,12 @@
       - [Cross-Lingual](#cross-lingual)
   - [Knowledge Bases](#knowledge-bases)
     - [Adapter-based](#adapter-based)
-    - [Language Models](#language-models)
-  - [Bertology](#bertology)
-    - [Bert Distilled](#bert-distilled)
-    - [Bert Probe](#bert-probe)
-    - [Bert DownStream](#bert-downstream)
-    - [Multi-modality Bert](#multi-modality-bert)
+  - [Language Models](#language-models)
+    - [Bertology](#bertology)
+      - [Bert Distilled](#bert-distilled)
+      - [Bert Probe](#bert-probe)
+      - [Bert DownStream](#bert-downstream)
+      - [Multi-modality Bert](#multi-modality-bert)
   - [NLG](#nlg)
     - [Summarization](#summarization)
     - [NMT](#nmt)
@@ -130,7 +130,7 @@
 | 200308 | 190515 | ICML 2019  | [PALs][99]         | Project Att          | [Bert-n-Pals][10099]  | -     |
 | 200308 | 190113 | ICML 2019  | [Adapter-BERT][98] | Fine-tune => Adapter | [adapter-bert][10098] | -     |
 
-#### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
+### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
 
 | Read   | Public | Conference | Title                         | HighLight                        | Code                 | Other           |
 | ------ | ------ | ---------- | ----------------------------- | -------------------------------- | -------------------- | --------------- |
@@ -139,7 +139,7 @@
 | 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding                   | -                    | -               |
 | 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM                   | -                    | [review][30090] |
 
-### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
+#### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
 | Read   | Public | Conference | Title         | HighLight                     | Code           | Other |
 | ------ | ------ | ---------- | ------------- | ----------------------------- | -------------- | ----- |
@@ -149,7 +149,7 @@
 | 190928 | 190926 | ICLR 2020  | [ALBert][12]  | ReduceParams                  | -              | -     |
 | 190801 | 190508 | -          | [UniLM][21]   | three Mask                    | [unilm][10021] | -     |
 
-#### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Distilled)
+##### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Distilled)
 
 | Read   | Public | Conference | Title             | HighLight                    | Code                  | Other |
 | ------ | ------ | ---------- | ----------------- | ---------------------------- | --------------------- | ----- |
@@ -157,21 +157,21 @@
 | 191018 | 191002 | NIPS 2019  | [DistillBert][39] | support device               | [transformers][10039] | -     |
 | 191002 | 190926 | -          | [TinyBert][17]    | new tew-stage                | -                     | -     |
 
-#### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
+##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
 | Read   | Public | Conference | Title                 | HighLight                   | Code          | Other |
 | ------ | ------ | ---------- | --------------------- | --------------------------- | ------------- | ----- |
 | 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]       | Bert in Relation Extraction | [LAMA][]10054 | -     |
 | 191014 | 190515 | ACL 2019   | [Bert Rediscover][37] | probe bert layer            | -             | -     |
 
-#### Bert DownStream
+##### Bert DownStream
 
 | Read   | Public | Conference | Title               | HighLight                         | Code                           | Other |
 | ------ | ------ | ---------- | ------------------- | --------------------------------- | ------------------------------ | ----- |
 | 200113 | 191031 | -          | [DuoBERT][71]       | Three-stage Recall-Rank(pairwise) | [DuoBERT][10071]               | -     |
 | 191020 | 190827 | EMNLP 2019 | [Sentence Bert][40] | Bert in STS                       | [sentence-transformers][10040] | -     |
 
-#### Multi-modality Bert
+##### Multi-modality Bert
 
 | Read   | Public | Conference | Title          | HighLight | Code | Other |
 | ------ | ------ | ---------- | -------------- | --------- | ---- | ----- |
