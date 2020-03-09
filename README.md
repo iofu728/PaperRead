@@ -111,12 +111,13 @@
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
-| Read   | Public | Conference | Title         | HighLight                 | Code            | Other |
-| ------ | ------ | ---------- | ------------- | ------------------------- | --------------- | ----- |
-| 191220 | 190926 | ICLR 2020  | [WKLM][59]    | add KB in pretrain        | -               | -     |
-| 200112 | 190917 | -          | [K-BERT][70]  | Integrated KG to sentence | [K-BERT][10070] | -     |
-| 200308 | 190905 | -          | [LIBERT][101] | lexical                   | -               | -     |
-| 200308 | 190517 | ACL 2019   | [ERNIE][100]  | TransE                    | [ERNIE][10100]  | -     |
+| Read   | Public | Conference | Title            | HighLight                 | Code                | Other |
+| ------ | ------ | ---------- | ---------------- | ------------------------- | ------------------- | ----- |
+| 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain        | -                   | -     |
+| 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence | [K-BERT][10070]     | -     |
+| 200308 | 190905 | -          | [LIBERT][101]    | lexical                   | -                   | -     |
+| 200308 | 190815 | -          | [SenseBERT][102] | supersense                | [bert-sense][10102] | -     |
+| 200308 | 190517 | ACL 2019   | [ERNIE][100]     | TransE                    | [ERNIE][10100]      | -     |
 
 #### Adapter-based
 
@@ -477,6 +478,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [99]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/PALs.pdf
 [100]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/ERNIE.pdf
 [101]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/LIBERT.pdf
+[102]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/SenseBERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -532,6 +534,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10098]: https://github.com/google-research/adapter-bert
 [10099]: https://github.com/AsaCooperStickland/Bert-n-Pals
 [10100]: https://github.com/thunlp/ERNIE
+[10102]: https://github.com/uhh-lt/bert-sense
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

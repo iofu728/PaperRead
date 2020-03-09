@@ -15,6 +15,8 @@
 4. [**Informing Unsupervised Pretraining with External Linguistic Knowledge**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/LIBERT.pdf) [-] _Anne Lauscher, Ivan Vulić, Edoardo Maria Ponti, Anna Korhonen, Goran Glavaš_.
    - feed linguistic constraints (synonyms and direct hypernym-hyponym pairs) to BERT as additional training instances
    - predict lexico-semantic relations from constraint embeddings produced by BERT’s encoder
+5. [**SenseBERT: Driving Some Sense into BERT**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/SenseBERT.pdf) [-] _Yoav Levine, Barak Lenz, Or Dagan, Dan Padnos, Or Sharir, Shai Shalev-Shwartz, Amnon Shashua, Yoav Shoham_.
+   - predict supersense.
 
 ## Adapter-based
 
