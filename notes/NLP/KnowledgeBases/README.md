@@ -19,6 +19,8 @@
    - predict supersense.
 6. [**Knowledge Enhanced Contextual Word Representations**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf) [EMNLP 2019] _Matthew E. Peters, Mark Neumann, Robert L. Logan IV, Roy Schwartz, Vidur Joshi, Sameer Singh, Noah A. Smith_.
    - use entity link task(freeze BERT params when train EL and freeze EL params when train BERT.) L=L_BERT + L_EL4. KnowBERT use entity link task(freeze BERT params when train EL and freeze EL params when train BERT.) L=L_BERT + L_EL
+7. [**Integrating Graph Contextualized Knowledge into Pre-trained Language Models**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-MK.pdf) [-] _Bin He, Di Zhou, Jinghui Xiao, Xin jiang, Qun Liu, Nicholas Jing Yuan, Tong Xu_.
+   - uses a similar architecture with ERNIE, which uses GATs instead of TransE.
 
 ## Adapter-based
 

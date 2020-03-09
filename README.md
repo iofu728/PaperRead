@@ -113,6 +113,7 @@
 
 | Read   | Public | Conference | Title            | HighLight                 | Code                | Other |
 | ------ | ------ | ---------- | ---------------- | ------------------------- | ------------------- | ----- |
+| 200308 | 191003 | -          | [BERT_MK][104]   | GATs                      | -                   | -     |
 | 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain        | -                   | -     |
 | 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence | [K-BERT][10070]     | -     |
 | 200308 | 190909 | EMNLP 2019 | [KnowBERT][103]  | Alternate learning        | [kb][10103]         | -     |
@@ -481,6 +482,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [101]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/LIBERT.pdf
 [102]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/SenseBERT.pdf
 [103]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
+[104]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-MK.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
