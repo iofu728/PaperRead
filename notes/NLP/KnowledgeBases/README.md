@@ -21,6 +21,8 @@
    - use entity link task(freeze BERT params when train EL and freeze EL params when train BERT.) L=L_BERT + L_EL4. KnowBERT use entity link task(freeze BERT params when train EL and freeze EL params when train BERT.) L=L_BERT + L_EL
 7. [**Integrating Graph Contextualized Knowledge into Pre-trained Language Models**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-MK.pdf) [-] _Bin He, Di Zhou, Jinghui Xiao, Xin jiang, Qun Liu, Nicholas Jing Yuan, Tong Xu_.
    - uses a similar architecture with ERNIE, which uses GATs instead of TransE.
+8. [**KEPLER: A Uniﬁed Model for Knowledge Embedding and Pre-trained Language Representation**](https://github.com//iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf) [-] _Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhiyuan Liu, Juanzi Li, Jian Tang_.
+   - L_MLM + L_ER
 
 ## Adapter-based
 

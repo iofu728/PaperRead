@@ -113,6 +113,7 @@
 
 | Read   | Public | Conference | Title            | HighLight                 | Code                | Other |
 | ------ | ------ | ---------- | ---------------- | ------------------------- | ------------------- | ----- |
+| 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM              | [WikiData5M][10105] | -     |
 | 200308 | 191003 | -          | [BERT_MK][104]   | GATs                      | -                   | -     |
 | 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain        | -                   | -     |
 | 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence | [K-BERT][10070]     | -     |
@@ -483,6 +484,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [102]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/SenseBERT.pdf
 [103]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [104]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-MK.pdf
+[105]: https://github.com//iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -540,6 +542,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10100]: https://github.com/thunlp/ERNIE
 [10102]: https://github.com/uhh-lt/bert-sense
 [10103]: https://github.com/allenai/kb
+[10105]: https://deepgraphlearning.github.io/project/wikidata5m
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
