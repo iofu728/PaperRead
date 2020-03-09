@@ -115,6 +115,7 @@
 | ------ | ------ | ---------- | ---------------- | ------------------------- | ------------------- | ----- |
 | 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain        | -                   | -     |
 | 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence | [K-BERT][10070]     | -     |
+| 200308 | 190909 | EMNLP 2019 | [KnowBERT][103]  | Alternate learning        | [kb][10103]         | -     |
 | 200308 | 190905 | -          | [LIBERT][101]    | lexical                   | -                   | -     |
 | 200308 | 190815 | -          | [SenseBERT][102] | supersense                | [bert-sense][10102] | -     |
 | 200308 | 190517 | ACL 2019   | [ERNIE][100]     | TransE                    | [ERNIE][10100]      | -     |
@@ -479,6 +480,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [100]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/ERNIE.pdf
 [101]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/LIBERT.pdf
 [102]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/SenseBERT.pdf
+[103]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -535,6 +537,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10099]: https://github.com/AsaCooperStickland/Bert-n-Pals
 [10100]: https://github.com/thunlp/ERNIE
 [10102]: https://github.com/uhh-lt/bert-sense
+[10103]: https://github.com/allenai/kb
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
