@@ -12,6 +12,9 @@
 3. [**ERNIE: Enhanced Language Representation with Informative Entities**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/ERNIE.pdf) [ACL 2019] _Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, Qun Liu_.
    - TransE as entity embedding.
    - Multi-task.
+4. [**Informing Unsupervised Pretraining with External Linguistic Knowledge**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/LIBERT.pdf) [-] _Anne Lauscher, Ivan Vulić, Edoardo Maria Ponti, Anna Korhonen, Goran Glavaš_.
+   - feed linguistic constraints (synonyms and direct hypernym-hyponym pairs) to BERT as additional training instances
+   - predict lexico-semantic relations from constraint embeddings produced by BERT’s encoder
 
 ## Adapter-based
 
