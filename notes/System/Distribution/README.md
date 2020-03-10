@@ -57,3 +57,28 @@
      - Then FT **copies the bounce buffer into the primary's memory**, and after that allows the primary to continue executing.
      - FT sends the data to the backup on the log channel.
      - The backup's FT interrupts the backup at the same instruction as the primary was interrupted, copies the data into the backup's memory while the backup is into executing, and then resumes the backup.
+4. [**In Search of an Understandable Consensus Algorithm**](https://github.com//iofu728/PaperRead/blob/master/paper/System/Distribution/raft-extended.pdf) [USENIX ATC 2014] _Diego Ongaro, John K. Ousterhout_
+   - Consensus algorithm for managing a replicated log.
+   - Split Brain, Majority Voting, Understandability.
+     - Strong leader
+     - Leader election
+       - election timeout
+         - randomize election timeouts
+       - need contain all votes committed
+       - more than half votes(odd)
+       - first-come-first-serves
+       - votes to the term bigger candidates
+     - Log replication
+       - Log Matching Property
+       - slow not impact
+     - Safety: non-Byzantine
+       - Leader Completeness Property
+       - idempotent
+       - boradcast time << election Timeout << MTBF
+     - Membership changes
+   - State Machine
+   - Term as a logical clock.
+   - Communicate using RPCs.
+     - RequestVote RPCs
+     - AppendEntries RPCs
+     - transferring snapshot RPCs

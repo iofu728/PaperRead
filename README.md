@@ -368,11 +368,12 @@
 
 ### [Distribution](https://github.com/iofu728/PaperRead/blob/master/notes/System/Distribution)
 
-| Read   | Public | Conference  | Title           | HighLight                         | Code               | Other |
-| ------ | ------ | ----------- | --------------- | --------------------------------- | ------------------ | ----- |
-| 200304 | 101101 | SIGOPS 2010 | [VM-FT][95]     | Fault-Tolerant replicating        | -                  | -     |
-| 200222 | 040301 | OSDI 2004   | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -     |
-| 200225 | 041020 | SOSP 2003   | [GFS][83]       | distribution file system          | -                  | -     |
+| Read   | Public | Conference      | Title           | HighLight                         | Code               | Other        |
+| ------ | ------ | --------------- | --------------- | --------------------------------- | ------------------ | ------------ |
+| 200310 | 141101 | USENIX ATX 2014 | [Raft][106]     | Consensus algorithm               | -                  | [web][30106] |
+| 200304 | 101101 | SIGOPS 2010     | [VM-FT][95]     | Fault-Tolerant replicating        | -                  | -            |
+| 200222 | 040301 | OSDI 2004       | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -            |
+| 200225 | 041020 | SOSP 2003       | [GFS][83]       | distribution file system          | -                  | -            |
 
 ## License
 
@@ -485,6 +486,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [103]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [104]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-MK.pdf
 [105]: https://github.com//iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf
+[106]: https://github.com//iofu728/PaperRead/blob/master/paper/System/Distribution/raft-extended.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -552,3 +554,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30080]: https://www.kdd.org/kdd2019/accepted-papers/view/a-hierarchical-career-path-aware-neural-network-for-job-mobility-prediction
 [30090]: https://openreview.net/forum?id=BJwFrvOeg
 [30094]: https://openreview.net/forum?id=rygGQyrFvH
+[30106]: https://raft.github.io/
