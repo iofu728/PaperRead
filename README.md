@@ -345,9 +345,10 @@
 
 #### Table&Chart
 
-| Read   | Public | Conference | Title            | HighLight                                | Code | Other |
-| ------ | ------ | ---------- | ---------------- | ---------------------------------------- | ---- | ----- |
-| 200110 | 190725 | AAAI 2019  | [TableSense][81] | detect Table Boundaries from spreadsheet | -    | -     |
+| Read   | Public | Conference | Title                 | HighLight                                | Code | Other |
+| ------ | ------ | ---------- | --------------------- | ---------------------------------------- | ---- | ----- |
+| 200311 | 190725 | AAAI 2019  | [Table2Analysis][107] | LM + Beam search to get Table Analysis   | -    | -     |
+| 200110 | 190725 | AAAI 2019  | [TableSense][81]      | detect Table Boundaries from spreadsheet | -    | -     |
 
 #### [Demo](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Demo)
 
@@ -485,8 +486,9 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [102]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/SenseBERT.pdf
 [103]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [104]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-MK.pdf
-[105]: https://github.com//iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf
-[106]: https://github.com//iofu728/PaperRead/blob/master/paper/System/Distribution/raft-extended.pdf
+[105]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf
+[106]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/raft-extended.pdf
+[107]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/Table2Analysis_AAAI20.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
