@@ -189,9 +189,10 @@
 
 #### Summarization
 
-| Read   | Public | Conference | Title        | HighLight    | Code             | Other          |
-| ------ | ------ | ---------- | ------------ | ------------ | ---------------- | -------------- |
-| 181212 | 170725 | ICML 2017  | [ConvS2S][2] | CNN semantic | [fairseq][10002] | [notes][20002] |
+| Read   | Public | Conference | Title                          | HighLight                                  | Code             | Other             |
+| ------ | ------ | ---------- | ------------------------------ | ------------------------------------------ | ---------------- | ----------------- |
+| 200313 | 190708 | ACL 2019   | [ExtractiveSummarization][108] | Diff Architecture Extractive Summarization | [fastNLP][10108] | [homepage][30108] |
+| 181212 | 170725 | ICML 2017  | [ConvS2S][2]                   | CNN semantic                               | [fairseq][10002] | [notes][20002]    |
 
 #### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
 
@@ -489,6 +490,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [105]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf
 [106]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/raft-extended.pdf
 [107]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/Table2Analysis_AAAI20.pdf
+[108]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/EffectiveNeuralExtractive.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -547,6 +549,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10102]: https://github.com/uhh-lt/bert-sense
 [10103]: https://github.com/allenai/kb
 [10105]: https://deepgraphlearning.github.io/project/wikidata5m
+[10108]: https://github.com/fastnlp/fastNLP
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -557,3 +560,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30090]: https://openreview.net/forum?id=BJwFrvOeg
 [30094]: https://openreview.net/forum?id=rygGQyrFvH
 [30106]: https://raft.github.io/
+[30108]: http://pfliu.com/InterpretSum/interpretSum.html
