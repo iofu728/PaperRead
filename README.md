@@ -18,6 +18,7 @@
   - [Knowledge Bases](#knowledge-bases)
     - [Adapter-based](#adapter-based)
   - [Language Models](#language-models)
+  - [Piece](#piece)
     - [Bertology](#bertology)
       - [Bert Distilled](#bert-distilled)
       - [Bert Probe](#bert-probe)
@@ -139,6 +140,12 @@
 | 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding                   | -                    | -               |
 | 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM                   | -                    | [review][30090] |
 
+### Piece
+
+| Read   | Public | Conference | Title       | HighLight    | Code | Other |
+| ------ | ------ | ---------- | ----------- | ------------ | ---- | ----- |
+| 200314 | 190907 | -          | [BBPE][109] | UTF-8 -> BPE | -    | -     |
+
 #### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
 | Read   | Public | Conference | Title         | HighLight                     | Code           | Other |
@@ -187,7 +194,7 @@
 | 190926 | 190926 | -          | [CTRL][13]             | controllable generation                  | [ctrl][10013]      | -               |
 | 191010 | 190812 | -          | [UnLikelihood][27]     | unLikelihood                             |                    | -               |
 
-#### Summarization
+#### [Summarization](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization)
 
 | Read   | Public | Conference | Title                          | HighLight                                  | Code             | Other             |
 | ------ | ------ | ---------- | ------------------------------ | ------------------------------------------ | ---------------- | ----------------- |
@@ -491,6 +498,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [106]: https://github.com/iofu728/PaperRead/blob/master/paper/System/Distribution/raft-extended.pdf
 [107]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/Table2Analysis_AAAI20.pdf
 [108]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/EffectiveNeuralExtractive.pdf
+[109]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

@@ -26,3 +26,8 @@
    - using Pre-LN Transformer instead of Post-LN Transformer in Origin Bert
    - using the GELU instead of RELU
    - little of code change in parallelism architecture.
+
+## Piece
+
+1. [**Neural Machine Translation with Byte-Level Subwords**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf) [-] _Changhan Wang, Kyunghyun Cho, Jiatao Gu_.
+   - UTF-8 -> BPE
