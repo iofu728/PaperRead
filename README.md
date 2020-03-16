@@ -18,7 +18,7 @@
   - [Knowledge Bases](#knowledge-bases)
     - [Adapter-based](#adapter-based)
   - [Language Models](#language-models)
-  - [Piece](#piece)
+    - [Piece](#piece)
     - [Bertology](#bertology)
       - [Bert Distilled](#bert-distilled)
       - [Bert Probe](#bert-probe)
@@ -27,6 +27,7 @@
   - [NLG](#nlg)
     - [Summarization](#summarization)
     - [NMT](#nmt)
+  - [MRC](#mrc)
   - [Other](#other)
     - [Text Style Transfer](#text-style-transfer)
     - [Discourse Parsing](#discourse-parsing)
@@ -140,7 +141,7 @@
 | 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding                   | -                    | -               |
 | 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM                   | -                    | [review][30090] |
 
-### Piece
+#### Piece
 
 | Read   | Public | Conference | Title       | HighLight    | Code | Other |
 | ------ | ------ | ---------- | ----------- | ------------ | ---- | ----- |
@@ -206,6 +207,12 @@
 | Read   | Public | Conference | Title                       | HighLight                         | Code                 | Other |
 | ------ | ------ | ---------- | --------------------------- | --------------------------------- | -------------------- | ----- |
 | 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72] | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
+
+### [MRC](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/MRC)
+
+| Read   | Public | Conference | Title                      | HighLight              | Code | Other |
+| ------ | ------ | ---------- | -------------------------- | ---------------------- | ---- | ----- |
+| 200316 | 191028 | -          | [Multiple-Choice MRC][110] | Multi-choice + Probing | -    | -     |
 
 ### Other
 
@@ -499,6 +506,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [107]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/AppliedDataScience/Table2Analysis_AAAI20.pdf
 [108]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/EffectiveNeuralExtractive.pdf
 [109]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf
+[110]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Multiple-ChoiceMRC.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
