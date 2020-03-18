@@ -149,13 +149,14 @@
 
 #### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
-| Read   | Public | Conference | Title         | HighLight                     | Code           | Other |
-| ------ | ------ | ---------- | ------------- | ----------------------------- | -------------- | ----- |
-| 191112 | 191029 | -          | [BART][48]    | Auto-Encode + Auto-Regressive | -              | -     |
-| 191024 | 191024 | -          | [T5][42]      | Decathlon                     | [T5][10042]    | C4    |
-| 191113 | 190926 | ICLR 2020  | [ELECTRA][50] | GAN -> difficult MASK         | -              | -     |
-| 190928 | 190926 | ICLR 2020  | [ALBert][12]  | ReduceParams                  | -              | -     |
-| 190801 | 190508 | -          | [UniLM][21]   | three Mask                    | [unilm][10021] | -     |
+| Read   | Public | Conference | Title           | HighLight                     | Code           | Other           |
+| ------ | ------ | ---------- | --------------- | ----------------------------- | -------------- | --------------- |
+| 191112 | 191029 | -          | [BART][48]      | Auto-Encode + Auto-Regressive | -              | -               |
+| 191024 | 191024 | -          | [T5][42]        | Decathlon                     | [T5][10042]    | C4              |
+| 200318 | 190926 | ICLR 2020  | [REFORMER][111] | LSH Mask Attention            | [trax][10111]  | [review][30111] |
+| 191113 | 190926 | ICLR 2020  | [ELECTRA][50]   | GAN -> difficult MASK         | -              | -               |
+| 190928 | 190926 | ICLR 2020  | [ALBert][12]    | ReduceParams                  | -              | -               |
+| 190801 | 190508 | -          | [UniLM][21]     | three Mask                    | [unilm][10021] | -               |
 
 ##### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Distilled)
 
@@ -507,6 +508,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [108]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/EffectiveNeuralExtractive.pdf
 [109]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf
 [110]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Multiple-ChoiceMRC.pdf
+[111]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Bertology/Reformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -566,6 +568,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10103]: https://github.com/allenai/kb
 [10105]: https://deepgraphlearning.github.io/project/wikidata5m
 [10108]: https://github.com/fastnlp/fastNLP
+[10111]: https://github.com/google/trax/tree/master/trax/models/reformer
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -577,3 +580,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30094]: https://openreview.net/forum?id=rygGQyrFvH
 [30106]: https://raft.github.io/
 [30108]: http://pfliu.com/InterpretSum/interpretSum.html
+[30111]: https://openreview.net/forum?id=rkgNKkHtvB

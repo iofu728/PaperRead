@@ -53,6 +53,11 @@
    - Weight Sharing -> sharing embedding & weight
    - Smaller generators
    - Training Algorithm: frozen.
+6. [**Reformer: The Efficient Transformer**](https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Bertology/Reformer.pdf) [ICLR 2020] _Nikita Kitaev, Lukasz Kaiser, Anselm Levskaya_.
+   - LSH Mask Attention:
+     - Motivation: One token should only focus on one of the few tokens.
+   - indecency chunking FFN
+   - single reversible copy
 
 ## Multi-modality Bert
 
