@@ -39,6 +39,7 @@
     - [Transformer](#transformer)
       - [Relative position embedding](#relative-position-embedding)
     - [Attention](#attention)
+    - [Normalization](#normalization)
   - [Strategy](#strategy)
     - [Metric Learning](#metric-learning)
     - [Interpretability](#interpretability)
@@ -281,6 +282,12 @@
 | 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16]       | every head role              | [heads][10016]                | -     |
 | 190619 | 190226 | NAACL 2019 | [Attention not explanation][30] | weighted correction + robust | [AttentionExplanation][10030] | -     |
 
+#### [Normalization](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Normalization)
+
+| Read   | Public | Conference | Title                    | HighLight           | Code | Other |
+| ------ | ------ | ---------- | ------------------------ | ------------------- | ---- | ----- |
+| 200319 | 200317 | -          | [BN in Transformer][112] | high var in NLP, PN | -    | -     |
+
 ### Strategy
 
 #### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
@@ -509,6 +516,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [109]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf
 [110]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Multiple-ChoiceMRC.pdf
 [111]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Bertology/Reformer.pdf
+[112]: https://github.com/iofu728/PaperRead/bl/master/paper/ML/Normalization/BNinTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
