@@ -169,10 +169,11 @@
 
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
-| Read   | Public | Conference | Title                 | HighLight                   | Code          | Other |
-| ------ | ------ | ---------- | --------------------- | --------------------------- | ------------- | ----- |
-| 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]       | Bert in Relation Extraction | [LAMA][]10054 | -     |
-| 191014 | 190515 | ACL 2019   | [Bert Rediscover][37] | probe bert layer            | -             | -     |
+| Read   | Public | Conference | Title                          | HighLight                         | Code          | Other |
+| ------ | ------ | ---------- | ------------------------------ | --------------------------------- | ------------- | ----- |
+| 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]                | Bert in Relation Extraction       | [LAMA][10054] | -     |
+| 200320 | 190624 | ACL 2019   | [RightForTheWrongReasons][113] | bad in some anti-heuristic sample | -             | -     |
+| 191014 | 190515 | ACL 2019   | [Bert Rediscover][37]          | probe bert layer                  | -             | -     |
 
 ##### Bert DownStream
 
@@ -517,6 +518,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [110]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Multiple-ChoiceMRC.pdf
 [111]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Bertology/Reformer.pdf
 [112]: https://github.com/iofu728/PaperRead/bl/master/paper/ML/Normalization/BNinTransformer.pdf
+[113]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Probe/RightForTheWrongReasons.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

@@ -10,3 +10,9 @@
    - the output of BERT is bigger, the more likely to be correct.
    - by using pearson correlation coefficient, to explain the co-occurrence.
    - ELMO is more like to BERT, even if the train set have no wikipedia.
+3. [**Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference**](https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Probe/RightForTheWrongReasons.pdf) [ACL 2019] _R. Thomas McCoy, Ellie Pavlick, Tal Linzen_.
+   - BERT not good at some anti-heuristics samples, like:
+     - lexical overlap
+     - subsequence
+     - constituent
+   - proposal an data set which have many anti-heuristics samples, which called as HANS.
