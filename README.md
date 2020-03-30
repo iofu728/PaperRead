@@ -308,9 +308,10 @@
 
 #### [Multi-task](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Multi-task)
 
-| Read   | Public | Conference | Title                             | HighLight                 | Code         | Other |
-| ------ | ------ | ---------- | --------------------------------- | ------------------------- | ------------ | ----- |
-| 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53] | Multi-task by no old data | [LwF][10053] | -     |
+| Read   | Public | Conference | Title                              | HighLight                 | Code         | Other |
+| ------ | ------ | ---------- | ---------------------------------- | ------------------------- | ------------ | ----- |
+| 200330 | 181006 | ECCV 2018  | [Dynamic Task Prioritization][114] | Focal Loss Priori         | -            | -     |
+| 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53]  | Multi-task by no old data | [LwF][10053] | -     |
 
 #### [Dropout](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Dropout)
 
@@ -519,6 +520,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [111]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Bertology/Reformer.pdf
 [112]: https://github.com/iofu728/PaperRead/bl/master/paper/ML/Normalization/BNinTransformer.pdf
 [113]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Probe/RightForTheWrongReasons.pdf
+[114]: https://github.com/iofu728/PaperRead/bl/master/paper/ML/Multi-task/DynamicTaskPrioritizationForMultiTask.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
