@@ -108,3 +108,6 @@
    - I think it due to the representation of entity label which replace the traditional project representation space to one flat.
    - The question temperate which is to determine the performance is writer by human.
    - add negative sample which have no correct answer in sentence from other NER dataset.
+5. [**Why Attention? Analyze BiLSTM Deﬁciency and Its Remedies in the Case of NER**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf) [AAAI 2020] _Peng-Hsuan Li, Tsu-Jui Fu, Wei-Yun Ma_.
+   - BiLSTM exist XOR Limitation.
+   - Attention can fix this proplem.

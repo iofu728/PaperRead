@@ -75,12 +75,13 @@
 
 #### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference | Title               | HighLight                  | Code         | Other |
-| ------ | ------ | ---------- | ------------------- | -------------------------- | ------------ | ----- |
-| 191113 | 191110 | -          | [TENER][49]         | improve Transformer in NER | -            | -     |
-| 191020 | 190712 | AAAI 2019  | [GRN][41]           | +Long-term->CNN            | [GRN][10041] | -     |
-| 191220 | 190327 | EMNLP 2019 | [capitalized][58]   | capitalized in ner and pos | -            | -     |
-| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67] | view NER as MRC            | -            | -     |
+| Read   | Public | Conference | Title                   | HighLight                  | Code           | Other |
+| ------ | ------ | ---------- | ----------------------- | -------------------------- | -------------- | ----- |
+| 200331 | 190613 | AAAI 2020  | [Attention in NER][115] | XOR Limitation in BiLSTM   | [cross][10115] | -     |
+| 191113 | 191110 | -          | [TENER][49]             | improve Transformer in NER | -              | -     |
+| 191020 | 190712 | AAAI 2019  | [GRN][41]               | +Long-term->CNN            | [GRN][10041]   | -     |
+| 191220 | 190327 | EMNLP 2019 | [capitalized][58]       | capitalized in ner and pos | -              | -     |
+| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67]     | view NER as MRC            | -              | -     |
 
 ##### Nested NER
 
@@ -517,10 +518,11 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [108]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Summarization/EffectiveNeuralExtractive.pdf
 [109]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf
 [110]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Multiple-ChoiceMRC.pdf
-[111]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Bertology/Reformer.pdf
-[112]: https://github.com/iofu728/PaperRead/bl/master/paper/ML/Normalization/BNinTransformer.pdf
-[113]: https://github.com/iofu728/PaperRead/bl/master/paper/NLP/Probe/RightForTheWrongReasons.pdf
-[114]: https://github.com/iofu728/PaperRead/bl/master/paper/ML/Multi-task/DynamicTaskPrioritizationForMultiTask.pdf
+[111]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/Reformer.pdf
+[112]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Normalization/BNinTransformer.pdf
+[113]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/RightForTheWrongReasons.pdf
+[114]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/DynamicTaskPrioritizationForMultiTask.pdf
+[115]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -581,6 +583,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10105]: https://deepgraphlearning.github.io/project/wikidata5m
 [10108]: https://github.com/fastnlp/fastNLP
 [10111]: https://github.com/google/trax/tree/master/trax/models/reformer
+[10115]: https://github.com/jacobvsdanniel/cross_ner
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
