@@ -22,3 +22,7 @@
      - classification objective function
      - regression objective function
      - triplet objective function
+6. [**Circle Loss: A Unified Perspective of Pair Similarity Optimization**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/CircleLoss.pdf) [CVPR 2020] _Yifan Sun, Changmao Cheng, Yuhan Zhang, Chi Zhang, Liang Zheng, Zhongdao Wang, Yichen Wei_.
+   - Unified SoftMax, Margin-based, Multi-N-pair
+   - self-paced weighting
+   - margin

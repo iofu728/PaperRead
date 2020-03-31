@@ -296,6 +296,7 @@
 
 | Read   | Public | Conference | Title                         | HighLight             | Code                        | Other |
 | ------ | ------ | ---------- | ----------------------------- | --------------------- | --------------------------- | ----- |
+| 190829 | 190525 | CVPR 2020  | [Circle Loss][116]            | Unified Npair,Softmax | -                           | -     |
 | 190829 | 190525 | NIPS 2019  | [Constellation Loss][8]       | Multiclass n + Triple | [constellation_loss][10008] | -     |
 | 191007 | 170406 | CVPR 2017  | [Quadruplet Loss][26]         | two margin            | -                           | -     |
 | 190827 | 160601 | CVPR 2016  | [Multi-class N-pair Loss][29] | multi negative sample | -                           | -     |
@@ -523,6 +524,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [113]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/RightForTheWrongReasons.pdf
 [114]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/DynamicTaskPrioritizationForMultiTask.pdf
 [115]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf
+[116]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/CircleLoss.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
