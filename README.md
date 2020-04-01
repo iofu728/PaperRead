@@ -27,6 +27,7 @@
   - [NLG](#nlg)
     - [Summarization](#summarization)
     - [NMT](#nmt)
+    - [ChatBot](#chatbot)
   - [MRC](#mrc)
   - [Other](#other)
     - [Text Style Transfer](#text-style-transfer)
@@ -211,6 +212,12 @@
 | Read   | Public | Conference | Title                       | HighLight                         | Code                 | Other |
 | ------ | ------ | ---------- | --------------------------- | --------------------------------- | -------------------- | ----- |
 | 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72] | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
+
+#### [ChatBot](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/ChatBot)
+
+| Read   | Public | Conference | Title        | HighLight                     | Code | Other         |
+| ------ | ------ | ---------- | ------------ | ----------------------------- | ---- | ------------- |
+| 200401 | 200227 | -          | [Meena][117] | Evolved Transformer + Billion | -    | [blog][30117] |
 
 ### [MRC](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/MRC)
 
@@ -525,6 +532,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [114]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/DynamicTaskPrioritizationForMultiTask.pdf
 [115]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf
 [116]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/CircleLoss.pdf
+[117]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/ChatBot/Meena.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -598,3 +606,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30106]: https://raft.github.io/
 [30108]: http://pfliu.com/InterpretSum/interpretSum.html
 [30111]: https://openreview.net/forum?id=rkgNKkHtvB
+[300117]: https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html
