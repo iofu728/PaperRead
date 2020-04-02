@@ -154,6 +154,7 @@
 
 | Read   | Public | Conference | Title           | HighLight                     | Code           | Other           |
 | ------ | ------ | ---------- | --------------- | ----------------------------- | -------------- | --------------- |
+| 200402 | 200210 | -          | [REALM][118]    | retrieve-then-predict         | -              | [blog][30118]   |
 | 191112 | 191029 | -          | [BART][48]      | Auto-Encode + Auto-Regressive | -              | -               |
 | 191024 | 191024 | -          | [T5][42]        | Decathlon                     | [T5][10042]    | C4              |
 | 200318 | 190926 | ICLR 2020  | [REFORMER][111] | LSH Mask Attention            | [trax][10111]  | [review][30111] |
@@ -533,6 +534,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [115]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf
 [116]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/CircleLoss.pdf
 [117]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/ChatBot/Meena.pdf
+[118]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/REALM.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -606,4 +608,5 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30106]: https://raft.github.io/
 [30108]: http://pfliu.com/InterpretSum/interpretSum.html
 [30111]: https://openreview.net/forum?id=rkgNKkHtvB
-[300117]: https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html
+[30117]: https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html
+[30118]: https://joeddav.github.io/blog/2020/03/03/REALM.html

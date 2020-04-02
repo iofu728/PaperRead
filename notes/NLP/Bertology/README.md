@@ -58,6 +58,12 @@
      - Motivation: One token should only focus on one of the few tokens.
    - indecency chunking FFN
    - single reversible copy
+7. [**REALM: Retrieval-Augmented Language Model Pre-Training**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/REALM.pdf) [-] _Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, Ming-Wei Chang_.
+   - retrieve-then-predict.
+   - salient span masking
+   - null document
+   - trivial retrieval
+   - initialization-ICT(Inverse Cloze Task) warm-up
 
 ## Multi-modality Bert
 
