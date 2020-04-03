@@ -31,3 +31,9 @@
 
 1. [**Neural Machine Translation with Byte-Level Subwords**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Byte-LevelSubwords.pdf) [-] _Changhan Wang, Kyunghyun Cho, Jiatao Gu_.
    - UTF-8 -> BPE
+
+## Semi-Supervised
+
+1. [**Semi-Supervised Sequence Modeling with Cross-View Training**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/CVT.pdf) [EMNLP 2018] _Kevin Clark, Minh-Thang Luong, Christopher D. Manning, Quoc V. Le_.
+   - Using windows + NER + suoervised model to train the unlabel data.
+   - Multi-task.

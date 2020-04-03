@@ -142,6 +142,7 @@
 | 200228 | 200213 | AAAI 2020  | [LRLM][91]                    | Span level + latent to align     | [lrlm][10091]        | -               |
 | 191017 | 191005 | -          | [Megatron-LM][38]             | parallelism & little code change | [megatron-LM][10038] | [blog][30038]   |
 | 200302 | 190215 | -          | [ContextualWordRepresent][93] | word embedding                   | -                    | -               |
+| 200403 | 180922 | EMNLP 2018 | [CVT][119]                    | windows+NER train unlabeled data | [cvt][10119]         | -               |
 | 200228 | 170502 | -          | [NKLM][90]                    | Knowledge + LM                   | -                    | [review][30090] |
 
 #### Piece
@@ -535,6 +536,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [116]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/CircleLoss.pdf
 [117]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/ChatBot/Meena.pdf
 [118]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/REALM.pdf
+[119]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/CVT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -596,6 +598,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10108]: https://github.com/fastnlp/fastNLP
 [10111]: https://github.com/google/trax/tree/master/trax/models/reformer
 [10115]: https://github.com/jacobvsdanniel/cross_ner
+[10119]: https://github.com/tensorflow/models/tree/master/research/cvt_text
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
