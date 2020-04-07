@@ -1,5 +1,7 @@
 # Knowledge Bases
 
+## Entity -> improve LMs
+
 1. [**K-BERT: Enabling Language Representation with Knowledge Graph**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/K-BERT.pdf) [AAAI 2020 Reject] _Weijie Liu, Peng Zhou, Zhe Zhao, Zhiruo Wang, Qi Ju, Haotang Deng, Ping Wang_.
    - change previous word embedding + TranE => add knowledge to sentence(Like annotations)
    - The change maybe have noisy in semantic. So add one mask.
@@ -85,3 +87,37 @@
 
 3. [**BERT and PALs: Projected Attention Layers for Efﬁcient Adaptation in Multi-Task Learning**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/PALs.pdf) [ICML 2019] _Asa Cooper Stickland, Iain Murray_.
    - Projected Attention Layers to take task-specific layer to model.
+
+## plain text -> improve LMs
+
+1. [**REALM: Retrieval-Augmented Language Model Pre-Training**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/REALM.pdf) [-] _Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, Ming-Wei Chang_.
+   - Motivation:
+     1. Enhancing knowledge of language models in a retrieval fashion.
+     2. For open-domain QA tasks, the relationship between the retrievers and the reader is completed using the invisible variable approach (ORQA). The authors apply this idea to the pre-training phase.
+   - retrieve-then-predict.
+   - salient span masking
+   - null document
+   - trivial retrieval
+   - initialization-ICT(Inverse Cloze Task) warm-up
+   - Discuss:
+     1. It seems like initialization is critical to the performance.
+     2. The byproduct is an unsupervised retriever and a passage-level representation.
+     3. This way of extracting information from unstructured data seems more reasonable than entity level knowledge infusing. (structured/unstructured?)
+     4. Notice that the masking scheme has a big impact on the final result. My understanding is that random masking destroys the semantics of x resulting in poor retrieval learning.
+     5. Adapting to new knowledge but also can’t answer this question:
+        - “Thatcher” for “\_\_ is the prime minister of United Kingdom.”
+2. [**Generalization through Memorization: Nearest Neighbor Language Models**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KNNLM.pdf) [ICLR 2020] _Urvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke Zettlemoyer, Mike Lewis_.
+   - Motivation:
+     - Enhancing long-range dependence of language models through explicit storage context encoding patterns and KNN.
+   - Detail:
+     - Using kNN to improve the generalizability of LMs.
+     - Generation prepared (contextual representation c*t=├ (w_1,…w*(t-1) ┤), next token w_t) pair-wise memories cache.
+     - No fine-tune the pre-trained LMs parameters.
+     - , where d is L2 distance function.
+     - $p(y | x)=λp_kNN (y | x)+(1-λ)p_LM (y | x)$
+     - Using FAISS to reduce search computation.
+     - Discuss:
+       1. kNN-LM can be seen as a representation of an enhanced mode of significant co-occurrence with semantic similarity.
+       2. The datastore data set needs to have a similar or semantically similar distribution to the test set. (This, of course, is true for all language models.
+       3. For time-space complexity, the authors mention in openreview that the generation of datastore takes a similar time to model training. The inference phase drops from the original 500 tokens per second to 60 tokens per second.
+       4. Whether this mode of representation can be enhanced significantly in other downstream tasks is still missing.

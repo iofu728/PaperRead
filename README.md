@@ -116,16 +116,18 @@
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
-| Read   | Public | Conference | Title            | HighLight                 | Code                | Other |
-| ------ | ------ | ---------- | ---------------- | ------------------------- | ------------------- | ----- |
-| 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM              | [WikiData5M][10105] | -     |
-| 200308 | 191003 | -          | [BERT_MK][104]   | GATs                      | -                   | -     |
-| 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain        | -                   | -     |
-| 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence | [K-BERT][10070]     | -     |
-| 200308 | 190909 | EMNLP 2019 | [KnowBERT][103]  | Alternate learning        | [kb][10103]         | -     |
-| 200308 | 190905 | -          | [LIBERT][101]    | lexical                   | -                   | -     |
-| 200308 | 190815 | -          | [SenseBERT][102] | supersense                | [bert-sense][10102] | -     |
-| 200308 | 190517 | ACL 2019   | [ERNIE][100]     | TransE                    | [ERNIE][10100]      | -     |
+| Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
+| ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
+| 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
+| 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM                  | [WikiData5M][10105] | -               |
+| 200308 | 191003 | -          | [BERT_MK][104]   | GATs                          | -                   | -               |
+| 200405 | 200926 | ICLR 2020  | [KNN-LM][120]    | KNN improve LM representation | [knnlm][10120]      | [review][30120] |
+| 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain            | -                   | -               |
+| 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence     | [K-BERT][10070]     | -               |
+| 200308 | 190909 | EMNLP 2019 | [KnowBERT][103]  | Alternate learning            | [kb][10103]         | -               |
+| 200308 | 190905 | -          | [LIBERT][101]    | lexical                       | -                   | -               |
+| 200308 | 190815 | -          | [SenseBERT][102] | supersense                    | [bert-sense][10102] | -               |
+| 200308 | 190517 | ACL 2019   | [ERNIE][100]     | TransE                        | [ERNIE][10100]      | -               |
 
 #### Adapter-based
 
@@ -155,7 +157,6 @@
 
 | Read   | Public | Conference | Title           | HighLight                     | Code           | Other           |
 | ------ | ------ | ---------- | --------------- | ----------------------------- | -------------- | --------------- |
-| 200402 | 200210 | -          | [REALM][118]    | retrieve-then-predict         | -              | [blog][30118]   |
 | 191112 | 191029 | -          | [BART][48]      | Auto-Encode + Auto-Regressive | -              | -               |
 | 191024 | 191024 | -          | [T5][42]        | Decathlon                     | [T5][10042]    | C4              |
 | 200318 | 190926 | ICLR 2020  | [REFORMER][111] | LSH Mask Attention            | [trax][10111]  | [review][30111] |
@@ -535,8 +536,9 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [115]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf
 [116]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/MetricLearning/CircleLoss.pdf
 [117]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/ChatBot/Meena.pdf
-[118]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/REALM.pdf
+[118]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/REALM.pdf
 [119]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/CVT.pdf
+[120]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KNNLM.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -599,6 +601,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10111]: https://github.com/google/trax/tree/master/trax/models/reformer
 [10115]: https://github.com/jacobvsdanniel/cross_ner
 [10119]: https://github.com/tensorflow/models/tree/master/research/cvt_text
+[10120]: https://github.com/urvashik/knnlm
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -613,3 +616,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30111]: https://openreview.net/forum?id=rkgNKkHtvB
 [30117]: https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html
 [30118]: https://joeddav.github.io/blog/2020/03/03/REALM.html
+[30120]: https://openreview.net/forum?id=HklBjCEKvH
