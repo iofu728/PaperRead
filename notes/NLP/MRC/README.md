@@ -9,3 +9,6 @@
    - Un-Answerable Data Attack
      - P-Shufﬂe, Q-Shufﬂe, PQ-Shufﬂe
      - P-Remove, Q-Remove, PQ-Remove
+2. [**Latent Retrieval for Weakly Supervised Open Domain Question Answering**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/ORQA.pdf) [ACL 2019] _Kenton Lee, Ming-Wei Chang, Kristina Toutanova_.
+   - Latent Retriever.
+   - ICT( Inverse Cloze Task )

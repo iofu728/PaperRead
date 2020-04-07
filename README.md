@@ -226,6 +226,7 @@
 
 | Read   | Public | Conference | Title                      | HighLight              | Code | Other |
 | ------ | ------ | ---------- | -------------------------- | ---------------------- | ---- | ----- |
+| 200405 | 190627 | ACL 2019   | [ORQA][121]                | Latent Retriever       | -    | -     |
 | 200316 | 191028 | -          | [Multiple-Choice MRC][110] | Multi-choice + Probing | -    | -     |
 
 ### Other
@@ -539,6 +540,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [118]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/REALM.pdf
 [119]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/CVT.pdf
 [120]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KNNLM.pdf
+[121]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/ORQA.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
