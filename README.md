@@ -168,6 +168,7 @@
 
 | Read   | Public | Conference | Title             | HighLight                    | Code                  | Other |
 | ------ | ------ | ---------- | ----------------- | ---------------------------- | --------------------- | ----- |
+| 200409 | 200404 | ACL 2020   | [TinyMBERT][122]  | LL RL CE -> BiLSTM           | -                     | -     |
 | 191228 | 190926 | ICLR 2020  | [DEFINE][61]      | reduce embed size + residual | -                     | -     |
 | 191018 | 191002 | NIPS 2019  | [DistillBert][39] | support device               | [transformers][10039] | -     |
 | 191002 | 190926 | -          | [TinyBert][17]    | new tew-stage                | -                     | -     |
@@ -541,6 +542,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [119]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/CVT.pdf
 [120]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KNNLM.pdf
 [121]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/ORQA.pdf
+[122]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyMBERT_Multi_lingual_NER_Distillation.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
