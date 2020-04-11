@@ -61,6 +61,11 @@
     - Rank loss + CRF loss.
     - using KB and Bagging.
     - many hand-crafted features.
+13. [**Recursively Binary Modification Model for Nested Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/RBM.pdf) [AAAI 2020] _Bing Li1, Shifeng Liu1, Yifang Sun1, Wei Wang1,2, Xiang Zhao3_.
+    1. Recursively => base one the Interaction of neighbor entity type
+    2. I think the region also need full enumerate.
+    3. latent parameters.
+    4. one like translation matrix and dynamic problem to reduce time consuming.
 
 ## Unlabeled
 
