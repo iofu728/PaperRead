@@ -22,3 +22,8 @@
    - Triplet Loss combining language modeling, distillation and cosine-distance losses
    - can be deploy in device, like iphone 7
 4. [**Multi-Stage Distillation Framework for Massive Multi-lingual NER**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyMBERT_Multi_lingual_NER_Distillation.pdf) [ACL 2020] _Subhabrata (Subho) Mukherjee, Ahmed Hassan Awadallah_.
+   - Distillation -> BiLSTM
+   - Hard + Soft teacher.
+   - Layer Parma KL
+   - stage-wise
+   - gradual unfreeze.
