@@ -14,7 +14,7 @@
     - [NER](#ner)
       - [Nested NER](#nested-ner)
       - [Unlabeled](#unlabeled)
-      - [Cross-Lingual](#cross-lingual)
+  - [Cross-Lingual](#cross-lingual)
   - [Knowledge Bases](#knowledge-bases)
     - [Adapter-based](#adapter-based)
   - [Language Models](#language-models)
@@ -109,11 +109,12 @@
 | 191006 | 190926 | -          | [CRF-VAEs][24]        | VAE in NER   | -                  | Unlabeled |
 | 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
 
-##### Cross-Lingual
+### [Cross-Lingual](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CrossLingual)
 
-| Read   | Public | Conference | Title                             | HighLight                       | Code | Other |
-| ------ | ------ | ---------- | --------------------------------- | ------------------------------- | ---- | ----- |
-| 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -    | -     |
+| Read   | Public | Conference | Title                             | HighLight                       | Code            | Other |
+| ------ | ------ | ---------- | --------------------------------- | ------------------------------- | --------------- | ----- |
+| 200414 | 200410 | -          | [XTREME][124]                     | 40language multi-task benchmark | [xtreme][10124] | -     |
+| 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -               | -     |
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
@@ -545,6 +546,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [121]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/ORQA.pdf
 [122]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyMBERT_Multi_lingual_NER_Distillation.pdf
 [123]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/RBM.pdf
+[124]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/XTREME.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -608,6 +610,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10115]: https://github.com/jacobvsdanniel/cross_ner
 [10119]: https://github.com/tensorflow/models/tree/master/research/cvt_text
 [10120]: https://github.com/urvashik/knnlm
+[10124]: https://github.com/google-research/xtreme
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
