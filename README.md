@@ -28,7 +28,9 @@
     - [Summarization](#summarization)
     - [NMT](#nmt)
     - [ChatBot](#chatbot)
-  - [MRC](#mrc)
+  - [QA](#qa)
+    - [MRC](#mrc)
+    - [Dialogue](#dialogue)
   - [Other](#other)
     - [Text Style Transfer](#text-style-transfer)
     - [Discourse Parsing](#discourse-parsing)
@@ -225,12 +227,20 @@
 | ------ | ------ | ---------- | ------------ | ----------------------------- | ---- | ------------- |
 | 200401 | 200227 | -          | [Meena][117] | Evolved Transformer + Billion | -    | [blog][30117] |
 
-### [MRC](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/MRC)
+### QA
+
+#### [MRC](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/MRC)
 
 | Read   | Public | Conference | Title                      | HighLight              | Code | Other |
 | ------ | ------ | ---------- | -------------------------- | ---------------------- | ---- | ----- |
 | 200405 | 190627 | ACL 2019   | [ORQA][121]                | Latent Retriever       | -    | -     |
 | 200316 | 191028 | -          | [Multiple-Choice MRC][110] | Multi-choice + Probing | -    | -     |
+
+#### [Dialogue](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Dialogue)
+
+| Read   | Public | Conference | Title         | HighLight                   | Code            | Other |
+| ------ | ------ | ---------- | ------------- | --------------------------- | --------------- | ----- |
+| 200415 | 200409 | ACL 2020   | [MuTual][125] | Reason Multi-tune Benchmark | [MuTual][10125] | -     |
 
 ### Other
 
@@ -547,6 +557,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [122]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/BertDistilled/TinyMBERT_Multi_lingual_NER_Distillation.pdf
 [123]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/RBM.pdf
 [124]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/XTREME.pdf
+[125]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/MuTual.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -611,6 +622,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10119]: https://github.com/tensorflow/models/tree/master/research/cvt_text
 [10120]: https://github.com/urvashik/knnlm
 [10124]: https://github.com/google-research/xtreme
+[10125]: https://github.com/Nealcly/MuTual
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
