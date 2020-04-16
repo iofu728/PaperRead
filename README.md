@@ -122,6 +122,7 @@
 
 | Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
+| 200416 | 200415 | -          | [EAE][126]       | Top-K Memory, like ERNIE      | -                   | -               |
 | 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
 | 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM                  | [WikiData5M][10105] | -               |
 | 200308 | 191003 | -          | [BERT_MK][104]   | GATs                          | -                   | -               |
@@ -558,6 +559,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [123]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/RBM.pdf
 [124]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/XTREME.pdf
 [125]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/MuTual.pdf
+[126]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EntitiesasExperts.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

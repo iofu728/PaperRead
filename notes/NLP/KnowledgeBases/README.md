@@ -25,6 +25,16 @@
    - uses a similar architecture with ERNIE, which uses GATs instead of TransE.
 8. [**KEPLER: A Uniﬁed Model for Knowledge Embedding and Pre-trained Language Representation**](https://github.com//iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KEPLER.pdf) [-] _Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhiyuan Liu, Juanzi Li, Jian Tang_.
    - L_MLM + L_ER
+9. [**Entities as Experts: Sparse Memory Access with Entity Supervision**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EntitiesasExperts.pdf) [-] _Thibault Févry, Livio Baldini Soares, Nicholas FitzGerald, Eunsol Choi, Tom Kwiatkowski_.
+   - a little like ERNIE + KNN LM.
+   - mention detection layer instead of pretrained a mention detection by using BIO tagger.
+   - The first Transformer detection mentions.
+   - using detection mention to Entity Memory retrieval(Start + End Representation) top-k entity sum.
+   - LN(representation, entity representation)
+   - Second Transformer.
+   - two MLP: 1. MLM 2. entity link. + Mention detection
+   - no-overlapping.
+   - Mask strategy followed REALM.
 
 ## Adapter-based
 
