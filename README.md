@@ -24,6 +24,7 @@
       - [Bert Probe](#bert-probe)
       - [Bert DownStream](#bert-downstream)
       - [Multi-modality Bert](#multi-modality-bert)
+    - [Document-level Representation](#document-level-representation)
   - [NLG](#nlg)
     - [Summarization](#summarization)
     - [NMT](#nmt)
@@ -198,6 +199,12 @@
 | Read   | Public | Conference | Title          | HighLight | Code | Other |
 | ------ | ------ | ---------- | -------------- | --------- | ---- | ----- |
 | 200221 | 200827 | -          | [CodeBERT][82] | NL + PL   | -    | -     |
+
+#### [Document-level Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DocumentRepresentation)
+
+| Read   | Public | Conference | Title                    | HighLight                              | Code | Other |
+| ------ | ------ | ---------- | ------------------------ | -------------------------------------- | ---- | ----- |
+| 200418 | 200415 | ACL 2020   | [Citation-informed][127] | Triplet Loss Negative base on citation | -    | -     |
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
@@ -560,6 +567,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [124]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/XTREME.pdf
 [125]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/MuTual.pdf
 [126]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EntitiesasExperts.pdf
+[127]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/DocumentRepresentation/CitationInformed.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
