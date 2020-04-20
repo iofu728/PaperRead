@@ -16,7 +16,6 @@
       - [Unlabeled](#unlabeled)
   - [Cross-Lingual](#cross-lingual)
   - [Knowledge Bases](#knowledge-bases)
-    - [Adapter-based](#adapter-based)
   - [Language Models](#language-models)
     - [Piece](#piece)
     - [Bertology](#bertology)
@@ -25,6 +24,7 @@
       - [Bert DownStream](#bert-downstream)
       - [Multi-modality Bert](#multi-modality-bert)
     - [Document-level Representation](#document-level-representation)
+    - [Tune](#tune)
   - [NLG](#nlg)
     - [Summarization](#summarization)
     - [NMT](#nmt)
@@ -125,23 +125,16 @@
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
 | 200416 | 200415 | -          | [EAE][126]       | Top-K Memory, like ERNIE      | -                   | -               |
 | 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
+| 200306 | 200210 | -          | [K-Adapter][96]  | Plugin Knowledge              | -                   | -               |
 | 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM                  | [WikiData5M][10105] | -               |
 | 200308 | 191003 | -          | [BERT_MK][104]   | GATs                          | -                   | -               |
-| 200405 | 200926 | ICLR 2020  | [KNN-LM][120]    | KNN improve LM representation | [knnlm][10120]      | [review][30120] |
+| 200405 | 190926 | ICLR 2020  | [KNN-LM][120]    | KNN improve LM representation | [knnlm][10120]      | [review][30120] |
 | 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain            | -                   | -               |
 | 200112 | 190917 | -          | [K-BERT][70]     | Integrated KG to sentence     | [K-BERT][10070]     | -               |
 | 200308 | 190909 | EMNLP 2019 | [KnowBERT][103]  | Alternate learning            | [kb][10103]         | -               |
 | 200308 | 190905 | -          | [LIBERT][101]    | lexical                       | -                   | -               |
 | 200308 | 190815 | -          | [SenseBERT][102] | supersense                    | [bert-sense][10102] | -               |
 | 200308 | 190517 | ACL 2019   | [ERNIE][100]     | TransE                        | [ERNIE][10100]      | -               |
-
-#### Adapter-based
-
-| Read   | Public | Conference | Title              | HighLight            | Code                  | Other |
-| ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
-| 191220 | 190926 | ICLR 2020  | [WKLM][59]         | add KB in pretrain   | -                     | -     |
-| 200308 | 190515 | ICML 2019  | [PALs][99]         | Project Att          | [Bert-n-Pals][10099]  | -     |
-| 200308 | 190113 | ICML 2019  | [Adapter-BERT][98] | Fine-tune => Adapter | [adapter-bert][10098] | -     |
 
 ### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
 
@@ -205,6 +198,14 @@
 | Read   | Public | Conference | Title                    | HighLight                              | Code | Other |
 | ------ | ------ | ---------- | ------------------------ | -------------------------------------- | ---- | ----- |
 | 200418 | 200415 | ACL 2020   | [Citation-informed][127] | Triplet Loss Negative base on citation | -    | -     |
+
+#### Tune
+
+| Read   | Public | Conference | Title                    | HighLight                  | Code                  | Other |
+| ------ | ------ | ---------- | ------------------------ | -------------------------- | --------------------- | ----- |
+| 200420 | 200224 | -          | [Self-Distillation][128] | study gold + self-ensemble | -                     | -     |
+| 200308 | 190515 | ICML 2019  | [PALs][99]               | Project Att                | [Bert-n-Pals][10099]  | -     |
+| 200308 | 190113 | ICML 2019  | [Adapter-BERT][98]       | Fine-tune => Adapter       | [adapter-bert][10098] | -     |
 
 ### [NLG](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NLG)
 
@@ -568,6 +569,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [125]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/MuTual.pdf
 [126]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EntitiesasExperts.pdf
 [127]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/DocumentRepresentation/CitationInformed.pdf
+[128]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Self-EnsembleandSelf-Distillation.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
