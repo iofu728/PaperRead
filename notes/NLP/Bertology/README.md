@@ -58,6 +58,11 @@
      - Motivation: One token should only focus on one of the few tokens.
    - indecency chunking FFN
    - single reversible copy
+7. [**MPNet: Masked and Permuted Pre-training for Language Understanding**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/MPNet.pdf) [-] _Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu_.
+   - MLM + PLM.
+   - split prediction and no-prediction.
+   - make [MASK] can see other have predicted [MASK] .(condition)
+   - make [MASK] can see others position.
 
 ## Multi-modality Bert
 
