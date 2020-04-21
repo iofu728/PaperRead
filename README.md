@@ -34,7 +34,7 @@
     - [Dialogue](#dialogue)
   - [Other](#other)
     - [Text Style Transfer](#text-style-transfer)
-    - [Discourse Parsing](#discourse-parsing)
+    - [Parsing](#parsing)
     - [Chinese](#chinese)
     - [Adversarial](#adversarial)
     - [Common Sense](#common-sense)
@@ -259,11 +259,12 @@
 | ------ | ------ | ---------- | ------------------ | -------------------- | --------------------- | ----- |
 | 191006 | 190925 | EMNLP 2019 | [CrossProject][25] | Latent Space Project | [CrossProject][10025] | -     |
 
-#### [Discourse Parsing](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DiscourseParsing)
+#### [Parsing](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Parsing)
 
-| Read   | Public | Conference | Title                            | HighLight                           | Code | Other |
-| ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | ---- | ----- |
-| 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -    | -     |
+| Read   | Public | Conference | Title                            | HighLight                           | Code                 | Other |
+| ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | -------------------- | ----- |
+| 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -                    | -     |
+| 200421 | 190129 | CONLL 2018 | [Universal DP][129]              | pipeline dp                         | [stanfordnlp][10129] | -     |
 
 #### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
 
@@ -487,7 +488,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [43]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/DepthAdaptiveTransformer.pdf
 [44]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/MRCNER.pdf
 [45]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/LearningWithNoisyLabels/Co-teaching.pdf
-[46]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/DiscourseParsing/PredictingDSusingDistantSupervisionFromSentiment.pdf
+[46]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/PredictingDSusingDistantSupervisionFromSentiment.pdf
 [47]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/UnbalanceClassify/DiceLoss.pdf
 [48]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/BART.pdf
 [49]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TENER.pdf
@@ -570,6 +571,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [126]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EntitiesasExperts.pdf
 [127]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/DocumentRepresentation/CitationInformed.pdf
 [128]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/LM/Self-EnsembleandSelf-Distillation.pdf
+[129]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/UniversalDependencyParsing.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -635,6 +637,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10120]: https://github.com/urvashik/knnlm
 [10124]: https://github.com/google-research/xtreme
 [10125]: https://github.com/Nealcly/MuTual
+[10129]: https://github.com/stanfordnlp/stanfordnlp
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
