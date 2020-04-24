@@ -79,13 +79,14 @@
 
 #### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
-| Read   | Public | Conference | Title                   | HighLight                  | Code           | Other |
-| ------ | ------ | ---------- | ----------------------- | -------------------------- | -------------- | ----- |
-| 200331 | 190613 | AAAI 2020  | [Attention in NER][115] | XOR Limitation in BiLSTM   | [cross][10115] | -     |
-| 191113 | 191110 | -          | [TENER][49]             | improve Transformer in NER | -              | -     |
-| 191020 | 190712 | AAAI 2019  | [GRN][41]               | +Long-term->CNN            | [GRN][10041]   | -     |
-| 191220 | 190327 | EMNLP 2019 | [capitalized][58]       | capitalized in ner and pos | -              | -     |
-| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67]     | view NER as MRC            | -              | -     |
+| Read   | Public | Conference | Title                   | HighLight                  | Code                | Other |
+| ------ | ------ | ---------- | ----------------------- | -------------------------- | ------------------- | ----- |
+| 200424 | 200416 | ACL 2020   | [Trigger NER][132]      | Template Trigger           | [TriggerNER][10132] | -     |
+| 200331 | 191112 | AAAI 2020  | [Attention in NER][115] | XOR Limitation in BiLSTM   | [cross][10115]      | -     |
+| 191113 | 191110 | -          | [TENER][49]             | improve Transformer in NER | -                   | -     |
+| 191020 | 190712 | AAAI 2019  | [GRN][41]               | +Long-term->CNN            | [GRN][10041]        | -     |
+| 191220 | 190327 | EMNLP 2019 | [capitalized][58]       | capitalized in ner and pos | -                   | -     |
+| 200107 | 170613 | CONLL 2017 | [zero-shot MRC][67]     | view NER as MRC            | -                   | -     |
 
 ##### Nested NER
 
@@ -576,6 +577,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [129]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/UniversalDependencyParsing.pdf
 [130]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Demo/Stanza.pdf
 [131]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/MPNet.pdf
+[132]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TriggerNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -643,6 +645,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10125]: https://github.com/Nealcly/MuTual
 [10129]: https://github.com/stanfordnlp/stanfordnlp
 [10131]: https://github.com/microsoft/MPNet
+[10132]: https://github.com/INK-USC/TriggerNER
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

@@ -116,3 +116,11 @@
 5. [**Why Attention? Analyze BiLSTM Deﬁciency and Its Remedies in the Case of NER**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Cross_NER.pdf) [AAAI 2020] _Peng-Hsuan Li, Tsu-Jui Fu, Wei-Yun Ma_.
    - BiLSTM exist XOR Limitation.
    - Attention can fix this proplem.
+6. [**TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TriggerNER.pdf) [ACL 2020] _Bill Yuchen Lin*, Dong-Ho Lee*, Ming Shen, Ryan Moreno, Xiao Huang, Prashant Shiralkar, Xiang Ren_.
+   - Tigger means some tokens which can directly decision the entity type, like a entity-level parser.
+   - This paper build a 14k triggers, and use this triggers to transfer info in unlabel data.
+   - The need represent sentence, represent trigger(all use attention-based).
+   - also need match sentence & trigger (use Contrastive Loss)
+   - trigger -> type L_TC
+   - Co-attention.
+   - Interface of entity Recognition.
