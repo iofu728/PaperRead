@@ -58,6 +58,9 @@
    - Paper style is like a blog.
    - LSTM + Att + FFN(save memory)
    - get completable result.
+10. [**Longformer: The Long-Document Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Longformer.pdf) [-] _Iz Beltagy and Matthew E. Peters and Arman Cohan_.
+    - Global + Slide Windows Attention.
+    - Cuda TVM to speed up.
 
 ## Relative position embedding
 
