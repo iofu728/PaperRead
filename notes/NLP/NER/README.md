@@ -124,3 +124,6 @@
    - trigger -> type L_TC
    - Co-attention.
    - Interface of entity Recognition.
+7. [**FLAT: Chinese NER Using Flat-Lattice Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/FLAT.pdf) [ACL 2020] _Xiaonan Li, Hang Yan, Xipeng Qiu, Xuanjing Huang_.
+   - Position Embedding.
+   - Mask to flat lattice.
