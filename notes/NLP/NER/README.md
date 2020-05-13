@@ -66,6 +66,11 @@
     2. I think the region also need full enumerate.
     3. latent parameters.
     4. one like translation matrix and dynamic problem to reduce time consuming.
+14. [**Boundary Enhanced Neural Span Classiﬁcation for Nested Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BoundaryEnhancedNested.pdf) [AAAI 2020] _Chuanqi Tan † Wei Qiu † Mosha Chen † Rui Wang † Fei Huang_.
+    - two-stage model.
+    - span-based model.
+    - using boundary information to improve the span representation.
+    - reduce time complex.
 
 ## Unlabeled
 

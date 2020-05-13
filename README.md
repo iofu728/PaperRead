@@ -92,6 +92,7 @@
 
 | Read   | Public | Conference  | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ----------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
+| 200513 | 200510 | AAAI 2020   | [Boundary-enhance][135]            | Boundary Info       | -                   | -            |
 | 200427 | 200424 | ACL 2020    | [FLAT][134]                        | Position + Lattice  | -                   | Chinese      |
 | 200411 | 200327 | AAAI 2020   | [RBM][123]                         | subEntity           | -                   | BiLSTM base  |
 | 200223 | 191120 | EMNLP 2019  | [Boundary-aware][84]               | Boundary + Classify | [boundary][10084]   | -            |
@@ -582,6 +583,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [132]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/TriggerNER.pdf
 [133]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Longformer.pdf
 [134]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/FLAT.pdf
+[135]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BoundaryEnhancedNested.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
