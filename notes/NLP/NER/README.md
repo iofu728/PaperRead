@@ -71,6 +71,9 @@
     - span-based model.
     - using boundary information to improve the span representation.
     - reduce time complex.
+15. [**Named Entity Recognition as Dependency Parsing**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NERDependencyParsing.pdf) [ACL 2020] _Juntao Yu, Bernd Bohnet, Massimo Poesio_.
+    - Not as Dependency Parsing, but a method to learn N\*N.
+    - biaffine model which is a way using H_s, H_end to learn the H_SE.
 
 ## Unlabeled
 
