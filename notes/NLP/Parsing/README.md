@@ -45,3 +45,6 @@
         5. summed UFeats embeddings.
      - BiLSTM + FC + Biaffine Attention
      - Add relation position information
+3. [**Deep Biaffine Attention for Neural Dependency Parsing**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/biaffine.pdf) [ICLR 2017] _Timothy Dozat, Christopher D. Manning_.
+   - graph-base method.
+   - Matrix multiplication.
