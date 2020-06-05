@@ -92,6 +92,7 @@
 
 | Read   | Public | Conference  | Title                              | HighLight           | Code                | Other        |
 | ------ | ------ | ----------- | ---------------------------------- | ------------------- | ------------------- | ------------ |
+| 200605 | 200501 | ACL 2020    | [Bipartite Flat-Graph NER][138]    | outmost->inmost     | -                   | -            |
 | 200517 | 200514 | ACL 2020    | [NERviaDP][136]                    | leaned N\*N         | [biaffine][10136]   | -            |
 | 200513 | 200510 | AAAI 2020   | [Boundary-enhance][135]            | Boundary Info       | -                   | -            |
 | 200427 | 200424 | ACL 2020    | [FLAT][134]                        | Position + Lattice  | -                   | Chinese      |
@@ -588,6 +589,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [135]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BoundaryEnhancedNested.pdf
 [136]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NERDependencyParsing.pdf
 [137]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/biaffine.pdf
+[138]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BipartiteFlat-GraphNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

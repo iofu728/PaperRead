@@ -74,6 +74,9 @@
 15. [**Named Entity Recognition as Dependency Parsing**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/NERDependencyParsing.pdf) [ACL 2020] _Juntao Yu, Bernd Bohnet, Massimo Poesio_.
     - Not as Dependency Parsing, but a method to learn N\*N.
     - biaffine model which is a way using H_s, H_end to learn the H_SE.
+16. [**Bipartite Flat-Graph Network for Nested Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BipartiteFlat-GraphNER.pdf) [ACL 2020] _Ying Luo, Hai Zhao_.
+    - Boundary Knowledge.
+    - graph architecture. => but also want to build a transformer like architecture. So using three graphs.
 
 ## Unlabeled
 
