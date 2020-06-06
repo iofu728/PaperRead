@@ -77,6 +77,10 @@
 16. [**Bipartite Flat-Graph Network for Nested Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BipartiteFlat-GraphNER.pdf) [ACL 2020] _Ying Luo, Hai Zhao_.
     - Boundary Knowledge.
     - graph architecture. => but also want to build a transformer like architecture. So using three graphs.
+17. [**An Effective Transition-based Model for Discontinuous NER**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Transition-basedBioNER.pdf) [ACL 2020] _Xiang Dai, Sarvnaz Karimi, Ben Hachey, Cecile Paris_.
+    - Focus on discontinuous and bio.
+    - Transition-base methods which expand actions like left-reduce.
+    - But the ablation show, this methods good at no-overlapping and left-overlap.
 
 ## Unlabeled
 
