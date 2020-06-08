@@ -301,6 +301,7 @@
 
 | Read   | Public | Conference | Title                            | HighLight               | Code                  | Other            |
 | ------ | ------ | ---------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 200608 | 191022 | ICLR 2020  | [LiteTransformer][140]           | Global + Local          | [lite][10140]         | -                |
 | 200426 | 200410 | -          | [Longformer][133]                | Global + slide Win Att  | [longformer][10133]   | -                |
 | 191229 | 191127 | -          | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
 | 191028 | 191022 | ICLR 2020  | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
@@ -592,6 +593,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [137]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/biaffine.pdf
 [138]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BipartiteFlat-GraphNER.pdf
 [139]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Transition-basedBioNER.pdf
+[140]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LiteTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -665,6 +667,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10136]: https://github.com/juntaoy/biaffine-ner
 [10137]: https://github.com/yzhangcs/parser
 [10139]: https://github.com/daixiangau/acl2020-transition-discontinuous-ner
+[10140]: https://github.com/mit-han-lab/lite-transformer
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

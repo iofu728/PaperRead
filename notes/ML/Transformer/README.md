@@ -61,6 +61,11 @@
 10. [**Longformer: The Long-Document Transformer**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/Longformer.pdf) [-] _Iz Beltagy and Matthew E. Peters and Arman Cohan_.
     - Global + Slide Windows Attention.
     - Cuda TVM to speed up.
+11. [**Lite Transformer with Long-Short Range Attention**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LiteTransformer.pdf) [ICLR 2020] _Zhanghao Wu, Zhijian Liu, Ji Lin, Yujun Lin, Song Han_.
+    - decoupling Transformer Attention weighted -> Global + Local.
+    - using GLU + CNN + FFN => to representation the local contextual.
+    - and reduce the Global Attention dim.
+    - Concatenation they.
 
 ## Relative position embedding
 
