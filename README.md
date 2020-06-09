@@ -247,10 +247,11 @@
 
 #### [MRC](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/MRC)
 
-| Read   | Public | Conference | Title                      | HighLight              | Code | Other |
-| ------ | ------ | ---------- | -------------------------- | ---------------------- | ---- | ----- |
-| 200405 | 190627 | ACL 2019   | [ORQA][121]                | Latent Retriever       | -    | -     |
-| 200316 | 191028 | -          | [Multiple-Choice MRC][110] | Multi-choice + Probing | -    | -     |
+| Read   | Public | Conference | Title                        | HighLight              | Code          | Other |
+| ------ | ------ | ---------- | ---------------------------- | ---------------------- | ------------- | ----- |
+| 200609 | 200502 | -          | [DensePassageRetrieval][141] | Dense Retrieval        | [qa-dpr][141] | -     |
+| 200405 | 190627 | ACL 2019   | [ORQA][121]                  | Latent Retriever       | -             | -     |
+| 200316 | 191028 | -          | [Multiple-Choice MRC][110]   | Multi-choice + Probing | -             | -     |
 
 #### [Dialogue](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Dialogue)
 
@@ -301,7 +302,7 @@
 
 | Read   | Public | Conference | Title                            | HighLight               | Code                  | Other            |
 | ------ | ------ | ---------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
-| 200608 | 191022 | ICLR 2020  | [LiteTransformer][140]           | Global + Local          | [lite][10140]         | -                |
+| 200608 | 191022 | ICLR 2020  | [LiteTransformer][140]           | Global + Local          | [lite][10140]         | [review][30140]  |
 | 200426 | 200410 | -          | [Longformer][133]                | Global + slide Win Att  | [longformer][10133]   | -                |
 | 191229 | 191127 | -          | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
 | 191028 | 191022 | ICLR 2020  | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
@@ -594,6 +595,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [138]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/BipartiteFlat-GraphNER.pdf
 [139]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Transition-basedBioNER.pdf
 [140]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LiteTransformer.pdf
+[141]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/QA_DQR.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -668,6 +670,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10137]: https://github.com/yzhangcs/parser
 [10139]: https://github.com/daixiangau/acl2020-transition-discontinuous-ner
 [10140]: https://github.com/mit-han-lab/lite-transformer
+[10141]: https://fburl.com/qa-dpr
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -685,3 +688,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30120]: https://openreview.net/forum?id=HklBjCEKvH
 [30130]: https://stanfordnlp.github.io/stanza/
 [30137]: https://openreview.net/forum?id=Hk95PK9le
+[30140]: https://openreview.net/forum?id=ByeMPlHKPH
