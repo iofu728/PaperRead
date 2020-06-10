@@ -11,3 +11,7 @@
    - Using Focal Loss Control the prioritization of different tasks.
    - using KPIs(like acc) to evaluate the sample hard degree.
    - give hard sample higher priority.
+3. [**SNR: Sub-Network Routing for Flexible Parameter Sharing in Multi-Task Learning**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/SNR.pdf) [AAAI 2019] _J Ma, Z Zhao, J Chen, A Li, L Hong, EH Chi_.
+   - flexible connection of previous block in different task.
+   - like a binary encoding.
+   - To learn the (0, 1) weight, they follow the Louizos's work which relaxation to smooth such objective functions so that can directly calculate the gradients of the distribution parameters.

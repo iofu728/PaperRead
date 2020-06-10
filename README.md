@@ -357,6 +357,7 @@
 
 | Read   | Public | Conference | Title                              | HighLight                 | Code         | Other |
 | ------ | ------ | ---------- | ---------------------------------- | ------------------------- | ------------ | ----- |
+| 200610 | 190717 | AAAI 2019  | [SNR][142]                         | Flexible connection       | -            | -     |
 | 200330 | 181006 | ECCV 2018  | [Dynamic Task Prioritization][114] | Focal Loss Priori         | -            | -     |
 | 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53]  | Multi-task by no old data | [LwF][10053] | -     |
 
@@ -596,6 +597,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [139]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Transition-basedBioNER.pdf
 [140]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LiteTransformer.pdf
 [141]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/QA_DQR.pdf
+[142]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/SNR.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
