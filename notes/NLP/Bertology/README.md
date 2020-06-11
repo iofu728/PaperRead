@@ -63,6 +63,12 @@
    - split prediction and no-prediction.
    - make [MASK] can see other have predicted [MASK] .(condition)
    - make [MASK] can see others position.
+8. [**MC-BERT: Efficient Language Pre-Training via a Meta Controller**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/MC-BERT.pdf) [-] _Zhenhui Xu, Linyuan Gong, Guolin Ke, Di He, Shuxin Zheng, Liwei Wang, Jiang Bian, Tie-Yan Liu_.
+   - Probing why ELECTRA is good?
+     - higher sample efﬁciency. ELECTRA-simple
+     - reduced task complexity. ELECTRA-complexity(which is significantly, but why MC-BERT add the complexity, conciliatory?)
+   - ELECTRA not good at semantic task.
+   - K choice
 
 ## Multi-modality Bert
 
