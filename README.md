@@ -120,10 +120,11 @@
 
 ### [Cross-Lingual](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CrossLingual)
 
-| Read   | Public | Conference | Title                             | HighLight                       | Code            | Other |
-| ------ | ------ | ---------- | --------------------------------- | ------------------------------- | --------------- | ----- |
-| 200414 | 200410 | -          | [XTREME][124]                     | 40language multi-task benchmark | [xtreme][10124] | -     |
-| 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -               | -     |
+| Read   | Public | Conference | Title                             | HighLight                       | Code              | Other |
+| ------ | ------ | ---------- | --------------------------------- | ------------------------------- | ----------------- | ----- |
+| 200414 | 200410 | -          | [XTREME][124]                     | 40language multi-task benchmark | [xtreme][10124]   | -     |
+| 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -                 | -     |
+| 200611 | 190904 | EMNLP 2019 | [Unicoder][144]                   | three cross-lingual tasks       | [Unicoder][10144] | -     |
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
@@ -600,6 +601,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [141]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/QA_DQR.pdf
 [142]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/SNR.pdf
 [143]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/MC-BERT.pdf
+[144]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/Unicoder.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -676,6 +678,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10140]: https://github.com/mit-han-lab/lite-transformer
 [10141]: https://fburl.com/qa-dpr
 [10143]: https://github.com/MC-BERT/MC-BERT
+[10144]: https://github.com/microsoft/Unicoder
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

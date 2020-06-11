@@ -8,3 +8,7 @@
    - low-resource.
 2. [**XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/XTREME.pdf) [-] _Junjie Hu, Sebastian Ruder, Aditya Siddhant, Graham Neubig, Orhan Firat, Melvin Johnson_.
    - Multi-task Cross-lingual benchmark.
+3. [**Unicoder: A Universal Language Encoder by Pre-training with Multiple Cross-lingual Tasks**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/Unicoder.pdf) [EMNLP 2019] _Haoyang Huang, Yaobo Liang, Nan Duan, Ming Gong, Linjun Shou, Daxin Jiang, Ming Zhou_.
+   - crosslingual word recovery
+   - cross-lingual paraphrase classiﬁcation
+   - cross-lingual masked language model
