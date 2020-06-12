@@ -21,3 +21,8 @@
    - From Three Corpus to introduce the problem and method in Information Extraction IE in past 25 years.
 5. [**Improving Entity Linking by Modeling Latent Entity Type Information**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/ImprovingEntityLinkingbyModelingLatentEntityTypeInformation.pdf) [AAAI 2020] _Shuang Chen, Jinpeng Wang, Feng Jiang, Chin-Yew Lin_.
    - Improve the embedding by [MASK]
+6. [**Relation of the Relations: A New Paradigm of the Relation Extraction Problem**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationoftheRelations.pdf) [-] _Zhijing Jin, Yongyi Yang, Xipeng Qiu, Zheng Zhang_.
+   - Focus on Relation of Relations, directly learn the entity pairs matrix instead of one by one.
+   - Statistic the co-occurrence of relation pairs.
+   - BioROR. -> GNN.
+   - MultiRoR. -> Transformer.

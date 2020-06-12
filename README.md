@@ -71,6 +71,7 @@
 
 | Read   | Public | Conference | Title                                 | HighLight                        | Code            | Other |
 | ------ | ------ | ---------- | ------------------------------------- | -------------------------------- | --------------- | ----- |
+| 200612 | 200605 | -          | [Relation of Relation][145]           | RoRs                             | [RoE][10145]    | -     |
 | 200116 | 200106 | AAAI 2020  | [Improve EL via latent Embedding][74] | improve the embedding            | -               | -     |
 | 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]               | Induing Realtion using cloze     | -               | -     |
 | 200115 | 190721 | NLE 2019   | [25 years IE][73]                     | survey IE in past 25years        | -               | -     |
@@ -602,6 +603,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [142]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Multi-task/SNR.pdf
 [143]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/MC-BERT.pdf
 [144]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/Unicoder.pdf
+[145]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationoftheRelations.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -679,6 +681,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10141]: https://fburl.com/qa-dpr
 [10143]: https://github.com/MC-BERT/MC-BERT
 [10144]: https://github.com/microsoft/Unicoder
+[10145]: https://github.com/FFTYYY/RoR_relation_extraction
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
