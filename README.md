@@ -329,6 +329,7 @@
 
 | Read   | Public | Conference | Title                           | HighLight                    | Code                          | Other |
 | ------ | ------ | ---------- | ------------------------------- | ---------------------------- | ----------------------------- | ----- |
+| 200613 | 200513 | ACL 2020   | [h - 1 heads][146]              | learn heads weightAsexpects  | [MAE][10146]                  | -     |
 | 190819 | 190607 | ACL 2019   | [Analysis Multi-Head][16]       | every head role              | [heads][10016]                | -     |
 | 190619 | 190226 | NAACL 2019 | [Attention not explanation][30] | weighted correction + robust | [AttentionExplanation][10030] | -     |
 
@@ -604,6 +605,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [143]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/MC-BERT.pdf
 [144]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/Unicoder.pdf
 [145]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationoftheRelations.pdf
+[146]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/h-1Heads.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -682,6 +684,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10143]: https://github.com/MC-BERT/MC-BERT
 [10144]: https://github.com/microsoft/Unicoder
 [10145]: https://github.com/FFTYYY/RoR_relation_extraction
+[10146]: https://github.com/Noahs-ARK/MAE
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
