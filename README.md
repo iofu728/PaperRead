@@ -10,7 +10,8 @@
 
 - [Categories](#categories)
 - [NLP](#nlp)
-  - [Relation Extraction](#relation-extraction)
+  - [Information Extraction](#information-extraction)
+    - [Relation Extraction](#relation-extraction)
     - [NER](#ner)
       - [Nested NER](#nested-ner)
       - [Unlabeled](#unlabeled)
@@ -67,7 +68,13 @@
 
 ## NLP
 
-### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
+### [Information Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/InformationExtraction)
+
+| Read   | Public | Conference | Title          | HighLight                   | Code             | Other |
+| ------ | ------ | ---------- | -------------- | --------------------------- | ---------------- | ----- |
+| 200614 | 200429 | ACL 2020   | [CGEXpan][147] | Expand entity set using MLM | [CGExpan][10147] | -     |
+
+#### [Relation Extraction](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/RelationExtraction)
 
 | Read   | Public | Conference | Title                                 | HighLight                        | Code            | Other |
 | ------ | ------ | ---------- | ------------------------------------- | -------------------------------- | --------------- | ----- |
@@ -606,6 +613,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [144]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/CrossLingual/Unicoder.pdf
 [145]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationoftheRelations.pdf
 [146]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/h-1Heads.pdf
+[147]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationExtraction/CGExpan.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -685,6 +693,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10144]: https://github.com/microsoft/Unicoder
 [10145]: https://github.com/FFTYYY/RoR_relation_extraction
 [10146]: https://github.com/Noahs-ARK/MAE
+[10147]: https://github.com/yzhan238/CGExpan
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
