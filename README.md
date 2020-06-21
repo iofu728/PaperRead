@@ -388,6 +388,7 @@
 
 | Read   | Public | Conference | Title                                     | HighLight                                 | Code               | Other |
 | ------ | ------ | ---------- | ----------------------------------------- | ----------------------------------------- | ------------------ | ----- |
+| 200621 | 200613 | -          | [BYOL][148]                               | self-supervised (remove negative)         | -                  | -     |
 | 200119 | 191211 | -          | [NegativeSampleInVAEs][78]                | using VAEs to solve OOD                   | -                  | -     |
 | 200117 | 181216 | ICDE 2019  | [NSCaching][76]                           | dynamical probability sampler replace GAN | [NSCashing][10076] | -     |
 | 200117 | 180923 | AAAI 2018  | [Incorporating GAN in Entity Linking][75] | using GAN to generate high quality NS     | -                  | -     |
@@ -614,6 +615,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [145]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationoftheRelations.pdf
 [146]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/h-1Heads.pdf
 [147]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationExtraction/CGExpan.pdf
+[148]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/BYOL.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
