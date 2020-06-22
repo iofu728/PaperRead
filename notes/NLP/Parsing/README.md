@@ -48,3 +48,6 @@
 3. [**Deep Biaffine Attention for Neural Dependency Parsing**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/biaffine.pdf) [ICLR 2017] _Timothy Dozat, Christopher D. Manning_.
    - graph-base method.
    - Matrix multiplication.
+4. [**Perturbed Masking: Parameter-free Probing for Analyzing and Interpreting BERT**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/PerturbedMasking.pdf) [ACL 2020] _Zhiyong Wu, Yun Chen, Ben Kao, Qun Liu_.
+   - Mask x\{x_i}.
+   - d(x\{x_i}, x\{x_i, x_j}) => T\*T

@@ -279,11 +279,12 @@
 
 #### [Parsing](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Parsing)
 
-| Read   | Public | Conference | Title                            | HighLight                           | Code                 | Other           |
-| ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | -------------------- | --------------- |
-| 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -                    | -               |
-| 200421 | 190129 | CONLL 2018 | [Universal DP][129]              | pipeline dp                         | [stanfordnlp][10129] | -               |
-| 200601 | 170310 | ICLR 2017  | [Biaffine][137]                  | graph-based                         | [stanfordnlp][10137] | [review][30137] |
+| Read   | Public | Conference | Title                            | HighLight                           | Code                       | Other           |
+| ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | -------------------------- | --------------- |
+| 200622 | 200610 | ACL 2020   | [Perturbed Masking][149]         | d(x\\{x_i}, x\\{x_i, x_j})          | [Perturbed-Masking][10149] | -               |
+| 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -                          | -               |
+| 200421 | 190129 | CONLL 2018 | [Universal DP][129]              | pipeline dp                         | [stanfordnlp][10129]       | -               |
+| 200601 | 170310 | ICLR 2017  | [Biaffine][137]                  | graph-based                         | [stanfordnlp][10137]       | [review][30137] |
 
 #### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
 
@@ -616,6 +617,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [146]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Attention/h-1Heads.pdf
 [147]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationExtraction/CGExpan.pdf
 [148]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/BYOL.pdf
+[149]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/PerturbedMasking.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -696,6 +698,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10145]: https://github.com/FFTYYY/RoR_relation_extraction
 [10146]: https://github.com/Noahs-ARK/MAE
 [10147]: https://github.com/yzhan238/CGExpan
+[10149]: https://github.com/LividWo/Perturbed-Masking
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
