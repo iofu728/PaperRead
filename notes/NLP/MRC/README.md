@@ -15,3 +15,8 @@
 3. [**Dense Passage Retrieval for Open-Domain Question Answering**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/QA_DQR.pdf) [-] _Vladimir Karpukhin, Barlas Oğuz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, Wen-tau Yih_.
    - A better retriever (lightweight) than Lucene BM25.
    - negative sample strategy? in-batch negative sample.
+4. [**Open-Domain Question Answering with Pre-Constructed Question Spaces**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Pre-Constructed.pdf) [-] _Jinfeng Xiao, Lidan Wang, Franck Dernoncourt, Trung Bui, Tong Sun, Jiawei Han_.
+   - Reader-retriever.
+   - Offline query-answer sets.
+   - Online retrieve similar query.
+   - one classifier to judge agree-not.
