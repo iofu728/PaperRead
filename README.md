@@ -259,6 +259,7 @@
 
 | Read   | Public | Conference | Title                        | HighLight              | Code          | Other |
 | ------ | ------ | ---------- | ---------------------------- | ---------------------- | ------------- | ----- |
+| 200623 | 200508 | ACL 2002   | [BoundaryDetectionMRC][151]  | mixMRC + LAKM          | -             | -     |
 | 200623 | 200602 | -          | [Pre-Constructed][150]       | reader-retriever       | -             | -     |
 | 200609 | 200502 | -          | [DensePassageRetrieval][141] | Dense Retrieval        | [qa-dpr][141] | -     |
 | 200405 | 190627 | ACL 2019   | [ORQA][121]                  | Latent Retriever       | -             | -     |
@@ -620,6 +621,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [148]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/NegativeSample/BYOL.pdf
 [149]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/PerturbedMasking.pdf
 [150]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Pre-Constructed.pdf
+[151]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/BoundaryDetectionMultiMRC.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

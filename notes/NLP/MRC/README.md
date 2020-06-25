@@ -20,3 +20,12 @@
    - Offline query-answer sets.
    - Online retrieve similar query.
    - one classifier to judge agree-not.
+5. [**Enhancing Answer Boundary Detection for Multilingual Machine Reading Comprehension**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/BoundaryDetectionMultiMRC.pdf) [ACL 2020] _Fei Yuan, Linjun Shou, Xuanyu Bai, Ming Gong, Yaobo Liang, Nan Duan, Yan Fu, Daxin Jiang_.
+   - mMRC + mixMRC + LAKM
+   - mixBERT
+     - Data Translating (To careful translation, use "[" and "]" in the answer.)
+     - Mix multi lingual query-answer
+   - LAKM
+     - For query, enumerate all n-gram phrase.
+     - filter the phrase candidates and find frequent as knowledge phrases.
+     - Mask phrases base on mixMRC
