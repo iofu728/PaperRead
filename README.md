@@ -243,9 +243,10 @@
 
 #### [NMT](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NMT)
 
-| Read   | Public | Conference | Title                       | HighLight                         | Code                 | Other |
-| ------ | ------ | ---------- | --------------------------- | --------------------------------- | -------------------- | ----- |
-| 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72] | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
+| Read   | Public | Conference | Title                               | HighLight                         | Code                 | Other |
+| ------ | ------ | ---------- | ----------------------------------- | --------------------------------- | -------------------- | ----- |
+| 200626 | 200618 | -          | [DeeperEncoder,ShallowDecoder][152] | reduce decoder layer              | -                    | -     |
+| 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72]         | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
 
 #### [ChatBot](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/ChatBot)
 
@@ -622,6 +623,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [149]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Parsing/PerturbedMasking.pdf
 [150]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Pre-Constructed.pdf
 [151]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/BoundaryDetectionMultiMRC.pdf
+[152]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/DeepEncoderShallowDecoder.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
