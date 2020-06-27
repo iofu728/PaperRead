@@ -193,6 +193,7 @@
 
 | Read   | Public | Conference | Title                          | HighLight                         | Code          | Other |
 | ------ | ------ | ---------- | ------------------------------ | --------------------------------- | ------------- | ----- |
+| 200627 | 200623 | ACL 2020   | [Climbing towards NLU][153]    | metaphysical(meaning/linguistic)  | -             | -     |
 | 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]                | Bert in Relation Extraction       | [LAMA][10054] | -     |
 | 200320 | 190624 | ACL 2019   | [RightForTheWrongReasons][113] | bad in some anti-heuristic sample | -             | -     |
 | 191014 | 190515 | ACL 2019   | [Bert Rediscover][37]          | probe bert layer                  | -             | -     |
@@ -624,6 +625,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [150]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/Pre-Constructed.pdf
 [151]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/BoundaryDetectionMultiMRC.pdf
 [152]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/DeepEncoderShallowDecoder.pdf
+[153]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/climbing_towards_nlu_on_meaning_form_and_understanding_in_the_age_of_data.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

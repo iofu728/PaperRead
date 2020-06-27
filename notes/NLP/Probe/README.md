@@ -16,3 +16,10 @@
      - subsequence
      - constituent
    - proposal an data set which have many anti-heuristics samples, which called as HANS.
+4. [**Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/climbing_towards_nlu_on_meaning_form_and_understanding_in_the_age_of_data.pdf) [ACL 2020] _Emily M. Bender, Alexander Koller_
+   - They say Pre-trained don't have the ability to understand the meaning of language.
+   - The ability of understanding language two part: meaning + linguistic form.
+   - In my opinion, memory is one part of (need big size, like our daily experiments), and co-occurrence is only to ensure the grammar.
+   - For domain-specific, the co-occurrence is very important, especially for the entity phrases.
+   - For other hand, memory with the specific-topic maybe more important.
+     - Does it can work?
