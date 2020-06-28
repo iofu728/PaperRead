@@ -42,6 +42,13 @@
     - by training the MSE loss between word vector space and bert embedding to align.
     - using concatenate/replace strategy to inject the extra embedding like BERTRAM.
     - For entity linking task, propose one MLM and Iterative reﬁnement to improve the performance.
+11. [**BERTRAM: Improved Word Embeddings Have Big Impact on Contextualized Model Performance**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERTRAM.pdf) [ACL 2020] _Timo Schick, Hinrich Schütze_.
+    - Inject in high-quantity embedding for rare words.
+    - Three way.
+      - SHALLOW
+      - concatenate
+      - replace.
+      - BERT into Attentive Mimicking
 
 ## Adapter-based
 
