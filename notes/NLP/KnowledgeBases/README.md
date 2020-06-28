@@ -35,6 +35,13 @@
    - two MLP: 1. MLM 2. entity link. + Mention detection
    - no-overlapping.
    - Mask strategy followed REALM.
+10. [**E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/E-BERT.pdf) [ACL 2020] _Nina Poerner, Ulli Waltinger, Hinrich Schütze_.
+    - Inject extra embedding to the PLM space.
+      - align the embedding space to BERT embedding space by linear layer.
+    - Using Wikipedia2Vec which have word vector space and entity vector space in the same space.
+    - by training the MSE loss between word vector space and bert embedding to align.
+    - using concatenate/replace strategy to inject the extra embedding like BERTRAM.
+    - For entity linking task, propose one MLM and Iterative reﬁnement to improve the performance.
 
 ## Adapter-based
 
