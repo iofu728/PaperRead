@@ -195,6 +195,7 @@
 
 | Read   | Public | Conference | Title                          | HighLight                         | Code          | Other |
 | ------ | ------ | ---------- | ------------------------------ | --------------------------------- | ------------- | ----- |
+| 200628 | 200227 | -          | [Primer in BERTology][156]     | What knowledge does BERT have     | -             | -     |
 | 200627 | 200623 | ACL 2020   | [Climbing towards NLU][153]    | metaphysical(meaning/linguistic)  | -             | -     |
 | 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]                | Bert in Relation Extraction       | [LAMA][10054] | -     |
 | 200320 | 190624 | ACL 2019   | [RightForTheWrongReasons][113] | bad in some anti-heuristic sample | -             | -     |
@@ -630,6 +631,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [153]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/climbing_towards_nlu_on_meaning_form_and_understanding_in_the_age_of_data.pdf
 [154]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-kNN.pdf
 [155]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/E-BERT.pdf
+[156]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/PrimerinBERTology.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
