@@ -100,3 +100,6 @@
        2. The datastore data set needs to have a similar or semantically similar distribution to the test set. (This, of course, is true for all language models.
        3. For time-space complexity, the authors mention in openreview that the generation of datastore takes a similar time to model training. The inference phase drops from the original 500 tokens per second to 60 tokens per second.
        4. Whether this mode of representation can be enhanced significantly in other downstream tasks is still missing.
+3. [**BERT-kNN: Adding a kNN Search Component to Pretrained Language Models for Better QA**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-kNN.pdf) [-] _Nora Kassner, Hinrich Schütze_.
+   - model same as kNN-LM, except using IR before kNN.
+   - The LAMA result is prefect.

@@ -138,6 +138,7 @@
 
 | Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
+| 200628 | 200502 | -          | [BERT-kNN][154]  | add IR in kNN-LM              | -                   | -               |
 | 200416 | 200415 | -          | [EAE][126]       | Top-K Memory, like ERNIE      | -                   | -               |
 | 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
 | 200306 | 200210 | -          | [K-Adapter][96]  | Plugin Knowledge              | -                   | -               |
@@ -626,6 +627,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [151]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/MRC/BoundaryDetectionMultiMRC.pdf
 [152]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/DeepEncoderShallowDecoder.pdf
 [153]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/climbing_towards_nlu_on_meaning_form_and_understanding_in_the_age_of_data.pdf
+[154]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERT-kNN.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
