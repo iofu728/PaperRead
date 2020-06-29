@@ -138,6 +138,7 @@
 
 | Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
+| 200629 | 190602 | ACL 2019   | [KT-BERT][158]   | inject & align embedding      | [KTNET][10158]      | -               |
 | 200628 | 200429 | ACL 2020   | [BERTRAM][157]   | infer embed for rare words    | [bertram][10157]    | -               |
 | 200628 | 200501 | ACL 2020   | [E-BERT][155]    | inject embedding to PLM       | -                   | -               |
 | 200628 | 200502 | -          | [BERT-kNN][154]  | add IR in kNN-LM              | -                   | -               |
@@ -634,6 +635,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [155]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/E-BERT.pdf
 [156]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/PrimerinBERTology.pdf
 [157]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERTRAM.pdf
+[158]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KT-BERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -716,6 +718,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10147]: https://github.com/yzhan238/CGExpan
 [10149]: https://github.com/LividWo/Perturbed-Masking
 [10157]: https://github.com/timoschick/bertram
+[10158]: https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
