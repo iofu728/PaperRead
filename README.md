@@ -251,6 +251,7 @@
 
 | Read   | Public | Conference | Title                               | HighLight                         | Code                 | Other |
 | ------ | ------ | ---------- | ----------------------------------- | --------------------------------- | -------------------- | ----- |
+| 200629 | 191110 | ACL 2020   | [Sandwich][159]                     | improve the FFN & MHA order       | [sandwich][10159]    | -     |
 | 200626 | 200618 | -          | [DeeperEncoder,ShallowDecoder][152] | reduce decoder layer              | -                    | -     |
 | 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72]         | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
 
@@ -636,6 +637,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [156]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/PrimerinBERTology.pdf
 [157]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERTRAM.pdf
 [158]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KT-BERT.pdf
+[159]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/Sandwich.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -719,6 +721,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10149]: https://github.com/LividWo/Perturbed-Masking
 [10157]: https://github.com/timoschick/bertram
 [10158]: https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET
+[10159]: https://github.com/ofirpress/sandwich_transformer
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
