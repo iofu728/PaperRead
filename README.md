@@ -138,14 +138,14 @@
 
 | Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
-| 200629 | 190602 | ACL 2019   | [KT-BERT][158]   | inject & align embedding      | [KTNET][10158]      | -               |
-| 200628 | 200429 | ACL 2020   | [BERTRAM][157]   | infer embed for rare words    | [bertram][10157]    | -               |
 | 200628 | 200501 | ACL 2020   | [E-BERT][155]    | inject embedding to PLM       | -                   | -               |
 | 200628 | 200502 | -          | [BERT-kNN][154]  | add IR in kNN-LM              | -                   | -               |
+| 200628 | 200429 | ACL 2020   | [BERTRAM][157]   | infer embed for rare words    | [bertram][10157]    | -               |
 | 200416 | 200415 | -          | [EAE][126]       | Top-K Memory, like ERNIE      | -                   | -               |
 | 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
 | 200306 | 200210 | -          | [K-Adapter][96]  | Plugin Knowledge              | -                   | -               |
 | 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM                  | [WikiData5M][10105] | -               |
+| 200630 | 191031 | EMNLP 2019 | [KnowBERT][160]  | entity linker                 | -                   | -               |
 | 200308 | 191003 | -          | [BERT_MK][104]   | GATs                          | -                   | -               |
 | 200405 | 190926 | ICLR 2020  | [KNN-LM][120]    | KNN improve LM representation | [knnlm][10120]      | [review][30120] |
 | 191220 | 190926 | ICLR 2020  | [WKLM][59]       | add KB in pretrain            | -                   | -               |
@@ -153,6 +153,7 @@
 | 200308 | 190909 | EMNLP 2019 | [KnowBERT][103]  | Alternate learning            | [kb][10103]         | -               |
 | 200308 | 190905 | -          | [LIBERT][101]    | lexical                       | -                   | -               |
 | 200308 | 190815 | -          | [SenseBERT][102] | supersense                    | [bert-sense][10102] | -               |
+| 200629 | 190602 | ACL 2019   | [KT-BERT][158]   | inject & align embedding      | [KTNET][10158]      | -               |
 | 200308 | 190517 | ACL 2019   | [ERNIE][100]     | TransE                        | [ERNIE][10100]      | -               |
 
 ### [Language Models](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/LM)
@@ -638,6 +639,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [157]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/BERTRAM.pdf
 [158]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KT-BERT.pdf
 [159]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/Sandwich.pdf
+[160]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

@@ -52,6 +52,9 @@
 12. [**Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KT-BERT.pdf) [ACL 2019] _An Yang, Quan Wang, Jing Liu, Kai Liu, Yajuan Lyu, Hua Wu, Qiaoqiao She, Sujian Li_.
     - Align and inject embedding KBs to LMs.
     - Different with E-BERT, they don't align the embedding, instead of BERT Encoder. So they need more infused architecture.
+13. [**Knowledge Enhanced Contextual Word Representations**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf) [EMNLP 2019] _Matthew E. Peters, Mark Neumann, Robert L. Logan IV, Roy Schwartz, Vidur Joshi, Sameer Singh, Noah A. Smith_.
+    - entity linker.
+    - recontextual
 
 ## Adapter-based
 
