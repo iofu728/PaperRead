@@ -127,3 +127,7 @@
    - 然后在 WMT16 英德和 text8 上测了在 MT 和 LM 上的性能，这两部分性能提升还是很明显的。尤其是 LM 在同等参数量下的对比试验。
    - ![image](https://cdn.nlark.com/yuque/0/2019/png/104214/1577648883560-364bafa1-455d-430e-bfe4-a4246c3e0e15.png)
    - (这篇的作者之前也发了几篇关于复数域上 NLP 的应用，之前模型的名字也很有意思 什么 [CNM](https://www.aclweb.org/anthology/N19-1420/)的 很真实
+4. [**Rethinking Positional Encoding in Language Pre-training**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TUPE.pdf) [- ] _Guolin Ke, Di He, Tie-Yan Liu_.
+   - using two linear to calculate word embedding, position embedding.
+   - the [CLS], [SEP] shoudle not use the same position embedding with token embedding.
+   - using reset uniform the [CLS], [SEP] and common words.

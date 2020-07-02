@@ -340,6 +340,7 @@
 
 | Read   | Public | Conference | Title                           | HighLight               | Code                    | Other              |
 | ------ | ------ | ---------- | ------------------------------- | ----------------------- | ----------------------- | ------------------ |
+| 200702 | 200630 | -          | [TUPE][161]                     | reset + untie           | [TUPE][10161]           | -                  |
 | 191229 | 190926 | ICLR 2020  | [Complex Order][65]             | Complex WE + PE         | [complex-order][10065]  | explainable        |
 | 190425 | 190306 | ACL 2019   | [Transformer-XL][64]            | Recurrent + Relative PE | [Transformer-XL][10064] | reject once        |
 | 191229 | 180306 | NAACL 2018 | [Self-Att with Relative PE][63] | Relative PE             | -                       | Transformer Writer |
@@ -640,6 +641,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [158]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KT-BERT.pdf
 [159]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/Sandwich.pdf
 [160]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
+[161]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TUPE.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -724,6 +726,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10157]: https://github.com/timoschick/bertram
 [10158]: https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET
 [10159]: https://github.com/ofirpress/sandwich_transformer
+[10161]: https://github.com/guolinke/TUPE
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
