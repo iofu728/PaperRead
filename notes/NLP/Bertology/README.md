@@ -69,6 +69,11 @@
      - reduced task complexity. ELECTRA-complexity(which is significantly, but why MC-BERT add the complexity, conciliatory?)
    - ELECTRA not good at semantic task.
    - K choice
+9. [**UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLMv2.pdf) [ICML 2020] _Hangbo Bao, Li Dong, Furu Wei, Wenhui Wang, Nan Yang, Xiaodong Liu, Yu Wang, Songhao Piao, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon_.
+   - Focus on the relation between the Masked tokens.
+   - After MLM, propose a part auto-regressive.
+   - Unify the two parts, Auto-encoding AE + partially autoregressive PAR
+   - Pseudo-Masked LM
 
 ## Multi-modality Bert
 

@@ -81,8 +81,8 @@
 | 200612 | 200605 | -          | [Relation of Relation][145]           | RoRs                             | [RoE][10145]    | -     |
 | 200116 | 200106 | AAAI 2020  | [Improve EL via latent Embedding][74] | improve the embedding            | -               | -     |
 | 191216 | 191128 | AAAI 2020  | [Inducing Relation][55]               | Induing Realtion using cloze     | -               | -     |
-| 200115 | 190721 | NLE 2019   | [25 years IE][73]                     | survey IE in past 25years        | -               | -     |
 | 200108 | 190904 | ACL 2019   | [RE view as Multi-turn MRC][69]       | Multi-turn like RL, MRC          | [MRC][10069]    | -     |
+| 200115 | 190721 | NLE 2019   | [25 years IE][73]                     | survey IE in past 25years        | -               | -     |
 | 191128 | 190607 | ACL 2019   | [Matching the Blanks][52]             | How to use BERT in relation link | [BERTem][10052] | -     |
 
 #### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
@@ -100,10 +100,10 @@
 
 | Read   | Public | Conference  | Title                              | HighLight           | Code                       | Other        |
 | ------ | ------ | ----------- | ---------------------------------- | ------------------- | -------------------------- | ------------ |
-| 200606 | 200428 | ACL 2020    | [Translation Discontinuous][139]   | Discontinuous       | [discontinuous-ner][10139] | -            |
-| 200605 | 200501 | ACL 2020    | [Bipartite Flat-Graph NER][138]    | outmost->inmost     | -                          | -            |
 | 200517 | 200514 | ACL 2020    | [NERviaDP][136]                    | leaned N\*N         | [biaffine][10136]          | -            |
 | 200513 | 200510 | AAAI 2020   | [Boundary-enhance][135]            | Boundary Info       | -                          | -            |
+| 200605 | 200501 | ACL 2020    | [Bipartite Flat-Graph NER][138]    | outmost->inmost     | -                          | -            |
+| 200606 | 200428 | ACL 2020    | [Translation Discontinuous][139]   | Discontinuous       | [discontinuous-ner][10139] | -            |
 | 200427 | 200424 | ACL 2020    | [FLAT][134]                        | Position + Lattice  | -                          | Chinese      |
 | 200411 | 200327 | AAAI 2020   | [RBM][123]                         | subEntity           | -                          | BiLSTM base  |
 | 200223 | 191120 | EMNLP 2019  | [Boundary-aware][84]               | Boundary + Classify | [boundary][10084]          | -            |
@@ -138,8 +138,8 @@
 
 | Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
-| 200628 | 200501 | ACL 2020   | [E-BERT][155]    | inject embedding to PLM       | -                   | -               |
 | 200628 | 200502 | -          | [BERT-kNN][154]  | add IR in kNN-LM              | -                   | -               |
+| 200628 | 200501 | ACL 2020   | [E-BERT][155]    | inject embedding to PLM       | -                   | -               |
 | 200628 | 200429 | ACL 2020   | [BERTRAM][157]   | infer embed for rare words    | [bertram][10157]    | -               |
 | 200416 | 200415 | -          | [EAE][126]       | Top-K Memory, like ERNIE      | -                   | -               |
 | 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
@@ -174,32 +174,33 @@
 
 #### [Bertology](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Bertology)
 
-| Read   | Public | Conference | Title           | HighLight                     | Code            | Other           |
-| ------ | ------ | ---------- | --------------- | ----------------------------- | --------------- | --------------- |
-| 200611 | 200610 | -          | [MCBERT][143]   | Hard ELECTRA(Multi-choice)    | [MCBERT][10143] | -               |
-| 200421 | 200420 | -          | [MPNet][131]    | split predict and no-predict  | [MPNet][10131]  | -               |
-| 191112 | 191029 | -          | [BART][48]      | Auto-Encode + Auto-Regressive | -               | -               |
-| 191024 | 191024 | -          | [T5][42]        | Decathlon                     | [T5][10042]     | C4              |
-| 200318 | 190926 | ICLR 2020  | [REFORMER][111] | LSH Mask Attention            | [trax][10111]   | [review][30111] |
-| 191113 | 190926 | ICLR 2020  | [ELECTRA][50]   | GAN -> difficult MASK         | -               | -               |
-| 190928 | 190926 | ICLR 2020  | [ALBert][12]    | ReduceParams                  | -               | -               |
-| 190801 | 190508 | -          | [UniLM][21]     | three Mask                    | [unilm][10021]  | -               |
+| Read   | Public | Conference   | Title           | HighLight                     | Code            | Other           |
+| ------ | ------ | ------------ | --------------- | ----------------------------- | --------------- | --------------- |
+| 200611 | 200610 | -            | [MCBERT][143]   | Hard ELECTRA(Multi-choice)    | [MCBERT][10143] | -               |
+| 200421 | 200420 | -            | [MPNet][131]    | split predict and no-predict  | [MPNet][10131]  | -               |
+| 200704 | 200228 | ICML 2020    | [UniLMv2][162]  | Pseudo-Masked                 | [unilm][10021]  | -               |
+| 191112 | 191029 | -            | [BART][48]      | Auto-Encode + Auto-Regressive | -               | -               |
+| 191024 | 191024 | -            | [T5][42]        | Decathlon                     | [T5][10042]     | C4              |
+| 200318 | 190926 | ICLR 2020    | [REFORMER][111] | LSH Mask Attention            | [trax][10111]   | [review][30111] |
+| 191113 | 190926 | ICLR 2020    | [ELECTRA][50]   | GAN -> difficult MASK         | -               | -               |
+| 190928 | 190926 | ICLR 2020    | [ALBert][12]    | ReduceParams                  | -               | -               |
+| 190801 | 190508 | NeurIPS 2019 | [UniLM][21]     | three Mask                    | [unilm][10021]  | -               |
 
 ##### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Distilled)
 
-| Read   | Public | Conference | Title             | HighLight                    | Code                  | Other |
-| ------ | ------ | ---------- | ----------------- | ---------------------------- | --------------------- | ----- |
-| 200409 | 200404 | ACL 2020   | [TinyMBERT][122]  | LL RL CE -> BiLSTM           | -                     | -     |
-| 191228 | 190926 | ICLR 2020  | [DEFINE][61]      | reduce embed size + residual | -                     | -     |
-| 191018 | 191002 | NIPS 2019  | [DistillBert][39] | support device               | [transformers][10039] | -     |
-| 191002 | 190926 | -          | [TinyBert][17]    | new tew-stage                | -                     | -     |
+| Read   | Public | Conference   | Title             | HighLight                    | Code                  | Other |
+| ------ | ------ | ------------ | ----------------- | ---------------------------- | --------------------- | ----- |
+| 200409 | 200404 | ACL 2020     | [TinyMBERT][122]  | LL RL CE -> BiLSTM           | -                     | -     |
+| 191018 | 191002 | NeurIPS 2019 | [DistillBert][39] | support device               | [transformers][10039] | -     |
+| 191228 | 190926 | ICLR 2020    | [DEFINE][61]      | reduce embed size + residual | -                     | -     |
+| 191002 | 190926 | -            | [TinyBert][17]    | new tew-stage                | -                     | -     |
 
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
 | Read   | Public | Conference | Title                          | HighLight                         | Code          | Other |
 | ------ | ------ | ---------- | ------------------------------ | --------------------------------- | ------------- | ----- |
-| 200628 | 200227 | -          | [Primer in BERTology][156]     | What knowledge does BERT have     | -             | -     |
 | 200627 | 200623 | ACL 2020   | [Climbing towards NLU][153]    | metaphysical(meaning/linguistic)  | -             | -     |
+| 200628 | 200227 | -          | [Primer in BERTology][156]     | What knowledge does BERT have     | -             | -     |
 | 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]                | Bert in Relation Extraction       | [LAMA][10054] | -     |
 | 200320 | 190624 | ACL 2019   | [RightForTheWrongReasons][113] | bad in some anti-heuristic sample | -             | -     |
 | 191014 | 190515 | ACL 2019   | [Bert Rediscover][37]          | probe bert layer                  | -             | -     |
@@ -215,7 +216,7 @@
 
 | Read   | Public | Conference | Title          | HighLight | Code | Other |
 | ------ | ------ | ---------- | -------------- | --------- | ---- | ----- |
-| 200221 | 200827 | -          | [CodeBERT][82] | NL + PL   | -    | -     |
+| 200221 | 200219 | -          | [CodeBERT][82] | NL + PL   | -    | -     |
 
 #### [Document-level Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DocumentRepresentation)
 
@@ -252,8 +253,8 @@
 
 | Read   | Public | Conference | Title                               | HighLight                         | Code                 | Other |
 | ------ | ------ | ---------- | ----------------------------------- | --------------------------------- | -------------------- | ----- |
-| 200629 | 191110 | ACL 2020   | [Sandwich][159]                     | improve the FFN & MHA order       | [sandwich][10159]    | -     |
 | 200626 | 200618 | -          | [DeeperEncoder,ShallowDecoder][152] | reduce decoder layer              | -                    | -     |
+| 200629 | 191110 | ACL 2020   | [Sandwich][159]                     | improve the FFN & MHA order       | [sandwich][10159]    | -     |
 | 200113 | 171107 | ICLR 2018  | [No-autoregressive NMT][72]         | fertilities to auxiliary parallel | [nonauto-nmt][10072] | -     |
 
 #### [ChatBot](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/ChatBot)
@@ -268,11 +269,11 @@
 
 | Read   | Public | Conference | Title                        | HighLight              | Code          | Other |
 | ------ | ------ | ---------- | ---------------------------- | ---------------------- | ------------- | ----- |
-| 200623 | 200508 | ACL 2002   | [BoundaryDetectionMRC][151]  | mixMRC + LAKM          | -             | -     |
 | 200623 | 200602 | -          | [Pre-Constructed][150]       | reader-retriever       | -             | -     |
+| 200623 | 200508 | ACL 2002   | [BoundaryDetectionMRC][151]  | mixMRC + LAKM          | -             | -     |
+| 200316 | 191028 | -          | [Multiple-Choice MRC][110]   | Multi-choice + Probing | -             | -     |
 | 200609 | 200502 | -          | [DensePassageRetrieval][141] | Dense Retrieval        | [qa-dpr][141] | -     |
 | 200405 | 190627 | ACL 2019   | [ORQA][121]                  | Latent Retriever       | -             | -     |
-| 200316 | 191028 | -          | [Multiple-Choice MRC][110]   | Multi-choice + Probing | -             | -     |
 
 #### [Dialogue](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Dialogue)
 
@@ -322,19 +323,19 @@
 
 #### [Transformer](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Transformer)
 
-| Read   | Public | Conference | Title                            | HighLight               | Code                  | Other            |
-| ------ | ------ | ---------- | -------------------------------- | ----------------------- | --------------------- | ---------------- |
-| 200608 | 191022 | ICLR 2020  | [LiteTransformer][140]           | Global + Local          | [lite][10140]         | [review][30140]  |
-| 200426 | 200410 | -          | [Longformer][133]                | Global + slide Win Att  | [longformer][10133]   | -                |
-| 191229 | 191127 | -          | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
-| 191028 | 191022 | ICLR 2020  | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
-| 190929 | 190926 | -          | [LayerNorm Transformer][14]      | improve warm-up         | -                     | -                |
-| 190716 | 190710 | -          | [Large Memory Layer][31]         | KeyValue search         | [XLM][10031]          | [twitter][30031] |
-| 190718 | 190624 | NIPS 2019  | [Tensorized Transformer][33]     | decompose + param share | -                     | -                |
-| 190908 | 190606 | -          | [Macaron Net][15]                | Strange-Macaron         | -                     | [note][30015]    |
-| 190718 | 190519 | ACL 2019   | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
-| 191118 | 190228 | NAACL 2019 | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
-| 190719 | 180710 | ICLR 2019  | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
+| Read   | Public | Conference   | Title                            | HighLight               | Code                  | Other            |
+| ------ | ------ | ------------ | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 200426 | 200410 | -            | [Longformer][133]                | Global + slide Win Att  | [longformer][10133]   | -                |
+| 191229 | 191127 | -            | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
+| 200608 | 191022 | ICLR 2020    | [LiteTransformer][140]           | Global + Local          | [lite][10140]         | [review][30140]  |
+| 191028 | 191022 | ICLR 2020    | [Depth-adaptive Transformer][43] | depth adaptive          | -                     | -                |
+| 190929 | 190926 | -            | [LayerNorm Transformer][14]      | improve warm-up         | -                     | -                |
+| 190716 | 190710 | -            | [Large Memory Layer][31]         | KeyValue search         | [XLM][10031]          | [twitter][30031] |
+| 190718 | 190624 | NeurIPS 2019 | [Tensorized Transformer][33]     | decompose + param share | -                     | -                |
+| 190908 | 190606 | -            | [Macaron Net][15]                | Strange-Macaron         | -                     | [note][30015]    |
+| 190718 | 190519 | ACL 2019     | [Adaptive Att span][34]          | adapting span           | [adaptiveSpan][10034] | -                |
+| 191118 | 190228 | NAACL 2019   | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
+| 190719 | 180710 | ICLR 2019    | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
 ##### Relative position embedding
 
@@ -363,13 +364,13 @@
 
 #### [Metric Learning](https://github.com/iofu728/PaperRead/tree/master/notes/ML/MetricLearning)
 
-| Read   | Public | Conference | Title                         | HighLight             | Code                        | Other |
-| ------ | ------ | ---------- | ----------------------------- | --------------------- | --------------------------- | ----- |
-| 190829 | 190525 | CVPR 2020  | [Circle Loss][116]            | Unified Npair,Softmax | -                           | -     |
-| 190829 | 190525 | NIPS 2019  | [Constellation Loss][8]       | Multiclass n + Triple | [constellation_loss][10008] | -     |
-| 191007 | 170406 | CVPR 2017  | [Quadruplet Loss][26]         | two margin            | -                           | -     |
-| 190827 | 160601 | CVPR 2016  | [Multi-class N-pair Loss][29] | multi negative sample | -                           | -     |
-| 190827 | 150617 | CVPR 2015  | [Triplet Loss][11]            | Triple                | -                           | -     |
+| Read   | Public | Conference   | Title                         | HighLight             | Code                        | Other |
+| ------ | ------ | ------------ | ----------------------------- | --------------------- | --------------------------- | ----- |
+| 190829 | 190525 | CVPR 2020    | [Circle Loss][116]            | Unified Npair,Softmax | -                           | -     |
+| 190829 | 190525 | NeurIPS 2019 | [Constellation Loss][8]       | Multiclass n + Triple | [constellation_loss][10008] | -     |
+| 191007 | 170406 | CVPR 2017    | [Quadruplet Loss][26]         | two margin            | -                           | -     |
+| 190827 | 160601 | CVPR 2016    | [Multi-class N-pair Loss][29] | multi negative sample | -                           | -     |
+| 190827 | 150617 | CVPR 2015    | [Triplet Loss][11]            | Triple                | -                           | -     |
 
 #### [Interpretability](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Interpretability)
 
@@ -419,9 +420,9 @@
 
 #### [Noisy Labels](https://github.com/iofu728/PaperRead/blob/master/notes/ML/LearningWithNoisyLabels)
 
-| Read   | Public | Conference | Title             | HighLight       | Code                 | Other |
-| ------ | ------ | ---------- | ----------------- | --------------- | -------------------- | ----- |
-| 191029 | 181030 | NIPS 2018  | [Co-teaching][45] | Memorize effect | [Co-teaching][10045] | -     |
+| Read   | Public | Conference   | Title             | HighLight       | Code                 | Other |
+| ------ | ------ | ------------ | ----------------- | --------------- | -------------------- | ----- |
+| 191029 | 181030 | NeurIPS 2018 | [Co-teaching][45] | Memorize effect | [Co-teaching][10045] | -     |
 
 #### [Extreme Classification](https://github.com/iofu728/PaperRead/blob/master/notes/ML/ExtremeClassification)
 
@@ -642,6 +643,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [159]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NMT/Sandwich.pdf
 [160]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [161]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TUPE.pdf
+[162]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLMv2.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
