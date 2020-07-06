@@ -188,12 +188,13 @@
 
 ##### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Distilled)
 
-| Read   | Public | Conference   | Title             | HighLight                    | Code                  | Other |
-| ------ | ------ | ------------ | ----------------- | ---------------------------- | --------------------- | ----- |
-| 200409 | 200404 | ACL 2020     | [TinyMBERT][122]  | LL RL CE -> BiLSTM           | -                     | -     |
-| 191018 | 191002 | NeurIPS 2019 | [DistillBert][39] | support device               | [transformers][10039] | -     |
-| 191228 | 190926 | ICLR 2020    | [DEFINE][61]      | reduce embed size + residual | -                     | -     |
-| 191002 | 190926 | -            | [TinyBert][17]    | new tew-stage                | -                     | -     |
+| Read   | Public | Conference   | Title             | HighLight                    | Code                  | Other           |
+| ------ | ------ | ------------ | ----------------- | ---------------------------- | --------------------- | --------------- |
+| 200706 | 200414 | ACL 2020     | [MobileBERT][163] | task-agnostic low latency    | [mobile-bert][10163]  | [review][30163] |
+| 200409 | 200404 | ACL 2020     | [TinyMBERT][122]  | LL RL CE -> BiLSTM           | -                     | -               |
+| 191018 | 191002 | NeurIPS 2019 | [DistillBert][39] | support device               | [transformers][10039] | -               |
+| 191228 | 190926 | ICLR 2020    | [DEFINE][61]      | reduce embed size + residual | -                     | -               |
+| 191002 | 190926 | -            | [TinyBert][17]    | new tew-stage                | -                     | -               |
 
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
@@ -644,6 +645,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [160]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf
 [161]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TUPE.pdf
 [162]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLMv2.pdf
+[163]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/MobileBERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -729,6 +731,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10158]: https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET
 [10159]: https://github.com/ofirpress/sandwich_transformer
 [10161]: https://github.com/guolinke/TUPE
+[10163]: https://github.com/google-research/google-research/tree/master/mobilebert
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -747,3 +750,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30130]: https://stanfordnlp.github.io/stanza/
 [30137]: https://openreview.net/forum?id=Hk95PK9le
 [30140]: https://openreview.net/forum?id=ByeMPlHKPH
+[30163]: https://openreview.net/forum?id=SJxjVaNKwB

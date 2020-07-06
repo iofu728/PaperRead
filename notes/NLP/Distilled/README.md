@@ -27,3 +27,10 @@
    - Layer Parma KL
    - stage-wise
    - gradual unfreeze.
+5. [**MobileBERT: Task-Agnostic Compression of BERT by Progressive Knowledge Transfer**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/MobileBERT.pdf) [ACL 2020] _Zhiqing Sun, Hongkun Yu, Xiaodan Song, Renjie Liu, Yiming Yang, Denny Zhou_.
+   - Motivation: low latency, less parameters, comparable performance and task-agnostic in mobile.
+   - Reduce embedding size like ALBERT, and use one multi-channel CNN to increase the hidden dimension.
+   - In each Transformer block, use two Linear to up/down dimension and increase/decrease parameters.
+   - Study teacher model in three dimension, 1) classification result and embedding. 2) linear in each layer. 3) MHA
+   - Three strategy to learn the distillation. 1) Joint. 2) Two-stage. one for learning the FFN & MHA and then learning classification and embedding. 3) learn the FFN & MHA from bottom to top each one layer.
+   - The LayerNorm and Gelu are significantly inference the latency.
