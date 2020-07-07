@@ -33,6 +33,7 @@
   - [QA](#qa)
     - [MRC](#mrc)
     - [Dialogue](#dialogue)
+  - [Information System](#information-system)
   - [Other](#other)
     - [Text Style Transfer](#text-style-transfer)
     - [Parsing](#parsing)
@@ -281,6 +282,12 @@
 | Read   | Public | Conference | Title         | HighLight                   | Code            | Other |
 | ------ | ------ | ---------- | ------------- | --------------------------- | --------------- | ----- |
 | 200415 | 200409 | ACL 2020   | [MuTual][125] | Reason Multi-tune Benchmark | [MuTual][10125] | -     |
+
+### [Information System](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/InformationSystem)
+
+| Read   | Public | Conference | Title         | HighLight                      | Code | Other |
+| ------ | ------ | ---------- | ------------- | ------------------------------ | ---- | ----- |
+| 200707 | 200507 | ACL 2020   | [QUARTS][164] | Adversarial improve similarity | -    | -     |
 
 ### Other
 
@@ -646,6 +653,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [161]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/TUPE.pdf
 [162]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLMv2.pdf
 [163]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/MobileBERT.pdf
+[164]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationSystem/QUARTS.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
