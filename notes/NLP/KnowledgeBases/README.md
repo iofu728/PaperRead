@@ -55,6 +55,11 @@
 13. [**Knowledge Enhanced Contextual Word Representations**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/KnowBert.pdf) [EMNLP 2019] _Matthew E. Peters, Mark Neumann, Robert L. Logan IV, Roy Schwartz, Vidur Joshi, Sameer Singh, Noah A. Smith_.
     - entity linker.
     - recontextual
+14. [**Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EmbedKGQA.pdf) [ACL 2020] _Apoorv Saxena, Aditay Tripathi, Partha Talukdar_.
+    - In common, KG miss lots of link which is implicit in the KG.
+    - Using ComplEx to build KG embeddings which can contain the DAG information.
+    - Using RoBERTa base to generate query embeddings.
+    - Using score answer modules to get the multi-hop in training set.
 
 ## Adapter-based
 

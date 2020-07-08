@@ -139,6 +139,7 @@
 
 | Read   | Public | Conference | Title            | HighLight                     | Code                | Other           |
 | ------ | ------ | ---------- | ---------------- | ----------------------------- | ------------------- | --------------- |
+| 200708 | 200704 | ACL 2020   | [EmbedKGQA][166] | multi-hop, missingLink pred   | [EmbedKGQA][10166]  | -               |
 | 200628 | 200502 | -          | [BERT-kNN][154]  | add IR in kNN-LM              | -                   | -               |
 | 200628 | 200501 | ACL 2020   | [E-BERT][155]    | inject embedding to PLM       | -                   | -               |
 | 200628 | 200429 | ACL 2020   | [BERTRAM][157]   | infer embed for rare words    | [bertram][10157]    | -               |
@@ -656,6 +657,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [163]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/MobileBERT.pdf
 [164]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationSystem/QUARTS.pdf
 [165]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/Intermediate-Task.pdf
+[166]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EmbedKGQA.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -742,6 +744,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10159]: https://github.com/ofirpress/sandwich_transformer
 [10161]: https://github.com/guolinke/TUPE
 [10163]: https://github.com/google-research/google-research/tree/master/mobilebert
+[10166]: https://github.com/malllabiisc/EmbedKGQA
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
