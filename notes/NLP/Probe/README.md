@@ -55,3 +55,7 @@
      - Benchmarks that require verbal reasoning.
      - Developing methods to “teach” reasoning.
      - Learning what happens at inference time.
+6. [**Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/Intermediate-Task.pdf) [ACL 2020] _Yada Pruksachatkun, Jason Phang, Haokun Liu, Phu Mon Htut, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman_.
+   - Test which intermediate task good for downstream task.
+   - Do 10 intermediate \* 11 downstream task which contains finetune and probing.
+   - And calculate the Correlations matrix.

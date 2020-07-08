@@ -201,6 +201,7 @@
 
 | Read   | Public | Conference | Title                          | HighLight                         | Code          | Other |
 | ------ | ------ | ---------- | ------------------------------ | --------------------------------- | ------------- | ----- |
+| 200708 | 200509 | ACL 2002   | [Intermediate-Task][165]       | which intermediate task good      | -             | -     |
 | 200627 | 200623 | ACL 2020   | [Climbing towards NLU][153]    | metaphysical(meaning/linguistic)  | -             | -     |
 | 200628 | 200227 | -          | [Primer in BERTology][156]     | What knowledge does BERT have     | -             | -     |
 | 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]                | Bert in Relation Extraction       | [LAMA][10054] | -     |
@@ -654,6 +655,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [162]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/UniLMv2.pdf
 [163]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/MobileBERT.pdf
 [164]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationSystem/QUARTS.pdf
+[165]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/Intermediate-Task.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
