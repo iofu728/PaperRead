@@ -335,6 +335,7 @@
 
 | Read   | Public | Conference   | Title                            | HighLight               | Code                  | Other            |
 | ------ | ------ | ------------ | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 200708 | 200707 | ACL 2020     | [Long-range Memory?][167]        | Do need LRM?            | -                     | -                |
 | 200426 | 200410 | -            | [Longformer][133]                | Global + slide Win Att  | [longformer][10133]   | -                |
 | 191229 | 191127 | -            | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
 | 200608 | 191022 | ICLR 2020    | [LiteTransformer][140]           | Global + Local          | [lite][10140]         | [review][30140]  |
@@ -658,6 +659,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [164]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/InformationSystem/QUARTS.pdf
 [165]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/Intermediate-Task.pdf
 [166]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EmbedKGQA.pdf
+[167]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LongRangeMemoryInTransformer.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

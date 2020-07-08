@@ -66,6 +66,11 @@
     - using GLU + CNN + FFN => to representation the local contextual.
     - and reduce the Global Attention dim.
     - Concatenation they.
+12. [**Do Transformers Need Deep Long-Range Memory?**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LongRangeMemoryInTransformer.pdf) [ACL 2020] _Jack Rae, Ali Razavi_.
+    - Do each layer need Long-range memory?
+    - low layer don't need Long-range memory which will reduce the performance.
+    - Top layer need Long-range memory.
+    - The dim of short-range memory > 512, the performance not improve.
 
 ## Relative position embedding
 
