@@ -60,6 +60,15 @@
     - Using ComplEx to build KG embeddings which can contain the DAG information.
     - Using RoBERTa base to generate query embeddings.
     - Using score answer modules to get the multi-hop in training set.
+15. [**A Relational Memory-based Embedding Model for Triple Classiﬁcation and Search Personalization**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/R-MeN.pdf) [ACL 2020] _Dai Quoc Nguyen, Tu Dinh Nguyen, Dinh Phung_.
+    - Memory is significantly to Graphs based knowledge.
+    - Previous KB embedding use shallow linear operator which can't have the ability to extract the deep semantic information.
+    - Propose one R-MeN model.
+      - Which use position embedding + phrase embedding which come from Glove-50 and mean pooling.
+      - using one Linear Layer which called Memory.
+      - and using one recurrent attention which have two item, one is now time step input and previous time step cross-attention, the anther is previous time step self-attention.
+      - Using one CNN + Max pooling to get the obvious/important information.
+    - One more thing, they think search Personalization is one triplet classification task which <query, user, document>.
 
 ## Adapter-based
 

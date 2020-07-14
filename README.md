@@ -144,6 +144,7 @@
 | 200628 | 200501 | ACL 2020   | [E-BERT][155]    | inject embedding to PLM       | -                   | -               |
 | 200628 | 200429 | ACL 2020   | [BERTRAM][157]   | infer embed for rare words    | [bertram][10157]    | -               |
 | 200416 | 200415 | -          | [EAE][126]       | Top-K Memory, like ERNIE      | -                   | -               |
+| 200714 | 200406 | ACL 2020   | [R-MeN][168]     | Deep KB Embedding             | [R-MeN][10168]      | -               |
 | 200402 | 200210 | -          | [REALM][118]     | retrieve-then-predict         | -                   | [blog][30118]   |
 | 200306 | 200210 | -          | [K-Adapter][96]  | Plugin Knowledge              | -                   | -               |
 | 200308 | 191113 | -          | [KEPLER][105]    | L_RE + L_MLM                  | [WikiData5M][10105] | -               |
@@ -660,6 +661,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [165]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Probe/Intermediate-Task.pdf
 [166]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EmbedKGQA.pdf
 [167]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LongRangeMemoryInTransformer.pdf
+[168]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/R-MeN.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -747,6 +749,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10161]: https://github.com/guolinke/TUPE
 [10163]: https://github.com/google-research/google-research/tree/master/mobilebert
 [10166]: https://github.com/malllabiisc/EmbedKGQA
+[10168]: https://github.com/daiquocnguyen/R-MeN
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
