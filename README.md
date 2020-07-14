@@ -311,9 +311,10 @@
 
 #### [Chinese](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Chinese)
 
-| Read   | Public | Conference | Title       | HighLight    | Code | Other |
-| ------ | ------ | ---------- | ----------- | ------------ | ---- | ----- |
-| 191013 | 190906 | -          | [NeZha][36] | chinese bert | -    | -     |
+| Read   | Public | Conference | Title           | HighLight               | Code              | Other |
+| ------ | ------ | ---------- | --------------- | ----------------------- | ----------------- | ----- |
+| 200714 | 200513 | ACL 2020   | [SpellGCN][169] | phonological + semantic | [SpellGCN][10169] | -     |
+| 191013 | 190906 | -          | [NeZha][36]     | chinese bert            | -                 | -     |
 
 #### Adversarial
 
@@ -662,6 +663,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [166]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/EmbedKGQA.pdf
 [167]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LongRangeMemoryInTransformer.pdf
 [168]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/R-MeN.pdf
+[169]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/SpellGCN.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -750,6 +752,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10163]: https://github.com/google-research/google-research/tree/master/mobilebert
 [10166]: https://github.com/malllabiisc/EmbedKGQA
 [10168]: https://github.com/daiquocnguyen/R-MeN
+[10169]: https://github.com/ACL2020SpellGCN/SpellGCN
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
