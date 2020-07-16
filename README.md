@@ -16,6 +16,7 @@
       - [Nested NER](#nested-ner)
       - [Unlabeled](#unlabeled)
   - [Cross-Lingual](#cross-lingual)
+  - [Graph](#graph)
   - [Knowledge Bases](#knowledge-bases)
   - [Language Models](#language-models)
     - [Piece](#piece)
@@ -134,6 +135,12 @@
 | 200414 | 200410 | -          | [XTREME][124]                     | 40language multi-task benchmark | [xtreme][10124]   | -     |
 | 200224 | 191114 | AAAI 2020  | [MetaLearningCrossLingualNER][87] | direct transfer + meta-learning | -                 | -     |
 | 200611 | 190904 | EMNLP 2019 | [Unicoder][144]                   | three cross-lingual tasks       | [Unicoder][10144] | -     |
+
+### [Graph](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Graph)
+
+| Read   | Public | Conference | Title        | HighLight           | Code           | Other |
+| ------ | ------ | ---------- | ------------ | ------------------- | -------------- | ----- |
+| 200716 | 200704 | ICML 2020  | [GCNII][170] | residual + identity | [GCNII][10170] | -     |
 
 ### [Knowledge Bases](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/KnowledgeBases)
 
@@ -664,6 +671,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [167]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/LongRangeMemoryInTransformer.pdf
 [168]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/R-MeN.pdf
 [169]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/SpellGCN.pdf
+[170]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Graph/SimpleAndDeepGCN.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -753,6 +761,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10166]: https://github.com/malllabiisc/EmbedKGQA
 [10168]: https://github.com/daiquocnguyen/R-MeN
 [10169]: https://github.com/ACL2020SpellGCN/SpellGCN
+[10170]: https://github.com/chennnM/GCNII
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
