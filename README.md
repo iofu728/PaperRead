@@ -39,7 +39,7 @@
     - [Text Style Transfer](#text-style-transfer)
     - [Parsing](#parsing)
     - [Chinese](#chinese)
-    - [Adversarial](#adversarial)
+    - [Attack](#attack)
     - [Common Sense](#common-sense)
 - [ML](#ml)
   - [Architecture](#architecture)
@@ -323,10 +323,11 @@
 | 200714 | 200513 | ACL 2020   | [SpellGCN][169] | phonological + semantic | [SpellGCN][10169] | -     |
 | 191013 | 190906 | -          | [NeZha][36]     | chinese bert            | -                 | -     |
 
-#### Adversarial
+#### [Attack](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Attack)
 
 | Read   | Public | Conference | Title                               | HighLight       | Code                        | Other         |
 | ------ | ------ | ---------- | ----------------------------------- | --------------- | --------------------------- | ------------- |
+| 200717 | 200414 | ACL 2020   | [Weight Poison Attacks][171]        | Weight Poison   | [RIPPLe][10171]             | -             |
 | 190911 | 190829 | EMNLP 2019 | [Universal Adversarial Triggers][3] | Adversarial-NLP | [universal-triggers][10003] | [blog][30003] |
 
 #### [Common Sense](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CommonSense)
@@ -672,6 +673,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [168]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/KnowledgeBases/R-MeN.pdf
 [169]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/SpellGCN.pdf
 [170]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Graph/SimpleAndDeepGCN.pdf
+[171]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Attack/RIPPLe.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -762,6 +764,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10168]: https://github.com/daiquocnguyen/R-MeN
 [10169]: https://github.com/ACL2020SpellGCN/SpellGCN
 [10170]: https://github.com/chennnM/GCNII
+[10171]: https://github.com/neulab/RIPPLe
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
