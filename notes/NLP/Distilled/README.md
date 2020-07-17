@@ -34,3 +34,9 @@
    - Study teacher model in three dimension, 1) classification result and embedding. 2) linear in each layer. 3) MHA
    - Three strategy to learn the distillation. 1) Joint. 2) Two-stage. one for learning the FFN & MHA and then learning classification and embedding. 3) learn the FFN & MHA from bottom to top each one layer.
    - The LayerNorm and Gelu are significantly inference the latency.
+6. [**BERT-of-Theseus: Compressing BERT by Progressive Module Replacing**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/BERTofTheseus.pdf) [-] _Canwen Xu, Wangchunshu Zhou, Tao Ge, Furu Wei, Ming Zhou_.
+   - Like theseus to teacher students.
+   - one stage, alternate training teacher layer and student layer in downstream task.
+   - post-training stage, fine-tune all student layers.
+   - linear change p.
+   - performance good.

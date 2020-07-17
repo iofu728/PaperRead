@@ -198,13 +198,14 @@
 
 ##### [Bert Distilled](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Distilled)
 
-| Read   | Public | Conference   | Title             | HighLight                    | Code                  | Other           |
-| ------ | ------ | ------------ | ----------------- | ---------------------------- | --------------------- | --------------- |
-| 200706 | 200414 | ACL 2020     | [MobileBERT][163] | task-agnostic low latency    | [mobile-bert][10163]  | [review][30163] |
-| 200409 | 200404 | ACL 2020     | [TinyMBERT][122]  | LL RL CE -> BiLSTM           | -                     | -               |
-| 191018 | 191002 | NeurIPS 2019 | [DistillBert][39] | support device               | [transformers][10039] | -               |
-| 191228 | 190926 | ICLR 2020    | [DEFINE][61]      | reduce embed size + residual | -                     | -               |
-| 191002 | 190926 | -            | [TinyBert][17]    | new tew-stage                | -                     | -               |
+| Read   | Public | Conference   | Title                  | HighLight                    | Code                     | Other           |
+| ------ | ------ | ------------ | ---------------------- | ---------------------------- | ------------------------ | --------------- |
+| 200706 | 200414 | ACL 2020     | [MobileBERT][163]      | task-agnostic low latency    | [mobile-bert][10163]     | [review][30163] |
+| 200409 | 200404 | ACL 2020     | [TinyMBERT][122]       | LL RL CE -> BiLSTM           | -                        | -               |
+| 200717 | 200525 | -            | [BERT of Theseus][172] | theseus to teach students    | [BERT-of-Theseus][10172] | -               |
+| 191018 | 191002 | NeurIPS 2019 | [DistillBert][39]      | support device               | [transformers][10039]    | -               |
+| 191228 | 190926 | ICLR 2020    | [DEFINE][61]           | reduce embed size + residual | -                        | -               |
+| 191002 | 190926 | -            | [TinyBert][17]         | new tew-stage                | -                        | -               |
 
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
@@ -674,6 +675,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [169]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Chinese/SpellGCN.pdf
 [170]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Graph/SimpleAndDeepGCN.pdf
 [171]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Attack/RIPPLe.pdf
+[172]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/BERTofTheseus.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -765,6 +767,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10169]: https://github.com/ACL2020SpellGCN/SpellGCN
 [10170]: https://github.com/chennnM/GCNII
 [10171]: https://github.com/neulab/RIPPLe
+[10172]: https://github.com/JetRunner/BERT-of-Theseus
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
