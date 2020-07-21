@@ -71,6 +71,10 @@
     - low layer don't need Long-range memory which will reduce the performance.
     - Top layer need Long-range memory.
     - The dim of short-range memory > 512, the performance not improve.
+13. [**Improving Transformer Optimization Through Better Initialization**](https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/tfixup.pdf) [ICML 2020] _Xiao Shi Huang * 1 2 Felipe P´erez * 1 Jimmy Ba 3 2 Maksims Volkovs_.
+    - Investigate and empirically validate the main cause of failure in Transformer optimization when learning rate warmup is not used.
+    - Derive weight initialization for the Transformer architecture that eliminates the need for layer normalization and warmup.
+    - Very deep(200) Transformer models can be trained without difﬁculty.
 
 ## Relative position embedding
 

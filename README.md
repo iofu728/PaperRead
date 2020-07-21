@@ -346,6 +346,7 @@
 
 | Read   | Public | Conference   | Title                            | HighLight               | Code                  | Other            |
 | ------ | ------ | ------------ | -------------------------------- | ----------------------- | --------------------- | ---------------- |
+| 200721 | 200712 | ICML 2020    | [T-Fixup][173]                   | param initial=>warm up  | [tfixup][10173]       | -                |
 | 200708 | 200707 | ACL 2020     | [Long-range Memory?][167]        | Do need LRM?            | -                     | -                |
 | 200426 | 200410 | -            | [Longformer][133]                | Global + slide Win Att  | [longformer][10133]   | -                |
 | 191229 | 191127 | -            | [SHA-RNN][60]                    | RNN + Att               | [sha-rnn][10060]      | -                |
@@ -676,6 +677,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [170]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Graph/SimpleAndDeepGCN.pdf
 [171]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Attack/RIPPLe.pdf
 [172]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/BERTofTheseus.pdf
+[173]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/tfixup.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -768,6 +770,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10170]: https://github.com/chennnM/GCNII
 [10171]: https://github.com/neulab/RIPPLe
 [10172]: https://github.com/JetRunner/BERT-of-Theseus
+[10173]: https://github.com/layer6ai-labs/T-Fixup
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
