@@ -51,7 +51,7 @@
     - [Metric Learning](#metric-learning)
     - [Interpretability](#interpretability)
     - [Multi-task](#multi-task)
-    - [Dropout](#dropout)
+    - [Regularization](#regularization)
     - [Optimization](#optimization)
     - [Negative Sample](#negative-sample)
   - [Data](#data)
@@ -409,11 +409,12 @@
 | 200330 | 181006 | ECCV 2018  | [Dynamic Task Prioritization][114] | Focal Loss Priori         | -            | -     |
 | 191216 | 170214 | ECCV 2016  | [Learning without forgetting][53]  | Multi-task by no old data | [LwF][10053] | -     |
 
-#### [Dropout](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Dropout)
+#### [Regularization](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Dropout)
 
-| Read   | Public | Conference | Title        | HighLight        | Code | Other |
-| ------ | ------ | ---------- | ------------ | ---------------- | ---- | ----- |
-| 191228 | 190926 | ICLR 2020  | [Mixout][62] | origin + dropout | -    | -     |
+| Read   | Public | Conference | Title        | HighLight         | Code | Other |
+| ------ | ------ | ---------- | ------------ | ----------------- | ---- | ----- |
+| 200727 | 200220 | ICML 2020  | [Flood][174] | give content loss | -    | -     |
+| 191228 | 190926 | ICLR 2020  | [Mixout][62] | origin + dropout  | -    | -     |
 
 #### [Optimization](https://github.com/iofu728/PaperRead/blob/master/notes/ML/Optimization)
 
@@ -678,6 +679,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [171]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Attack/RIPPLe.pdf
 [172]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/BERTofTheseus.pdf
 [173]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/tfixup.pdf
+[174]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/flood.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
