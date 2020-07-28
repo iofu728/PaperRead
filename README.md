@@ -290,9 +290,10 @@
 
 #### [Dialogue](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Dialogue)
 
-| Read   | Public | Conference | Title         | HighLight                   | Code            | Other |
-| ------ | ------ | ---------- | ------------- | --------------------------- | --------------- | ----- |
-| 200415 | 200409 | ACL 2020   | [MuTual][125] | Reason Multi-tune Benchmark | [MuTual][10125] | -     |
+| Read   | Public | Conference | Title              | HighLight                   | Code                 | Other |
+| ------ | ------ | ---------- | ------------------ | --------------------------- | -------------------- | ----- |
+| 200728 | 200505 | ACL 2020   | [ConceptFlow][175] | multi-hop in dialogue       | [ConceptFlow][10175] | -     |
+| 200415 | 200409 | ACL 2020   | [MuTual][125]      | Reason Multi-tune Benchmark | [MuTual][10125]      | -     |
 
 ### [Information System](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/InformationSystem)
 
@@ -680,6 +681,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [172]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Distilled/BERTofTheseus.pdf
 [173]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/tfixup.pdf
 [174]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/flood.pdf
+[175]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/ConceptFlow.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -773,6 +775,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10171]: https://github.com/neulab/RIPPLe
 [10172]: https://github.com/JetRunner/BERT-of-Theseus
 [10173]: https://github.com/layer6ai-labs/T-Fixup
+[10175]: https://github.com/thunlp/ConceptFlow
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
