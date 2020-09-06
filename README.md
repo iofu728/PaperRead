@@ -14,7 +14,7 @@
     - [Relation Extraction](#relation-extraction)
     - [NER](#ner)
       - [Nested NER](#nested-ner)
-      - [Unlabeled](#unlabeled)
+      - [Few-shot/Zero-shot](#few-shotzero-shot)
   - [Cross-Lingual](#cross-lingual)
   - [Graph](#graph)
   - [Knowledge Bases](#knowledge-bases)
@@ -121,12 +121,13 @@
 | 190703 | 190620 | ACL 2019    | [Multi-Grained NER][10]            | Two-stage           | [MGNER][10010]             | centerSearch |
 | 190707 | 190405 | NAACL 2019  | [DyGIE][5]                         | Dynamic span graph  | [DyGIE][10005]             | IE Framework |
 
-##### Unlabeled
+##### Few-shot/Zero-shot
 
-| Read   | Public | Conference | Title                 | HighLight    | Code               | Other     |
-| ------ | ------ | ---------- | --------------------- | ------------ | ------------------ | --------- |
-| 191006 | 190926 | -          | [CRF-VAEs][24]        | VAE in NER   | -                  | Unlabeled |
-| 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23] | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
+| Read   | Public | Conference | Title                    | HighLight    | Code               | Other     |
+| ------ | ------ | ---------- | ------------------------ | ------------ | ------------------ | --------- |
+| 200906 | 200824 | -          | [Example-based NER][176] | Span + Top k | -                  | Few-shot  |
+| 191006 | 190926 | -          | [CRF-VAEs][24]           | VAE in NER   | -                  | Unlabeled |
+| 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23]    | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
 
 ### [Cross-Lingual](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CrossLingual)
 
@@ -682,6 +683,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [173]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Transformer/tfixup.pdf
 [174]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/flood.pdf
 [175]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/ConceptFlow.pdf
+[176]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Example-BasedNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers

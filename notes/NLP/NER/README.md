@@ -82,7 +82,7 @@
     - Transition-base methods which expand actions like left-reduce.
     - But the ablation show, this methods good at no-overlapping and left-overlap.
 
-## Unlabeled
+## Zero-shot
 
 1. [**Learning A Uniﬁed Named Entity Tagger From Multiple Partially Annotated Corpora For Efﬁcient Adaptation**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/UnifiedNETagger.pdf) [CONLL 2020] _Xiao Huang, Li Dong, Elizabeth Boschee, Nanyun Peng_.
    - combine multi-corpus entity
@@ -95,6 +95,13 @@
    - joint tag-encoding Transformer architecture leads to an ≈1% improvement in F1.
    - resolving unlabeled
    - test in pre-train model
+
+## Few-shot
+
+1. [**Example-Based Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Example-BasedNER.pdf) [-] _Morteza Ziyadi, Yuting Sun, Abhishek Goswami, Jade Huang, Weizhu Chen_.
+   - Motivation: In real-world problems, NER task need transfer to new domain which have little examples.
+   - Span Detection which base on support entity embedding dot target entity token embedding.
+   - Top-K attention.
 
 ## Cross-Lingual
 
