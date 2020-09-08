@@ -112,6 +112,15 @@
    - average loss reflect the high loss token can't influence loss so add the supplement max loss.
    - low-resource.
 
+## Medical
+
+1. [Joint Entity Extraction and Assertion Detection for Clinical Text](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/JointEntityExtractionandAssertionDetection.pdf) [ACL 2019] _Parminder Bhatia, Busra Celikkaya, Mohammed Khalilia_.
+   - Motivation:
+     1. In medical domain, negative medical ﬁndings are prevalent. But previous work use pipline to slove this problem. (Firstly NER, Second ruled-based negation detection).
+     2. The information of the two parts of the task is connected which is suit for multi-task.
+   - Insight & Model: 1. End-to-end model which consisting of a shared encoder and two joint task-special decoder. 2. A Conditional Softmax shared decoder which get the conditional information between two subtask and also overcome low resource problem.
+   - Shared decoder is significance for low-resource task.
+
 ## Common NER
 
 1. [**GRN: Gated Relation Network to Enhance Convolutional Neural Network for Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/GRN.pdf) [AAAI 2019] _Hui Chen, Zijia Lin, Guiguang Ding, Jianguang Lou, Yusen Zhang, Borje Karlsson_.

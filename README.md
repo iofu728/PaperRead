@@ -15,6 +15,7 @@
     - [NER](#ner)
       - [Nested NER](#nested-ner)
       - [Few-shot/Zero-shot](#few-shotzero-shot)
+      - [Medical](#medical)
   - [Cross-Lingual](#cross-lingual)
   - [Graph](#graph)
   - [Knowledge Bases](#knowledge-bases)
@@ -128,6 +129,12 @@
 | 200906 | 200824 | -          | [Example-based NER][176] | Span + Top k | -                  | Few-shot  |
 | 191006 | 190926 | -          | [CRF-VAEs][24]           | VAE in NER   | -                  | Unlabeled |
 | 191006 | 190925 | CONLL 2019 | [UnifiedNETagger][23]    | Multi-Corpus | [NewBioNer][10023] | Unlabeled |
+
+##### Medical
+
+| Read   | Public | Conference | Title                                    | HighLight                | Code                               | Other |
+| ------ | ------ | ---------- | ---------------------------------------- | ------------------------ | ---------------------------------- | ----- |
+| 200908 | 181213 | ACL 2019   | [Joint NER and Assertion Detection][177] | Multi-task + Conditional | [pytorch-conditional-model][10177] | -     |
 
 ### [Cross-Lingual](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/CrossLingual)
 
@@ -684,6 +691,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [174]: https://github.com/iofu728/PaperRead/blob/master/paper/ML/Dropout/flood.pdf
 [175]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/ConceptFlow.pdf
 [176]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Example-BasedNER.pdf
+[177]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/JointEntityExtractionandAssertionDetection.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -778,6 +786,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10172]: https://github.com/JetRunner/BERT-of-Theseus
 [10173]: https://github.com/layer6ai-labs/T-Fixup
 [10175]: https://github.com/thunlp/ConceptFlow
+[10177]: https://github.com/donote/pytorch-conditional-model
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
