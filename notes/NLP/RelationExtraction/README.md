@@ -26,3 +26,11 @@
    - Statistic the co-occurrence of relation pairs.
    - BioROR. -> GNN.
    - MultiRoR. -> Transformer.
+7. [**Relation Extraction using Explicit Context Conditioning**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationExtractionusingExplicitContextConditioning.pdf) [NAACL 2019] _Gaurav Singh, Parminder Bhatia_.
+   - Motivation:
+     1. Get two-hop link relation.
+     2. Get long dependencies.
+   - Insight:
+     1. Build first-order relation scores based on bi-affine transformer.
+     2. Build second-order relation scores based on conditional score (combine two first-order scores which have same item k). => This part should improve by using GCN or other graph embedding architecture.
+     3. One efficient implement which reduce the second order time cost.

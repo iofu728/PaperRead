@@ -87,6 +87,7 @@
 | 200108 | 190904 | ACL 2019   | [RE view as Multi-turn MRC][69]       | Multi-turn like RL, MRC          | [MRC][10069]    | -     |
 | 200115 | 190721 | NLE 2019   | [25 years IE][73]                     | survey IE in past 25years        | -               | -     |
 | 191128 | 190607 | ACL 2019   | [Matching the Blanks][52]             | How to use BERT in relation link | [BERTem][10052] | -     |
+| 200909 | 190225 | NAACL 2019 | [RE using explicit context][178]      | second order                     | -               | -     |
 
 #### [NER](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/NER)
 
@@ -692,6 +693,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [175]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Dialogue/ConceptFlow.pdf
 [176]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Example-BasedNER.pdf
 [177]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/JointEntityExtractionandAssertionDetection.pdf
+[178]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationExtractionusingExplicitContextConditioning.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
