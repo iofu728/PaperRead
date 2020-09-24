@@ -77,9 +77,14 @@
 
 ## Multi-modality Bert
 
-1. [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf) [-] _Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou_.
+1. [**CodeBERT: A Pre-Trained Model for Programming and Natural Languages**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/CodeBERT.pdf) [-] _Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou_.
    - PL + NL
    - MLM + RDT(Replaced Token Detection)
+2. [**GraphCodeBERT: Pre-training Code Representations with Data Flow**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/Daya_[X]_GraphCodeBERT.pdf) [-] _Daya Guo, Shuo Ren, Shuai Lu, Zhangyin Feng, Duyu Tang, Shujie Liu, Long Zhou, Nan Duan, Jian Yin, Daxin Jiang, Ming Zhou_.
+   - Using AST information. => where the value comes from.
+   - Two structure-aware pe-training tasks.
+     - predict code structure edge
+     - link the relation between code space and source code.
 
 ## BERT Downstream
 

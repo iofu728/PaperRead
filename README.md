@@ -237,9 +237,10 @@
 
 ##### Multi-modality Bert
 
-| Read   | Public | Conference | Title          | HighLight | Code | Other |
-| ------ | ------ | ---------- | -------------- | --------- | ---- | ----- |
-| 200221 | 200219 | -          | [CodeBERT][82] | NL + PL   | -    | -     |
+| Read   | Public | Conference | Title                | HighLight                  | Code | Other |
+| ------ | ------ | ---------- | -------------------- | -------------------------- | ---- | ----- |
+| 200924 | 200917 | -          | [GraphCodeBERT][180] | AST Edge Pred + Node Align | -    | -     |
+| 200221 | 200219 | -          | [CodeBERT][82]       | NL + PL                    | -    | -     |
 
 #### [Document-level Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DocumentRepresentation)
 
@@ -697,6 +698,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [178]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationExtractionusingExplicitContextConditioning.pdf
 
 [179]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Jue_[ACL2020]_Pyramid.pdf
+[180]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/Daya_[X]_GraphCodeBERT.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
