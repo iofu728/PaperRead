@@ -86,6 +86,10 @@
     - They design on inverse pyramid which get the information from top to bottom which is significant in their ablation test.
     - Last year, I also have one idea about this type information which called as Tetris. But I only focus on entity boundary subtask.
     - They experiment both in ACE-04, ACE-05, GENIA, and NNE. For both of they, they outperform than our result. ( sad.
+19. [**Instance-Based Learning of Span Representations: A Case Study through Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Hiroki_[ACL2020]_Instance-BasedNER.pdf) [ACL 2020] _Hiroki Ouchi, Jun Suzuki, Sosuke Kobayashi, Sho Yokoi, Tatsuki Kuribayashi, Ryuto Konno, Kentaro Inui_.
+    - KNN + Span level info.
+    - But span level is confusing which use start token embedding + end token embedding to representation the nested span.
+    - And they test in GENIA and get 74.6.
 
 ## Zero-shot
 

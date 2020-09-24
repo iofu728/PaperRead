@@ -108,6 +108,7 @@
 | 200517 | 200514 | ACL 2020    | [NERviaDP][136]                    | leaned N\*N         | [biaffine][10136]          | -            |
 | 200513 | 200510 | AAAI 2020   | [Boundary-enhance][135]            | Boundary Info       | -                          | -            |
 | 200605 | 200501 | ACL 2020    | [Bipartite Flat-Graph NER][138]    | outmost->inmost     | -                          | -            |
+| 200924 | 200429 | ACL 2020    | [Instance-Based NER][181]          | KNN                 | [insurance-ner][10181]     | -            |
 | 200606 | 200428 | ACL 2020    | [Translation Discontinuous][139]   | Discontinuous       | [discontinuous-ner][10139] | -            |
 | 200427 | 200424 | ACL 2020    | [FLAT][134]                        | Position + Lattice  | -                          | Chinese      |
 | 200411 | 200327 | AAAI 2020   | [RBM][123]                         | subEntity           | -                          | BiLSTM base  |
@@ -699,6 +700,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 
 [179]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Jue_[ACL2020]_Pyramid.pdf
 [180]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/Daya_[X]_GraphCodeBERT.pdf
+[181]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Hiroki_[ACL2020]_Instance-BasedNER.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -794,6 +796,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10173]: https://github.com/layer6ai-labs/T-Fixup
 [10175]: https://github.com/thunlp/ConceptFlow
 [10177]: https://github.com/donote/pytorch-conditional-model
+[10181]: https://github.com/hiroki13/instance-based-ner
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
