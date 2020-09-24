@@ -81,6 +81,11 @@
     - Focus on discontinuous and bio.
     - Transition-base methods which expand actions like left-reduce.
     - But the ablation show, this methods good at no-overlapping and left-overlap.
+18. [**Pyramid: A Layered Model for Nested Named Entity Recognition**](https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Jue_[ACL2020]_Pyramid.pdf) [ACL 2020] _Jue Wang, Lidan Shou, Ke Chen, Gang Chen_.
+    - Enumerate the span by the pyramid way. And they find different nearby layer have similarity entity type. Comparing with our method, we loss the different entity type infusive information.
+    - They design on inverse pyramid which get the information from top to bottom which is significant in their ablation test.
+    - Last year, I also have one idea about this type information which called as Tetris. But I only focus on entity boundary subtask.
+    - They experiment both in ACE-04, ACE-05, GENIA, and NNE. For both of they, they outperform than our result. ( sad.
 
 ## Zero-shot
 

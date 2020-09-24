@@ -104,6 +104,7 @@
 
 | Read   | Public | Conference  | Title                              | HighLight           | Code                       | Other        |
 | ------ | ------ | ----------- | ---------------------------------- | ------------------- | -------------------------- | ------------ |
+| 200923 | 200710 | ACL 2020    | [Pyramid][179]                     | layer like pyramid  | -                          | -            |
 | 200517 | 200514 | ACL 2020    | [NERviaDP][136]                    | leaned N\*N         | [biaffine][10136]          | -            |
 | 200513 | 200510 | AAAI 2020   | [Boundary-enhance][135]            | Boundary Info       | -                          | -            |
 | 200605 | 200501 | ACL 2020    | [Bipartite Flat-Graph NER][138]    | outmost->inmost     | -                          | -            |
@@ -694,6 +695,8 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [176]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Example-BasedNER.pdf
 [177]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/JointEntityExtractionandAssertionDetection.pdf
 [178]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/RelationExtraction/RelationExtractionusingExplicitContextConditioning.pdf
+
+[179]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Jue_[ACL2020]_Pyramid.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
