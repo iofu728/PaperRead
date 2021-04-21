@@ -26,7 +26,8 @@
       - [Bert Probe](#bert-probe)
       - [Bert DownStream](#bert-downstream)
       - [Multi-modality Bert](#multi-modality-bert)
-    - [Document-level Representation](#document-level-representation)
+    - [Representation](#representation)
+      - [Document-level Representation](#document-level-representation)
     - [Tune](#tune)
   - [NLG](#nlg)
     - [Summarization](#summarization)
@@ -243,7 +244,13 @@
 | 200924 | 200917 | -          | [GraphCodeBERT][180] | AST Edge Pred + Node Align | -    | -     |
 | 200221 | 200219 | -          | [CodeBERT][82]       | NL + PL                    | -    | -     |
 
-#### [Document-level Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DocumentRepresentation)
+#### [Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Representation)
+
+| Read   | Public | Conference | Title         | HighLight                                | Code                          | Other |
+| ------ | ------ | ---------- | ------------- | ---------------------------------------- | ----------------------------- | ----- |
+| 210421 | 210420 | -          | [SimCSE][182] | Dropout act as minimal data augmentation | [princeton-nlp/SimCSE][10182] | -     |
+
+##### [Document-level Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DocumentRepresentation)
 
 | Read   | Public | Conference | Title                    | HighLight                              | Code | Other |
 | ------ | ------ | ---------- | ------------------------ | -------------------------------------- | ---- | ----- |
@@ -701,6 +708,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [179]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Jue_[ACL2020]_Pyramid.pdf
 [180]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/Daya_[X]_GraphCodeBERT.pdf
 [181]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Hiroki_[ACL2020]_Instance-BasedNER.pdf
+[182]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Representation/TianyuGao_[X]_SimCSE.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -797,6 +805,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10175]: https://github.com/thunlp/ConceptFlow
 [10177]: https://github.com/donote/pytorch-conditional-model
 [10181]: https://github.com/hiroki13/instance-based-ner
+[10182]: https://github.com/princeton-nlp/SimCSE
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
