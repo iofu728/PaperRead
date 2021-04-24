@@ -140,3 +140,7 @@
    - using two linear to calculate word embedding, position embedding.
    - the [CLS], [SEP] shoudle not use the same position embedding with token embedding.
    - using reset uniform the [CLS], [SEP] and common words.
+5. [**RoFormer: Enhanced Transformer with Rotary Position Embedding**](https://arxiv.org/abs/2104.09864) [x] _Jianlin Su, Yu Lu, Shengfeng Pan, Bo Wen, Yunfeng Liu_.
+   - <f(q, m), f(k, n)> = g(q, k, m - n)
+   - In complex domain, => f(q, m) = ||q|| e^{im\theta}
+   - Remove normalization in the denominator of attention weight, so it can be used in linear attention.

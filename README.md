@@ -246,9 +246,9 @@
 
 #### [Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Representation)
 
-| Read   | Public | Conference | Title         | HighLight                                | Code                          | Other |
-| ------ | ------ | ---------- | ------------- | ---------------------------------------- | ----------------------------- | ----- |
-| 210421 | 210420 | -          | [SimCSE][182] | Dropout act as minimal data augmentation | [princeton-nlp/SimCSE][10182] | -     |
+| Read   | Public | Conference | Title         | HighLight                     | Code            | Other |
+| ------ | ------ | ---------- | ------------- | ----------------------------- | --------------- | ----- |
+| 210421 | 210420 | -          | [SimCSE][182] | Dropout, Contrastive Learning | [SimCSE][10182] | -     |
 
 ##### [Document-level Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/DocumentRepresentation)
 
@@ -384,7 +384,8 @@
 
 | Read   | Public | Conference | Title                           | HighLight               | Code                    | Other              |
 | ------ | ------ | ---------- | ------------------------------- | ----------------------- | ----------------------- | ------------------ |
-| 200702 | 200630 | -          | [TUPE][161]                     | reset + untie           | [TUPE][10161]           | -                  |
+| 210424 | 210323 | -          | [RoFormer][183]                 | Complex domain          | [RoFormer][10183]       | [RoPE][30183]      |
+| 200702 | 200630 | ICLR 2021  | [TUPE][161]                     | reset + untie           | [TUPE][10161]           | -                  |
 | 191229 | 190926 | ICLR 2020  | [Complex Order][65]             | Complex WE + PE         | [complex-order][10065]  | explainable        |
 | 190425 | 190306 | ACL 2019   | [Transformer-XL][64]            | Recurrent + Relative PE | [Transformer-XL][10064] | reject once        |
 | 191229 | 180306 | NAACL 2018 | [Self-Att with Relative PE][63] | Relative PE             | -                       | Transformer Writer |
@@ -709,6 +710,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [180]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Bertology/Daya_[X]_GraphCodeBERT.pdf
 [181]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Hiroki_[ACL2020]_Instance-BasedNER.pdf
 [182]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Representation/TianyuGao_[X]_SimCSE.pdf
+[183]: https://arxiv.org/pdf/2104.09864.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -806,6 +808,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10177]: https://github.com/donote/pytorch-conditional-model
 [10181]: https://github.com/hiroki13/instance-based-ner
 [10182]: https://github.com/princeton-nlp/SimCSE
+[10183]: https://github.com/ZhuiyiTechnology/roformer
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -825,3 +828,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30137]: https://openreview.net/forum?id=Hk95PK9le
 [30140]: https://openreview.net/forum?id=ByeMPlHKPH
 [30163]: https://openreview.net/forum?id=SJxjVaNKwB
+[30183]: https://kexue.fm/archives/8265
