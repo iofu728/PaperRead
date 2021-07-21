@@ -521,6 +521,12 @@
 | 200222 | 040301 | OSDI 2004       | [MapReduce][83] | Map + Reduce For distribution cal | [MapReduce][10083] | -            |
 | 200225 | 041020 | SOSP 2003       | [GFS][83]       | distribution file system          | -                  | -            |
 
+### [SpeedUp](https://github.com/iofu728/PaperRead/blob/master/notes/System/SpeedUp)
+
+| Read   | Public | Conference | Title           | HighLight           | Code              | Other |
+| ------ | ------ | ---------- | --------------- | ------------------- | ----------------- | ----- |
+| 210720 | 210422 | NAACL 2021 | [LightSeq][184] | SpeedUp Transformer | [LightSeq][10184] | -     |
+
 ## License
 
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
@@ -711,6 +717,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [181]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/NER/Hiroki_[ACL2020]_Instance-BasedNER.pdf
 [182]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Representation/TianyuGao_[X]_SimCSE.pdf
 [183]: https://arxiv.org/pdf/2104.09864.pdf
+[184]: https://arxiv.org/pdf/2010.13887.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -809,6 +816,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10181]: https://github.com/hiroki13/instance-based-ner
 [10182]: https://github.com/princeton-nlp/SimCSE
 [10183]: https://github.com/ZhuiyiTechnology/roformer
+[10184]: https://github.com/bytedance/lightseq
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
