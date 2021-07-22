@@ -68,6 +68,7 @@
   - [Video Prediction](#video-prediction)
 - [System](#system)
   - [Distribution](#distribution)
+  - [SpeedUp](#speedup)
 - [License](#license)
 
 ## NLP
@@ -244,6 +245,12 @@
 | 200924 | 200917 | -          | [GraphCodeBERT][180] | AST Edge Pred + Node Align | -    | -     |
 | 200221 | 200219 | -          | [CodeBERT][82]       | NL + PL                    | -    | -     |
 
+##### [Prompt](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Prompt)
+
+| Read   | Public | Conference | Title                                  | HighLight                  | Code         | Other |
+| ------ | ------ | ---------- | -------------------------------------- | -------------------------- | ------------ | ----- |
+| 210722 | 210406 | NAACL 2021 | [HowManyDataPointsIsAPromptWorth][185] | head vs prompt in Few-shot | [pet][10185] | -     |
+
 #### [Representation](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Representation)
 
 | Read   | Public | Conference | Title         | HighLight                     | Code            | Other |
@@ -332,7 +339,7 @@
 
 | Read   | Public | Conference | Title                            | HighLight                           | Code                       | Other           |
 | ------ | ------ | ---------- | -------------------------------- | ----------------------------------- | -------------------------- | --------------- |
-| 200622 | 200610 | ACL 2020   | [Perturbed Masking][149]         | d(x\\{x_i}, x\\{x_i, x_j})          | [Perturbed-Masking][10149] | -               |
+| 200622 | 200610 | ACL 2020   | [Perturbed Masking][149]         | $d(x\\{x_i}, x\\{x_i, x_j})$        | [Perturbed-Masking][10149] | -               |
 | 191111 | 191030 | EMNLP 2019 | [Predict DS using sentiment][46] | using sentiment generate DP dataSet | -                          | -               |
 | 200421 | 190129 | CONLL 2018 | [Universal DP][129]              | pipeline dp                         | [stanfordnlp][10129]       | -               |
 | 200601 | 170310 | ICLR 2017  | [Biaffine][137]                  | graph-based                         | [stanfordnlp][10137]       | [review][30137] |
@@ -718,6 +725,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [182]: https://github.com/iofu728/PaperRead/blob/master/paper/NLP/Representation/TianyuGao_[X]_SimCSE.pdf
 [183]: https://arxiv.org/pdf/2104.09864.pdf
 [184]: https://arxiv.org/pdf/2010.13887.pdf
+[185]: https://arxiv.org/pdf/2103.08493.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -817,6 +825,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10182]: https://github.com/princeton-nlp/SimCSE
 [10183]: https://github.com/ZhuiyiTechnology/roformer
 [10184]: https://github.com/bytedance/lightseq
+[10185]: https://github.com/TevenLeScao/pet
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
