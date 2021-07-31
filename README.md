@@ -387,6 +387,12 @@
 | 191118 | 190228 | NAACL 2019   | [Star Transformer][51]           | FFN -> Star Arch        | [fastNLP][10051]      | -                |
 | 190719 | 180710 | ICLR 2019    | [Universal Transformer][35]      | Recurrent + ACT         | [UT][10035]           | [slider][30035]  |
 
+##### Transformer in CV
+
+| Read   | Public | Conference | Title       | HighLight                    | Code          | Other |
+| ------ | ------ | ---------- | ----------- | ---------------------------- | ------------- | ----- |
+| 210729 | 210407 | -          | [CaiT][186] | LayerScale + Class Attention | [deit][10186] | -     |
+
 ##### Relative position embedding
 
 | Read   | Public | Conference | Title                           | HighLight               | Code                    | Other              |
@@ -726,6 +732,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [183]: https://arxiv.org/pdf/2104.09864.pdf
 [184]: https://arxiv.org/pdf/2010.13887.pdf
 [185]: https://arxiv.org/pdf/2103.08493.pdf
+[186]: https://arxiv.org/abs/2103.17239
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -826,6 +833,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10183]: https://github.com/ZhuiyiTechnology/roformer
 [10184]: https://github.com/bytedance/lightseq
 [10185]: https://github.com/TevenLeScao/pet
+[10186]: https://github.com/facebookresearch/deit
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175

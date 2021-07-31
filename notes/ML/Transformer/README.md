@@ -144,3 +144,9 @@
    - <f(q, m), f(k, n)> = g(q, k, m - n)
    - In complex domain, => f(q, m) = ||q|| e^{im\theta}
    - Remove normalization in the denominator of attention weight, so it can be used in linear attention.
+
+## Transformer in CV
+
+1. [**Going deeper with Image Transformers**](https://arxiv.org/abs/2103.17239) [x] _Hugo Touvron, Matthieu Cord, Alexandre Sablayrolles, Gabriel Synnaeve, Hervé Jégou_.
+   - Proposal one LayerScale residual method, which multip one diagonal matrix in FFN or SA.
+   - Proposal one class Attention, which split deep Transformer to two part. One is no CLS part, another is only FFN only CLS part.
