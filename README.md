@@ -23,6 +23,7 @@
     - [Piece](#piece)
     - [Bertology](#bertology)
       - [Bert Distilled](#bert-distilled)
+      - [PLM Compression](#plm-compression)
       - [Bert Probe](#bert-probe)
       - [Bert DownStream](#bert-downstream)
       - [Multi-modality Bert](#multi-modality-bert)
@@ -220,11 +221,17 @@
 | 191228 | 190926 | ICLR 2020    | [DEFINE][61]           | reduce embed size + residual | -                        | -               |
 | 191002 | 190926 | -            | [TinyBert][17]         | new tew-stage                | -                        | -               |
 
+##### [PLM Compression](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Compression)
+
+| Read   | Public | Conference   | Title                   | HighLight                      | Code                | Other         |
+| ------ | ------ | ------------ | ----------------------- | ------------------------------ | ------------------- | ------------- |
+| 210810 | 201023 | NeurIPS 2020 | [Movement Pruning][187] | 1-st order pruning + fine-tune | [nn_pruning][10187] | [blog][20187] |
+
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
 | Read   | Public | Conference | Title                          | HighLight                         | Code          | Other |
 | ------ | ------ | ---------- | ------------------------------ | --------------------------------- | ------------- | ----- |
-| 200708 | 200509 | ACL 2002   | [Intermediate-Task][165]       | which intermediate task good      | -             | -     |
+| 200708 | 200509 | ACL 2020   | [Intermediate-Task][165]       | which intermediate task good      | -             | -     |
 | 200627 | 200623 | ACL 2020   | [Climbing towards NLU][153]    | metaphysical(meaning/linguistic)  | -             | -     |
 | 200628 | 200227 | -          | [Primer in BERTology][156]     | What knowledge does BERT have     | -             | -     |
 | 191216 | 190904 | EMNLP 2019 | [LM as KB?][54]                | Bert in Relation Extraction       | [LAMA][10054] | -     |
@@ -733,6 +740,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [184]: https://arxiv.org/pdf/2010.13887.pdf
 [185]: https://arxiv.org/pdf/2103.08493.pdf
 [186]: https://arxiv.org/abs/2103.17239
+[187]: https://arxiv.org/abs/2005.07683
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -834,6 +842,7 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10184]: https://github.com/bytedance/lightseq
 [10185]: https://github.com/TevenLeScao/pet
 [10186]: https://github.com/facebookresearch/deit
+[10187]: https://github.com/huggingface/nn_pruning
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
@@ -854,3 +863,4 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [30140]: https://openreview.net/forum?id=ByeMPlHKPH
 [30163]: https://openreview.net/forum?id=SJxjVaNKwB
 [30183]: https://kexue.fm/archives/8265
+[20187]: https://medium.com/huggingface/sparse-neural-networks-2-n-gpu-performance-b8bc9ce950fc
