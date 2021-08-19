@@ -223,9 +223,14 @@
 
 ##### [PLM Compression](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Compression)
 
-| Read   | Public | Conference   | Title                   | HighLight                      | Code                | Other         |
-| ------ | ------ | ------------ | ----------------------- | ------------------------------ | ------------------- | ------------- |
-| 210810 | 201023 | NeurIPS 2020 | [Movement Pruning][187] | 1-st order pruning + fine-tune | [nn_pruning][10187] | [blog][20187] |
+| Read   | Public | Conference         | Title                                 | HighLight                                 | Code                   | Other         |
+| ------ | ------ | ------------------ | ------------------------------------- | ----------------------------------------- | ---------------------- | ------------- |
+| 210819 | 171103 | ICLR 2018          | [Code Learning][189]                  | Code-Based                                | [code_learning][10189] | -             |
+| 210819 | 180324 | AAAI 2019          | [Binarization][190]                   | AutoEncoder Binarization                  | [lossless][10190]      | -             |
+| 210819 | 191002 | EMNLP 2020 finding | [DistilledNonlinearCompression][191]  | Matrix Decompose + KD                     | -                      | -             |
+| 210819 | 200801 | ACL 2020           | [Adaptive Compression Embedding][188] | Adpative Code-based Embedding Compression | -                      | -             |
+| 210819 | 210119 | AAAI 2021          | [Compressed Attn][192]                | Decoder only have two parallel attention  | -                      | -             |
+| 210810 | 201023 | NeurIPS 2020       | [Movement Pruning][187]               | 1-st pruning when fine-tune               | [nn_pruning][10187]    | [blog][20187] |
 
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
@@ -741,6 +746,11 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [185]: https://arxiv.org/pdf/2103.08493.pdf
 [186]: https://arxiv.org/abs/2103.17239
 [187]: https://arxiv.org/abs/2005.07683
+[188]: https://aclanthology.org/2020.acl-main.364.pdf
+[189]: https://arxiv.org/pdf/1711.01068.pdf
+[190]: https://arxiv.org/abs/1803.09065
+[191]: https://arxiv.org/pdf/1910.06720.pdf
+[192]: https://arxiv.org/pdf/2101.00542.pdf
 [10001]: https://github.com/berlino/disco_em19
 [10002]: https://github.com/facebookresearch/fairseq
 [10003]: https://github.com/Eric-Wallace/universal-triggers
@@ -843,6 +853,8 @@ Copyright (c) 2019-present, gunjianpan(iofu728)
 [10185]: https://github.com/TevenLeScao/pet
 [10186]: https://github.com/facebookresearch/deit
 [10187]: https://github.com/huggingface/nn_pruning
+[10189]: https://github.com/msobroza/compositional_code_learning
+[10190]: https://github.com/tca19/near-lossless-binarization
 [20002]: https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Summarization/ConvS2S.md
 [30003]: http://www.ericswallace.com/triggers
 [30015]: https://zhuanlan.zhihu.com/p/71747175
