@@ -23,7 +23,6 @@
     - [Piece](#piece)
     - [Bertology](#bertology)
       - [Bert Distilled](#bert-distilled)
-      - [PLM Compression](#plm-compression)
       - [Bert Probe](#bert-probe)
       - [Bert DownStream](#bert-downstream)
       - [Multi-modality Bert](#multi-modality-bert)
@@ -50,6 +49,7 @@
       - [Relative position embedding](#relative-position-embedding)
     - [Attention](#attention)
     - [Normalization](#normalization)
+    - [Model Compression](#model-compression)
   - [Strategy](#strategy)
     - [Metric Learning](#metric-learning)
     - [Interpretability](#interpretability)
@@ -220,17 +220,6 @@
 | 191018 | 191002 | NeurIPS 2019 | [DistillBert][39]      | support device               | [transformers][10039]    | -               |
 | 191228 | 190926 | ICLR 2020    | [DEFINE][61]           | reduce embed size + residual | -                        | -               |
 | 191002 | 190926 | -            | [TinyBert][17]         | new tew-stage                | -                        | -               |
-
-##### [PLM Compression](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Compression)
-
-| Read   | Public | Conference         | Title                                 | HighLight                                 | Code                   | Other         |
-| ------ | ------ | ------------------ | ------------------------------------- | ----------------------------------------- | ---------------------- | ------------- |
-| 210819 | 171103 | ICLR 2018          | [Code Learning][189]                  | Code-Based                                | [code_learning][10189] | -             |
-| 210819 | 180324 | AAAI 2019          | [Binarization][190]                   | AutoEncoder Binarization                  | [lossless][10190]      | -             |
-| 210819 | 191002 | EMNLP 2020 finding | [DistilledNonlinearCompression][191]  | Matrix Decompose + KD                     | -                      | -             |
-| 210819 | 200801 | ACL 2020           | [Adaptive Compression Embedding][188] | Adpative Code-based Embedding Compression | -                      | -             |
-| 210819 | 210119 | AAAI 2021          | [Compressed Attn][192]                | Decoder only have two parallel attention  | -                      | -             |
-| 210810 | 201023 | NeurIPS 2020       | [Movement Pruning][187]               | 1-st pruning when fine-tune               | [nn_pruning][10187]    | [blog][20187] |
 
 ##### [Bert Probe](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Probe)
 
@@ -428,6 +417,17 @@
 | Read   | Public | Conference | Title                    | HighLight           | Code | Other |
 | ------ | ------ | ---------- | ------------------------ | ------------------- | ---- | ----- |
 | 200319 | 200317 | -          | [BN in Transformer][112] | high var in NLP, PN | -    | -     |
+
+#### [Model Compression](https://github.com/iofu728/PaperRead/blob/master/notes/NLP/Compression)
+
+| Read   | Public | Conference         | Title                                 | HighLight                                 | Code                   | Other         |
+| ------ | ------ | ------------------ | ------------------------------------- | ----------------------------------------- | ---------------------- | ------------- |
+| 210819 | 171103 | ICLR 2018          | [Code Learning][189]                  | Code-Based                                | [code_learning][10189] | -             |
+| 210819 | 180324 | AAAI 2019          | [Binarization][190]                   | AutoEncoder Binarization                  | [lossless][10190]      | -             |
+| 210819 | 191002 | EMNLP 2020 finding | [DistilledNonlinearCompression][191]  | Matrix Decompose + KD                     | -                      | -             |
+| 210819 | 200801 | ACL 2020           | [Adaptive Compression Embedding][188] | Adpative Code-based Embedding Compression | -                      | -             |
+| 211220 | 210119 | AAAI 2021          | [Compressed Attn][192]                | Decoder only have two parallel attention  | -                      | -             |
+| 210810 | 201023 | NeurIPS 2020       | [Movement Pruning][187]               | 1-st pruning when fine-tune               | [nn_pruning][10187]    | [blog][20187] |
 
 ### Strategy
 
